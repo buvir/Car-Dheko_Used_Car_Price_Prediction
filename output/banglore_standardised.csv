@@ -96,7 +96,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1050000,SUV,10000,1,2022,17.0,KA03,Petrol,2022,2022,Third Party insurance,6,Automatic,5,bangalore,1197
 2075000,SUV,18000,1,2021,16.56,KA51,Petrol,2021,2021,Comprehensive,6,Automatic,6,bangalore,1451
 394000,Hatchback,38197,1,2013,19.4,KA03,Petrol,2013,2013,Third Party,5,Manual,5,bangalore,1198
-725000,Hatchback,23000,2,2017,19.56,KA51,Petrol,2017,2017,Comprehensive,,Automatic,5,bangalore,1197
+725000,Hatchback,23000,2,2017,19.56,KA51,Petrol,2017,2017,Comprehensive,0,Automatic,5,bangalore,1197
 240000,Hatchback,50000,1,2013,20.92,KA02,Petrol,2013,2013,Third Party insurance,5,Manual,5,bangalore,998
 835000,SUV,10000,1,2022,19.03,KA53,Petrol,2022,2022,Third Party insurance,5,Automatic,5,bangalore,999
 695000,Hatchback,19000,1,2019,18.9,KA04,Petrol,2019,2019,Third Party insurance,5,Manual,5,bangalore,1197
@@ -155,7 +155,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 444000,Hatchback,83829,1,2014,25.2,KA51,Diesel,2014,2014,Third Party insurance,5,Manual,5,bangalore,1248
 510000,Hatchback,10000,1,2020,22.0,KA50,Petrol,2020,2020,Third Party insurance,5,Automatic,5,bangalore,999
 925000,SUV,35000,2,2016,19.6,KA53,Diesel,2016,2016,Comprehensive,6,Automatic,5,bangalore,1461
-1024000,Sedan,51116,2,2019,18.0,KA03,Petrol,2020,2019,Comprehensive,,Automatic,5,bangalore,1497
+1024000,Sedan,51116,2,2019,18.0,KA03,Petrol,2020,2019,Comprehensive,0,Automatic,5,bangalore,1497
 500000,Sedan,80000,3,2016,21.14,KA09,Diesel,2016,2016,Third Party insurance,5,Manual,5,bangalore,1498
 995000,Hatchback,40000,2,2017,17.21,KA03,Petrol,2017,2017,Third Party insurance,7,Automatic,5,bangalore,1197
 935000,SUV,85565,2,2012,11.1,KA47,Petrol,2012,2012,Comprehensive,5,Automatic,5,bangalore,2354
@@ -167,7 +167,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 462000,Hatchback,36685,2,2016,19.4,KA05,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1198
 900000,SUV,120000,2,2012,11.72,KA03,Diesel,2012,2012,Third Party insurance,6,Automatic,7,bangalore,2199
 7900000,Sedan,4000,1,2022,13.32,KA03,Petrol,2022,2022,Comprehensive,8,Automatic,4,bangalore,1998
-843000,Hatchback,32184,2,2019,21.4,KA03,Petrol,2019,2019,Third Party,,Automatic,5,bangalore,1197
+843000,Hatchback,32184,2,2019,21.4,KA03,Petrol,2019,2019,Third Party,0,Automatic,5,bangalore,1197
 799000,Hatchback,32279,1,2018,21.1,KA01,Petrol,2019,2018,Comprehensive,5,Manual,5,bangalore,998
 576000,Hatchback,59698,1,2015,18.6,KA01,Petrol,2015,2015,Comprehensive,5,Manual,5,bangalore,1197
 949000,SUV,46071,1,2018,20.37,KA42,Diesel,2018,2018,Comprehensive,6,Manual,5,bangalore,1461
@@ -186,7 +186,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 786000,MUV,83007,2,2014,20.77,KA51,Diesel,2015,2014,Comprehensive,5,Manual,7,bangalore,1248
 745000,Hatchback,34000,1,2018,18.7,KA02,Petrol,2018,2018,Comprehensive,5,Manual,5,bangalore,1199
 490000,Hatchback,81634,1,2014,18.9,KA25,Petrol,2014,2014,Comprehensive,4,Automatic,5,bangalore,1197
-942000,Sedan,57284,2,2017,18.0,KA53,Petrol,2017,2017,Comprehensive,,Automatic,5,bangalore,1497
+942000,Sedan,57284,2,2017,18.0,KA53,Petrol,2017,2017,Comprehensive,0,Automatic,5,bangalore,1497
 675000,SUV,70000,2,2016,15.63,KA53,Petrol,2016,2016,Third Party insurance,6,Automatic,5,bangalore,1499
 330000,Hatchback,70000,2,2013,19.4,KA04,Petrol,2013,2013,Third Party insurance,5,Manual,5,bangalore,1198
 875000,Sedan,46429,2,2018,17.8,KA05,Petrol,2018,2018,Third Party insurance,7,Automatic,5,bangalore,1496
@@ -195,8 +195,8 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1070000,Sedan,30000,1,2019,17.4,KA03,Petrol,2019,2019,Third Party insurance,5,Manual,5,bangalore,1497
 1025000,SUV,49690,2,2018,15.9,KA20,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1496
 1000000,SUV,110000,1,2016,16.0,KA12,Diesel,2016,2016,Third Party insurance,6,Manual,7,bangalore,2179
-375000,Sedan,50000,1,2009,16.0,KA03,Petrol,2009,2009,Third Party insurance,,Manual,5,bangalore,1368
-375000,Sedan,50000,1,2009,16.0,KA03,Petrol,2009,2009,Third Party insurance,,Manual,5,bangalore,1368
+375000,Sedan,50000,1,2009,16.0,KA03,Petrol,2009,2009,Third Party insurance,5,Manual,5,bangalore,1368
+375000,Sedan,50000,1,2009,16.0,KA03,Petrol,2009,2009,Third Party insurance,5,Manual,5,bangalore,1368
 844000,SUV,55702,1,2018,14.8,KA03,Petrol,2018,2018,Comprehensive,6,Automatic,5,bangalore,1497
 764000,Hatchback,45046,1,2016,21.19,KA04,Diesel,2016,2016,Third Party insurance,6,Manual,5,bangalore,1396
 420000,Hatchback,53000,2,2014,18.5,KA03,Petrol,2014,2014,Third Party insurance,5,Manual,5,bangalore,1197
@@ -311,7 +311,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 999000,SUV,47962,1,2019,18.27,KA51,Petrol,2019,2019,Comprehensive,6,Manual,5,bangalore,998
 595000,SUV,135000,1,2014,20.45,KA51,Diesel,2014,2014,Comprehensive,5,Manual,5,bangalore,1461
 2365000,Sedan,47398,2,2018,14.67,KA01,Petrol,2018,2018,Comprehensive,7,Automatic,5,bangalore,1798
-400000,Sedan,50000,2,2012,14.6,KA03,Petrol,2012,2012,Third Party insurance,,Manual,5,bangalore,1368
+400000,Sedan,50000,2,2012,14.6,KA03,Petrol,2012,2012,Third Party insurance,5,Manual,5,bangalore,1368
 550000,Sedan,100000,1,2012,19.3,KA03,Diesel,2012,2012,Third Party insurance,5,Manual,5,bangalore,1248
 6050000,SUV,55000,1,2020,14.71,KA03,Diesel,2020,2020,Comprehensive,8,Automatic,5,bangalore,2993
 1600000,SUV,110000,2,2011,16.55,KA51,Diesel,2011,2011,Comprehensive,5,Automatic,5,bangalore,1995
@@ -336,7 +336,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 525000,Hatchback,65000,1,2016,18.9,KA01,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1197
 650000,Hatchback,36000,1,2017,18.9,KA05,Petrol,2017,2017,Comprehensive,4,Automatic,5,bangalore,1197
 950000,MUV,199000,2,2011,12.8,KA05,Diesel,2011,2011,Comprehensive,5,Manual,7,bangalore,2494
-846000,Sedan,71905,1,2018,18.0,KA01,Petrol,2018,2018,Zero Dep,,Automatic,5,bangalore,1497
+846000,Sedan,71905,1,2018,18.0,KA01,Petrol,2018,2018,Zero Dep,0,Automatic,5,bangalore,1497
 424000,Hatchback,69748,2,2013,22.38,KA09,Petrol,2013,2013,Comprehensive,5,Manual,5,bangalore,1197
 210000,Hatchback,44000,1,2008,19.7,KA03,Petrol,2008,2008,Comprehensive,5,Manual,5,bangalore,796
 959000,Sedan,17875,2,2021,17.1,KA42,Petrol,2021,2021,Third Party insurance,6,Manual,5,bangalore,1496
@@ -346,7 +346,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 660000,SUV,20000,1,2022,19.03,KA02,Petrol,2022,2022,Third Party insurance,5,Automatic,5,bangalore,999
 334000,Hatchback,64655,1,2012,19.4,KA05,Petrol,2012,2012,Comprehensive,5,Manual,5,bangalore,1198
 594000,SUV,46456,1,2018,18.15,KA03,Petrol,2018,2018,Third Party insurance,5,Manual,6,bangalore,1198
-991000,SUV,20000,1,2021,18.24,KA03,Petrol,2021,2021,Third Party insurance,,Automatic,5,bangalore,999
+991000,SUV,20000,1,2021,18.24,KA03,Petrol,2021,2021,Third Party insurance,0,Automatic,5,bangalore,999
 1450000,SUV,50000,1,2018,17.1,KA03,Diesel,2018,2018,Third Party insurance,6,Manual,5,bangalore,1956
 219000,Sedan,90000,4,2011,20.54,KL24,Diesel,2011,2011,Third Party insurance,5,Manual,5,bangalore,1598
 1285000,SUV,20000,1,2022,18.9,KA03,Diesel,2022,2022,Third Party insurance,6,Manual,5,bangalore,1493
@@ -383,7 +383,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1474000,SUV,80033,1,2018,15.1,KA51,Diesel,2019,2018,Third Party insurance,6,Manual,7,bangalore,2179
 1340000,SUV,70000,2,2017,16.0,KA51,Diesel,2017,2017,Third Party insurance,6,Automatic,7,bangalore,2179
 770000,MUV,13957,1,2021,18.2,KA53,Petrol,2021,2021,Comprehensive,5,Automatic,7,bangalore,999
-818000,Hatchback,34140,2,2018,21.4,KA03,Petrol,2018,2018,Third Party insurance,,Automatic,5,bangalore,1197
+818000,Hatchback,34140,2,2018,21.4,KA03,Petrol,2018,2018,Third Party insurance,0,Automatic,5,bangalore,1197
 724000,SUV,20056,1,2017,17.0,KA02,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,1497
 468000,Hatchback,38233,3,2016,26.0,KA51,Petrol,2016,2016,Comprehensive,5,Automatic,5,bangalore,998
 500000,Sedan,100000,1,2013,14.69,KA03,Petrol,2013,2013,Third Party insurance,6,Manual,5,bangalore,1390
@@ -420,7 +420,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 513000,Hatchback,25086,3,2020,20.52,KA40,Petrol,2020,2020,Comprehensive,5,Manual,5,bangalore,1197
 650000,Hatchback,54845,1,2017,21.01,KA53,Petrol,2017,2017,Third Party insurance,5,Manual,5,bangalore,1197
 806000,Hatchback,35642,1,2020,24.4,KA19,Diesel,2020,2020,Comprehensive,5,Manual,5,bangalore,1498
-725000,Hatchback,22173,1,2016,21.4,KA03,Petrol,2016,2016,Third Party,,Automatic,5,bangalore,1197
+725000,Hatchback,22173,1,2016,21.4,KA03,Petrol,2016,2016,Third Party,0,Automatic,5,bangalore,1197
 4950000,Sedan,50000,1,2018,17.42,KA51,Diesel,2018,2018,Comprehensive,8,Automatic,5,bangalore,2993
 426000,Hatchback,67790,1,2014,18.9,KA51,Petrol,2014,2014,Third Party,5,Manual,5,bangalore,1197
 485000,Hatchback,38000,1,2019,23.95,KA05,Petrol,2019,2019,Comprehensive,5,Manual,5,bangalore,998
@@ -467,7 +467,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 501000,Hatchback,41594,1,2018,23.1,KA05,Petrol,2018,2018,Comprehensive,5,Manual,5,bangalore,998
 617000,Hatchback,24786,2,2020,20.52,KA03,Petrol,2021,2020,Comprehensive,5,Automatic,5,bangalore,1197
 365000,Hatchback,56000,1,2017,23.95,KA03,Petrol,2017,2017,Third Party insurance,5,Manual,5,bangalore,998
-995000,Sedan,90000,1,2018,18.3,KA05,Petrol,2018,2018,Comprehensive,,Automatic,5,bangalore,1498
+995000,Sedan,90000,1,2018,18.3,KA05,Petrol,2018,2018,Comprehensive,0,Automatic,5,bangalore,1498
 775000,Hatchback,31000,2,2019,18.6,KA04,Petrol,2019,2019,Comprehensive,5,Manual,5,bangalore,1197
 4700000,SUV,30000,2,2018,16.38,KA03,Diesel,2018,2018,Third Party insurance,8,Automatic,5,bangalore,1999
 770000,Sedan,36000,1,2017,17.7,KA05,Petrol,2017,2017,Comprehensive,6,Manual,5,bangalore,1591
@@ -557,7 +557,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 850000,SUV,50000,1,2020,17.0,KA02,Petrol,2020,2020,Third Party insurance,6,Manual,5,bangalore,1198
 493000,Hatchback,64453,1,2018,23.1,KA41,Petrol,2018,2018,Comprehensive,5,Automatic,5,bangalore,998
 505000,Hatchback,43387,1,2018,18.5,KA03,Petrol,2018,2018,Comprehensive,5,Manual,5,bangalore,1198
-825000,Hatchback,36538,1,2020,19.56,KA05,Petrol,2021,2020,Third Party insurance,,Automatic,5,bangalore,1197
+825000,Hatchback,36538,1,2020,19.56,KA05,Petrol,2021,2020,Third Party insurance,0,Automatic,5,bangalore,1197
 682000,Hatchback,36787,2,2017,17.19,KA51,Petrol,2017,2017,Zero Dep,5,Manual,5,bangalore,1197
 486000,Hatchback,32112,2,2018,25.24,KA04,Petrol,2018,2018,Comprehensive,5,Manual,5,bangalore,998
 1800000,SUV,30000,1,2022,18.9,KA03,Petrol,2022,2022,Third Party insurance,6,Manual,5,bangalore,1497
@@ -573,7 +573,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 550000,Sedan,56254,1,2013,23.9,KA04,Diesel,2013,2013,Comprehensive,6,Manual,5,bangalore,1582
 2450000,Sedan,58000,1,2017,17.9,KA03,Diesel,2017,2017,Comprehensive,7,Automatic,5,bangalore,2143
 1025000,Sedan,15727,2,2020,20.04,KA01,Petrol,2020,2020,Third Party insurance,4,Automatic,5,bangalore,1462
-550000,Hatchback,20000,1,2017,110.0,KA03,Electric,2017,2017,Third Party insurance,,Automatic,4,bangalore,1197
+550000,Hatchback,20000,1,2017,110.0,KA03,Electric,2017,2017,Third Party insurance,1,Automatic,4,bangalore,1197
 950000,Hatchback,150,1,2023,18.9,KA03,Electric,2023,2023,Third Party insurance,5,Automatic,4,bangalore,0
 977000,Hatchback,21113,1,2021,20.0,KA01,Petrol,2021,2021,Comprehensive,6,Manual,5,bangalore,998
 1705000,Sedan,71775,1,2021,14.59,KA45,Diesel,2021,2021,Comprehensive,6,Manual,5,bangalore,1493
@@ -583,7 +583,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 792000,SUV,90928,1,2017,23.0,KA03,Diesel,2017,2017,Comprehensive,5,Manual,5,bangalore,1498
 695000,SUV,10000,2,2021,20.0,KA01,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,999
 360000,Hatchback,60000,2,2014,15.6,KA03,Petrol,2014,2014,Third Party insurance,5,Manual,5,bangalore,1196
-,Minivans,80000,5,2017,14.0,KA03,Petrol,2022,1998,Third Party insurance,4,Manual,5,bangalore,796
+58000,Minivans,80000,5,2017,14.0,KA03,Petrol,2022,1998,Third Party insurance,4,Manual,5,bangalore,796
 827000,SUV,117530,1,2016,24.3,KA01,Diesel,2016,2016,Comprehensive,5,Manual,5,bangalore,1248
 382000,Hatchback,102814,1,2011,22.38,KA03,Petrol,2011,2011,Comprehensive,5,Manual,5,bangalore,1197
 650000,Hatchback,20000,1,2021,19.01,KA51,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,1199
@@ -594,14 +594,14 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 460000,SUV,30000,1,2014,20.45,DL8C,Diesel,2014,2014,Third Party insurance,5,Manual,5,bangalore,1461
 627000,Hatchback,50318,1,2016,21.4,KA05,Petrol,2016,2016,Third Party insurance,5,Manual,5,bangalore,1197
 511000,Sedan,46123,1,2012,17.01,KA05,Petrol,2013,2012,Comprehensive,5,Manual,5,bangalore,1591
-,Hatchback,120000,3,2006,15.3,KA03,Petrol,2006,2006,Third Party insurance,5,Manual,5,bangalore,1341
+55000,Hatchback,120000,3,2006,15.3,KA03,Petrol,2006,2006,Third Party insurance,5,Manual,5,bangalore,1341
 600000,Hatchback,70000,2,2015,22.54,KA53,Diesel,2015,2015,Third Party insurance,6,Manual,5,bangalore,1396
 1285000,Sedan,33360,1,2014,16.96,KA05,Diesel,2014,2014,Comprehensive,6,Automatic,5,bangalore,1968
 3150000,SUV,21800,1,2022,12.65,KA05,Petrol,2022,2022,Third Party insurance,7,Automatic,5,bangalore,1984
 750000,Hatchback,10000,1,2023,19.33,KA03,Petrol,2023,2023,Third Party insurance,5,Manual,5,bangalore,1199
 130000,Hatchback,60000,3,2006,18.9,KA03,Petrol,2006,2006,Third Party insurance,5,Manual,5,bangalore,1086
 1800000,SUV,10000,1,2023,18.9,KA02,Electric,2023,2023,Third Party insurance,5,Automatic,5,bangalore,0
-985000,Hatchback,11045,1,2021,19.65,KA05,Petrol,2021,2021,Third Party insurance,,Automatic,5,bangalore,1197
+985000,Hatchback,11045,1,2021,19.65,KA05,Petrol,2021,2021,Third Party insurance,0,Automatic,5,bangalore,1197
 1045000,Sedan,51406,1,2018,22.15,KA03,Diesel,2019,2018,Third Party insurance,7,Automatic,5,bangalore,1498
 200000,Hatchback,70000,1,2012,25.0,KA04,Diesel,2012,2012,Third Party insurance,5,Manual,5,bangalore,1396
 710000,Hatchback,26031,1,2017,21.4,KA03,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,1197
@@ -674,7 +674,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 380000,Hatchback,110000,2,2014,22.07,KA20,Diesel,2014,2014,Third Party insurance,5,Manual,5,bangalore,1199
 574000,Hatchback,58917,2,2017,16.2,KA19,Petrol,2017,2017,Third Party,5,Manual,5,bangalore,1199
 573000,Hatchback,72338,1,2016,22.38,KA53,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1197
-,Hatchback,50000,1,2003,17.88,KA05,Diesel,2003,2003,Third Party insurance,5,Manual,5,bangalore,1396
+70000,Hatchback,50000,1,2003,17.88,KA05,Diesel,2003,2003,Third Party insurance,5,Manual,5,bangalore,1396
 685000,SUV,110000,3,2015,16.0,KA19,Diesel,2015,2015,Third Party insurance,6,Manual,7,bangalore,2179
 425000,Hatchback,41000,2,2012,18.4,KA05,Petrol,2012,2012,Comprehensive,5,Automatic,5,bangalore,1198
 265000,Hatchback,70000,2,2009,19.2,KA01,Petrol,2009,2009,Third Party insurance,4,Automatic,5,bangalore,1197
@@ -689,7 +689,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 370000,Sedan,120000,2,2012,20.5,KA05,Diesel,2012,2012,Third Party insurance,5,Manual,5,bangalore,1598
 667000,Sedan,93059,2,2016,17.01,KA03,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1591
 634000,Hatchback,45681,1,2017,21.4,KA51,Petrol,2017,2017,Zero Dep,5,Manual,5,bangalore,1197
-,Sedan,50000,3,2017,15.0,KA01,Petrol,2022,1998,Third Party insurance,5,Manual,5,bangalore,970
+40000,Sedan,50000,3,2017,15.0,KA01,Petrol,2022,1998,Third Party insurance,5,Manual,5,bangalore,970
 579000,Hatchback,45938,2,2017,18.7,KA03,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,1199
 510000,Hatchback,40000,1,2018,21.4,WB26,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1197
 634000,Hatchback,57423,2,2018,22.38,KA01,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1197
@@ -702,14 +702,14 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 965000,MUV,120000,2,2012,12.99,KA03,Diesel,2012,2012,Third Party insurance,5,Manual,7,bangalore,2494
 3600000,SUV,20000,1,2022,12.65,KA03,Petrol,2022,2022,Third Party insurance,7,Automatic,5,bangalore,1984
 400000,Sedan,120000,4,2013,22.32,KA50,Diesel,2013,2013,Third Party insurance,6,Manual,5,bangalore,1582
-300000,Sedan,50000,1,2009,16.0,KA04,Petrol,2009,2009,Third Party insurance,,Manual,5,bangalore,1368
+300000,Sedan,50000,1,2009,16.0,KA04,Petrol,2009,2009,Third Party insurance,5,Manual,5,bangalore,1368
 3400000,Sedan,30000,1,2018,21.76,KA51,Diesel,2018,2018,Third Party insurance,8,Automatic,5,bangalore,1995
 982000,Hatchback,14949,1,2020,20.0,KA05,Petrol,2020,2020,Zero Dep,6,Manual,5,bangalore,998
-674000,Hatchback,77995,1,2017,21.4,KA53,Petrol,2017,2017,Comprehensive,,Automatic,5,bangalore,1197
+674000,Hatchback,77995,1,2017,21.4,KA53,Petrol,2017,2017,Comprehensive,0,Automatic,5,bangalore,1197
 810000,SUV,20000,1,2021,17.33,KA03,Petrol,2021,2021,Third Party insurance,6,Manual,5,bangalore,1199
 792000,Sedan,40908,1,2020,20.65,KA02,Petrol,2020,2020,Comprehensive,5,Manual,5,bangalore,1462
 513000,Hatchback,39693,2,2016,18.9,KA01,Petrol,2016,2016,Comprehensive,4,Automatic,5,bangalore,1197
-360000,Sedan,40000,1,2010,16.2,KA03,Petrol,2010,2010,Third Party insurance,,Manual,5,bangalore,1599
+360000,Sedan,40000,1,2010,16.2,KA03,Petrol,2010,2010,Third Party insurance,5,Manual,5,bangalore,1599
 579000,Hatchback,63411,1,2016,22.38,KA41,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1197
 550000,Hatchback,30000,1,2018,22.0,KA03,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1197
 383000,Hatchback,94221,2,2014,18.9,KA04,Petrol,2014,2014,Comprehensive,5,Manual,5,bangalore,1197
@@ -736,7 +736,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 670000,SUV,10000,2,2021,18.75,KA01,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,999
 950000,Hatchback,20739,1,2021,17.1,KA04,Petrol,2021,2021,Comprehensive,7,Automatic,5,bangalore,1199
 700000,Hatchback,20000,2,2020,18.6,KA04,Petrol,2020,2020,Third Party insurance,5,Manual,5,bangalore,1197
-,Sedan,70000,1,2004,14.2,MH31,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1389
+80000,Sedan,70000,1,2004,14.2,MH31,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1389
 1500000,SUV,10000,1,2021,15.2,KA50,Petrol,2021,2021,Third Party insurance,6,Automatic,4,bangalore,1997
 370000,Sedan,60000,3,2009,18.3,KA03,Diesel,2009,2009,Third Party insurance,5,Manual,5,bangalore,1991
 3200000,Sedan,10000,1,2017,19.27,KA03,Diesel,2017,2017,Third Party insurance,7,Automatic,5,bangalore,2143
@@ -757,11 +757,11 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 300000,Hatchback,20000,3,2010,20.36,KA03,Petrol,2010,2010,Third Party insurance,5,Manual,5,bangalore,1197
 350000,Sedan,60000,3,2009,18.3,KA02,Diesel,2009,2009,Third Party insurance,5,Manual,5,bangalore,1991
 3250000,SUV,20000,1,2021,18.6,WB12,Diesel,2021,2021,Third Party insurance,8,Automatic,5,bangalore,1997
-,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
+55000,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
 630000,Hatchback,40000,1,2018,18.9,KA03,Petrol,2018,2018,Third Party insurance,4,Automatic,5,bangalore,1197
 2475000,SUV,20000,1,2022,14.08,KA03,Diesel,2022,2022,Third Party insurance,6,Automatic,7,bangalore,1956
 417000,Hatchback,67444,1,2012,18.5,KA02,Petrol,2012,2012,Third Party insurance,5,Manual,5,bangalore,1197
-631000,Hatchback,63837,2,2016,21.4,KA05,Petrol,2016,2016,Comprehensive,,Automatic,5,bangalore,1197
+631000,Hatchback,63837,2,2016,21.4,KA05,Petrol,2016,2016,Comprehensive,0,Automatic,5,bangalore,1197
 465000,MUV,61000,2,2012,14.0,KA02,Diesel,2012,2012,Comprehensive,5,Manual,7,bangalore,2498
 544000,Hatchback,60777,1,2016,22.38,KA05,Petrol,2016,2016,Third Party insurance,5,Manual,5,bangalore,1197
 704000,Hatchback,39248,2,2016,21.4,KA05,Petrol,2016,2016,Third Party insurance,5,Manual,5,bangalore,1197
@@ -773,7 +773,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 350000,Hatchback,120000,1,2015,23.1,KA03,Petrol,2015,2015,Third Party insurance,5,Manual,5,bangalore,998
 480000,Sedan,90000,3,2018,20.65,KA22,Diesel,2018,2018,Third Party insurance,5,Manual,5,bangalore,1248
 822000,SUV,60000,2,2017,18.06,KA03,Diesel,2017,2017,Third Party insurance,5,Manual,7,bangalore,2523
-190000,Sedan,120000,4,2009,16.0,KA51,Petrol,2009,2009,Third Party insurance,,Manual,5,bangalore,1368
+190000,Sedan,120000,4,2009,16.0,KA51,Petrol,2009,2009,Third Party insurance,5,Manual,5,bangalore,1368
 600000,Sedan,70000,3,2008,11.7,KA03,Petrol,2008,2008,Third Party insurance,5,Automatic,5,bangalore,2354
 995000,SUV,30000,1,2022,20.1,VK28,Diesel,2022,2022,Third Party insurance,6,Manual,5,bangalore,1497
 120000,Hatchback,30000,3,2017,14.0,KA04,Petrol,2022,2001,Third Party insurance,4,Manual,5,bangalore,796
@@ -822,24 +822,24 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 575000,Hatchback,25000,4,2016,19.0,KA51,Petrol,2016,2016,Comprehensive,5,Automatic,5,bangalore,1199
 338000,Hatchback,69210,1,2012,19.4,KA01,Petrol,2012,2012,Third Party,5,Manual,5,bangalore,1198
 604000,Hatchback,71165,2,2018,18.7,KA04,Petrol,2018,2018,Comprehensive,5,Manual,5,bangalore,1199
-,SUV,10000,1,2022,10.54,KA03,Petrol,2022,2022,Third Party insurance,8,Automatic,7,bangalore,2998
+13000000,SUV,10000,1,2022,10.54,KA03,Petrol,2022,2022,Third Party insurance,8,Automatic,7,bangalore,2998
 327000,Sedan,86543,3,2010,19.3,KA51,Diesel,2010,2010,Third Party insurance,5,Manual,5,bangalore,1248
-621000,Hatchback,67225,1,2016,21.4,KA03,Petrol,2016,2016,Third Party,,Automatic,5,bangalore,1197
+621000,Hatchback,67225,1,2016,21.4,KA03,Petrol,2016,2016,Third Party,0,Automatic,5,bangalore,1197
 240000,Hatchback,100000,3,2017,25.0,KA03,Diesel,2017,2017,Third Party insurance,5,Manual,5,bangalore,1396
 621000,Hatchback,16247,1,2018,18.9,KA03,Petrol,2018,2018,Zero Dep,5,Manual,5,bangalore,1197
 140000,Sedan,80000,2,2007,15.7,KA01,Petrol,2007,2007,Third Party insurance,5,Manual,5,bangalore,1390
-708000,Hatchback,39481,2,2017,21.4,KA03,Petrol,2017,2017,Zero Dep,,Automatic,5,bangalore,1197
+708000,Hatchback,39481,2,2017,21.4,KA03,Petrol,2017,2017,Zero Dep,0,Automatic,5,bangalore,1197
 443000,Hatchback,61227,2,2018,25.24,KA50,Petrol,2018,2018,Third Party,5,Manual,5,bangalore,998
 180000,Sedan,80000,4,2006,17.7,KA03,Petrol,2006,2006,Third Party insurance,5,Manual,5,bangalore,1497
 700000,SUV,112521,1,2016,19.01,KA05,Diesel,2016,2016,Comprehensive,6,Manual,5,bangalore,1461
 1800000,SUV,20000,1,2020,17.41,KA02,Diesel,2020,2020,Third Party insurance,6,Manual,5,bangalore,1956
-1450000,Sedan,20000,1,2021,18.3,KA03,Petrol,2021,2021,Third Party insurance,,Automatic,5,bangalore,1498
+1450000,Sedan,20000,1,2021,18.3,KA03,Petrol,2021,2021,Third Party insurance,0,Automatic,5,bangalore,1498
 520000,Sedan,60000,2,2016,17.0,KA03,Petrol,2016,2016,Third Party insurance,5,Manual,5,bangalore,1198
 470000,Hatchback,40000,2,2018,23.84,KA04,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1199
 600000,SUV,50000,1,2016,19.64,KA01,Diesel,2016,2016,Third Party insurance,6,Manual,5,bangalore,1461
 1850000,SUV,100000,2,2016,15.17,KA03,Diesel,2016,2016,Third Party insurance,7,Automatic,5,bangalore,1968
-460000,Hatchback,20000,2,2017,140.0,KA05,Electric,2017,2017,Third Party insurance,,Automatic,4,bangalore,72
-,Sedan,110000,2,2003,13.8,KA03,Petrol,2003,2003,Third Party insurance,5,Manual,5,bangalore,1589
+460000,Hatchback,20000,2,2017,140.0,KA05,Electric,2017,2017,Third Party insurance,1,Automatic,4,bangalore,72
+75000,Sedan,110000,2,2003,13.8,KA03,Petrol,2003,2003,Third Party insurance,5,Manual,5,bangalore,1589
 649000,Hatchback,63359,2,2017,21.4,KA01,Petrol,2017,2017,Third Party,5,Manual,5,bangalore,1197
 657000,Hatchback,125227,2,2017,22.54,KA03,Diesel,2017,2017,Zero Dep,6,Manual,5,bangalore,1396
 420000,Hatchback,100000,2,2012,22.07,KA01,Diesel,2012,2012,Third Party insurance,5,Manual,5,bangalore,1199
@@ -854,15 +854,15 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 800000,Hatchback,60000,1,2018,18.7,KA01,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1199
 925000,Sedan,30000,1,2020,18.6,KL58,Petrol,2020,2020,Third Party insurance,6,Manual,5,bangalore,1498
 775000,Sedan,50000,1,2017,20.73,KA02,Petrol,2017,2017,Third Party insurance,5,Manual,5,bangalore,1373
-,Hatchback,80000,2,2011,26.0,KA03,Petrol,2011,2011,Third Party insurance,4,Manual,4,bangalore,624
+70000,Hatchback,80000,2,2011,26.0,KA03,Petrol,2011,2011,Third Party insurance,4,Manual,4,bangalore,624
 500000,SUV,70000,2,2014,19.01,MP20,Diesel,2014,2014,Third Party insurance,6,Manual,5,bangalore,1461
 350000,Sedan,120000,2,2009,19.3,KA03,Diesel,2009,2009,Third Party insurance,5,Manual,5,bangalore,1248
 1125000,MUV,120000,2,2012,12.99,KA03,Diesel,2012,2012,Third Party insurance,5,Manual,7,bangalore,2494
-830000,Sedan,20000,2,2020,18.3,KA03,Petrol,2020,2020,Third Party insurance,,Automatic,5,bangalore,1199
+830000,Sedan,20000,2,2020,18.3,KA03,Petrol,2020,2020,Third Party insurance,0,Automatic,5,bangalore,1199
 1475000,SUV,37354,1,2020,17.8,KA01,Diesel,2020,2020,Third Party,6,Automatic,5,bangalore,1493
 834000,SUV,80426,2,2014,15.1,KA51,Diesel,2014,2014,Comprehensive,6,Manual,7,bangalore,2179
 674000,Sedan,89801,1,2016,20.73,KA05,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1373
-,Sedan,120000,4,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1389
+65000,Sedan,120000,4,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1389
 547000,Hatchback,69199,2,2019,18.9,KA53,Petrol,2019,2019,Zero Dep,5,Manual,5,bangalore,1197
 413000,Hatchback,78249,3,2012,22.38,KA53,Petrol,2012,2012,Third Party insurance,5,Manual,5,bangalore,1197
 2325000,MUV,26918,1,2018,13.68,KA51,Diesel,2018,2018,Comprehensive,5,Manual,8,bangalore,2393
@@ -886,10 +886,10 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 449000,Hatchback,106516,1,2012,22.9,KA01,Diesel,2012,2012,Third Party,5,Manual,5,bangalore,1248
 552000,Hatchback,88509,2,2015,25.2,KA25,Diesel,2015,2015,Comprehensive,5,Manual,5,bangalore,1248
 925000,SUV,120000,1,2015,15.1,KA03,Diesel,2015,2015,Third Party insurance,6,Manual,7,bangalore,1997
-,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
+56000,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
 426000,Hatchback,44437,1,2013,22.38,KA01,Petrol,2013,2013,Comprehensive,5,Manual,5,bangalore,1197
 607000,Hatchback,83731,2,2015,22.54,KA51,Diesel,2015,2015,Third Party insurance,6,Manual,5,bangalore,1396
-,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
+56000,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
 845000,SUV,77000,1,2018,16.5,KA05,Diesel,2018,2018,Comprehensive,5,Manual,7,bangalore,1493
 1650000,SUV,23000,2,2020,18.9,KA05,Petrol,2020,2020,Comprehensive,6,Automatic,5,bangalore,1451
 240000,Hatchback,110000,3,2012,20.0,KA18,Diesel,2012,2012,Third Party insurance,5,Manual,5,bangalore,1399
@@ -897,11 +897,11 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 500000,MUV,120000,2,2006,12.8,KA03,Diesel,2006,2006,Third Party insurance,5,Manual,7,bangalore,2494
 250000,Sedan,60000,2,2011,13.7,KA03,Petrol,2011,2011,Third Party insurance,5,Manual,5,bangalore,1368
 720000,Hatchback,80000,1,2018,21.4,KA04,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1197
-,Hatchback,110000,4,2011,26.0,KA03,Petrol,2011,2011,Third Party insurance,4,Manual,4,bangalore,624
+60000,Hatchback,110000,4,2011,26.0,KA03,Petrol,2011,2011,Third Party insurance,4,Manual,4,bangalore,624
 357000,Sedan,70000,5,2010,12.6,KA19,Petrol,2010,2010,Third Party insurance,7,Automatic,5,bangalore,1798
 798000,Sedan,45621,1,2018,21.56,KA03,Petrol,2019,2018,Third Party insurance,5,Manual,5,bangalore,1462
 858000,SUV,38199,2,2018,20.37,KA53,Diesel,2019,2018,Zero Dep,6,Manual,5,bangalore,1461
-,Sedan,90000,3,2004,15.9,KA01,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1298
+80000,Sedan,90000,3,2004,15.9,KA01,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1298
 608000,Hatchback,91660,1,2016,18.6,KA01,Petrol,2016,2016,Zero Dep,5,Manual,5,bangalore,1197
 698000,Sedan,51947,2,2015,17.4,KA05,Petrol,2015,2015,Comprehensive,5,Manual,5,bangalore,1497
 1250000,MUV,80000,2,2018,17.6,KA41,Diesel,2018,2018,Third Party insurance,6,Manual,7,bangalore,2179
@@ -913,7 +913,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 740000,Sedan,46000,1,2017,17.01,KA03,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,1591
 875000,MUV,68000,1,2012,12.99,KA05,Diesel,2012,2012,Third Party insurance,5,Manual,7,bangalore,2494
 480000,Hatchback,40000,2,2015,19.69,KA03,Petrol,2015,2015,Third Party insurance,5,Manual,5,bangalore,1198
-,Sedan,90000,2,2017,14.8,KA01,Diesel,2022,2001,Third Party insurance,5,Manual,5,bangalore,1998
+76000,Sedan,90000,2,2017,14.8,KA01,Diesel,2022,2001,Third Party insurance,5,Manual,5,bangalore,1998
 190000,Sedan,80000,1,2010,15.3,KA51,Petrol,2010,2010,Third Party insurance,5,Manual,5,bangalore,1596
 210000,Hatchback,90000,4,2010,19.81,KA03,Petrol,2010,2010,Third Party insurance,5,Manual,5,bangalore,1086
 480000,Hatchback,80000,1,2014,25.2,KA03,Diesel,2014,2014,Third Party insurance,5,Manual,5,bangalore,1248
@@ -955,7 +955,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 2500000,SUV,50000,1,2020,18.4,KA02,Petrol,2020,2020,Third Party insurance,7,Automatic,5,bangalore,1498
 1540000,SUV,10000,1,2022,16.8,KA51,Petrol,2022,2022,Third Party insurance,6,Manual,5,bangalore,1497
 1290000,SUV,70000,2,2019,17.6,KA04,Diesel,2019,2019,Third Party insurance,6,Automatic,5,bangalore,1582
-,Sedan,150000,3,2007,14.9,KA04,Diesel,2007,2007,Third Party insurance,5,Manual,5,bangalore,1991
+50000,Sedan,150000,3,2007,14.9,KA04,Diesel,2007,2007,Third Party insurance,5,Manual,5,bangalore,1991
 1025000,SUV,10000,2,2021,18.2,KA19,Petrol,2021,2021,Third Party insurance,6,Manual,5,bangalore,998
 600000,Sedan,110000,3,2016,26.0,KA03,Diesel,2016,2016,Third Party insurance,6,Manual,5,bangalore,1498
 435000,Minivans,30000,1,2020,16.11,KA41,Petrol,2020,2020,Third Party insurance,5,Manual,7,bangalore,1196
@@ -1006,7 +1006,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1358000,Sedan,6731,1,2022,19.47,KA05,Petrol,2022,2022,Third Party,6,Manual,5,bangalore,999
 1500000,SUV,20000,1,2019,16.0,KA53,Petrol,2019,2019,Third Party insurance,6,Manual,5,bangalore,1368
 642000,Hatchback,55567,1,2018,21.21,KA50,Petrol,2018,2018,Third Party,5,Automatic,5,bangalore,1197
-911000,SUV,48938,2,2021,18.24,KA03,Petrol,2021,2021,Third Party insurance,,Automatic,5,bangalore,999
+911000,SUV,48938,2,2021,18.24,KA03,Petrol,2021,2021,Third Party insurance,0,Automatic,5,bangalore,999
 550000,Hatchback,80000,2,2017,28.4,KA41,Diesel,2017,2017,Third Party insurance,5,Manual,5,bangalore,1248
 420000,SUV,80000,1,2013,19.01,KA03,Diesel,2013,2013,Third Party insurance,6,Manual,5,bangalore,1461
 450000,Hatchback,10000,1,2010,15.6,UP70,Petrol,2010,2010,Third Party insurance,5,Manual,5,bangalore,1196
@@ -1019,7 +1019,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1200000,SUV,60000,1,2020,16.8,KA03,Petrol,2020,2020,Third Party insurance,6,Manual,5,bangalore,1497
 543000,Hatchback,56577,1,2016,18.9,KA51,Petrol,2016,2016,Comprehensive,4,Automatic,5,bangalore,1197
 1035000,SUV,56974,2,2018,13.0,KA03,Petrol,2018,2018,Comprehensive,6,Automatic,5,bangalore,1591
-1150000,SUV,10000,1,2021,18.0,KA51,Petrol,2021,2021,Third Party insurance,,Manual,5,bangalore,998
+1150000,SUV,10000,1,2021,18.0,KA51,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,998
 479000,Hatchback,40344,1,2013,18.5,KA03,Petrol,2013,2013,Comprehensive,5,Manual,5,bangalore,1197
 736000,SUV,36216,3,2018,23.0,KA03,Diesel,2018,2018,Comprehensive,5,Manual,5,bangalore,1498
 530000,Hatchback,10000,1,2022,22.0,KA50,Petrol,2022,2022,Third Party insurance,5,Automatic,5,bangalore,999
@@ -1045,7 +1045,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 300000,Hatchback,80000,1,2012,20.0,KA04,Diesel,2012,2012,Third Party insurance,5,Manual,5,bangalore,1399
 555000,Hatchback,8212,1,2022,21.7,KA19,Petrol,2022,2022,Comprehensive,5,Manual,5,bangalore,998
 500000,Sedan,80000,3,2011,11.9,KA04,Diesel,2011,2011,Third Party insurance,5,Automatic,5,bangalore,2496
-950000,Hatchback,9358,1,2021,21.4,KA51,Petrol,2021,2021,Comprehensive,,Automatic,5,bangalore,1197
+950000,Hatchback,9358,1,2021,21.4,KA51,Petrol,2021,2021,Comprehensive,0,Automatic,5,bangalore,1197
 608000,Sedan,62011,1,2016,22.41,KA01,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1197
 125000,Sedan,120000,2,2011,17.0,KA06,Diesel,2011,2011,Third Party insurance,5,Manual,5,bangalore,1405
 1700000,Sedan,90000,2,2011,10.5,KA03,Petrol,2011,2011,Third Party insurance,6,Automatic,4,bangalore,5000
@@ -1054,11 +1054,11 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 249000,Hatchback,100000,2,2010,19.4,KA03,Diesel,2010,2010,Third Party insurance,5,Manual,5,bangalore,1422
 150000,SUV,100000,1,2008,14.4,KA03,Diesel,2008,2008,Third Party insurance,5,Manual,8,bangalore,2179
 130000,Sedan,120000,5,2002,14.8,KA03,Diesel,2002,2002,Third Party insurance,5,Manual,5,bangalore,1998
-,Sedan,80000,2,2017,9.0,KA03,Petrol,2022,2000,Third Party insurance,5,Automatic,5,bangalore,1999
+50000,Sedan,80000,2,2017,9.0,KA03,Petrol,2022,2000,Third Party insurance,5,Automatic,5,bangalore,1999
 375000,Sedan,50000,2,2015,18.0,KA01,Petrol,2015,2015,Third Party insurance,5,Manual,5,bangalore,1198
 550000,Hatchback,10000,1,2022,21.74,KA03,Petrol,2022,2022,Third Party insurance,5,Manual,5,bangalore,999
 590000,Hatchback,38771,1,2019,18.9,KA03,Petrol,2019,2019,Comprehensive,5,Manual,5,bangalore,1197
-511000,Hatchback,42174,1,2018,21.63,KA51,Petrol,2018,2018,Comprehensive,,Automatic,5,bangalore,998
+511000,Hatchback,42174,1,2018,21.63,KA51,Petrol,2018,2018,Comprehensive,5,Automatic,5,bangalore,998
 260000,Sedan,120000,1,2017,19.09,KA51,Diesel,2017,2017,Third Party insurance,5,Manual,5,bangalore,1396
 381000,Hatchback,43199,1,2017,23.01,KA06,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,999
 819000,SUV,65000,2,2014,15.1,KA01,Diesel,2014,2014,Third Party,6,Manual,7,bangalore,2179
@@ -1071,7 +1071,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 300000,Hatchback,30000,1,2011,19.81,KA51,Petrol,2011,2011,Third Party insurance,5,Manual,5,bangalore,1086
 500000,Hatchback,60000,1,2016,27.28,KA03,Diesel,2016,2016,Third Party insurance,5,Manual,5,bangalore,1047
 230000,Sedan,120000,2,2013,21.64,AP28,Diesel,2013,2013,Third Party insurance,5,Manual,5,bangalore,1461
-,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
+75000,Sedan,80000,2,2004,14.2,KA03,Petrol,2004,2004,Third Party insurance,5,Manual,5,bangalore,1597
 260000,Sedan,60000,1,2009,13.2,KA04,Petrol,2009,2009,Third Party insurance,5,Manual,5,bangalore,1495
 240000,Hatchback,57709,1,2008,18.9,KA03,Petrol,2008,2008,Comprehensive,5,Manual,5,bangalore,998
 1500000,SUV,20000,1,2022,15.2,KA03,Petrol,2022,2022,Third Party insurance,6,Manual,4,bangalore,1997
@@ -1101,11 +1101,11 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 375000,Hatchback,75283,1,2013,18.9,KA04,Petrol,2013,2013,Comprehensive,5,Manual,5,bangalore,998
 1885000,SUV,54568,2,2021,16.35,KA09,Diesel,2021,2021,Third Party insurance,6,Manual,5,bangalore,1956
 657000,Hatchback,14516,1,2016,18.6,KA51,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1197
-729000,Hatchback,53627,1,2019,21.4,KA53,Petrol,2019,2019,Comprehensive,,Automatic,5,bangalore,1197
+729000,Hatchback,53627,1,2019,21.4,KA53,Petrol,2019,2019,Comprehensive,0,Automatic,5,bangalore,1197
 800000,Sedan,20000,1,2021,19.28,KA03,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,1199
 501000,Hatchback,5083,2,2019,23.01,KA50,Petrol,2020,2019,Third Party,5,Automatic,5,bangalore,999
 650000,SUV,100000,2,2016,18.49,KA05,Diesel,2016,2016,Third Party insurance,5,Manual,7,bangalore,1493
-1005000,Sedan,50666,1,2017,18.0,KA53,Petrol,2017,2017,Third Party,,Automatic,5,bangalore,1497
+1005000,Sedan,50666,1,2017,18.0,KA53,Petrol,2017,2017,Third Party,0,Automatic,5,bangalore,1497
 1193000,SUV,16962,1,2022,17.57,KA53,Petrol,2022,2022,Third Party,6,Manual,5,bangalore,1199
 900000,Hatchback,10000,1,2019,18.78,KA05,Petrol,2019,2019,Third Party insurance,5,Manual,5,bangalore,999
 2150000,SUV,10000,1,2022,18.9,KA03,Diesel,2022,2022,Third Party insurance,6,Manual,7,bangalore,2198
@@ -1137,7 +1137,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1500000,SUV,10000,4,2013,16.55,KA03,Diesel,2013,2013,Third Party insurance,5,Automatic,5,bangalore,1995
 250000,Hatchback,60000,4,2017,21.1,KA03,Petrol,2017,2017,Third Party insurance,5,Manual,5,bangalore,814
 1774000,SUV,24000,1,2021,18.9,KA04,Petrol,2021,2021,Comprehensive,6,Automatic,4,bangalore,1997
-1073000,SUV,30535,2,2020,18.0,KA53,Petrol,2020,2020,Third Party,,Manual,5,bangalore,998
+1073000,SUV,30535,2,2020,18.0,KA53,Petrol,2020,2020,Third Party,5,Manual,5,bangalore,998
 349000,Hatchback,20229,2,2017,23.95,KA04,Petrol,2017,2017,Third Party,5,Manual,5,bangalore,998
 485000,Hatchback,35800,1,2018,21.63,KA42,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,998
 591000,Hatchback,11453,1,2021,20.52,KA03,Petrol,2021,2021,Comprehensive,5,Manual,5,bangalore,1197
@@ -1165,7 +1165,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 659000,Sedan,39070,1,2017,21.21,KA03,Petrol,2018,2017,Zero Dep,5,Manual,5,bangalore,1197
 720000,Sedan,120000,1,2019,23.59,KA03,Diesel,2019,2019,Third Party insurance,5,Manual,5,bangalore,1364
 733000,Hatchback,22438,1,2020,21.01,KA04,Petrol,2020,2020,Third Party insurance,5,Manual,5,bangalore,1197
-867000,Hatchback,21225,2,2020,21.4,KA51,Petrol,2020,2020,Zero Dep,,Automatic,5,bangalore,1197
+867000,Hatchback,21225,2,2020,21.4,KA51,Petrol,2020,2020,Zero Dep,0,Automatic,5,bangalore,1197
 850000,Hatchback,28737,1,2019,18.2,KA05,Petrol,2019,2019,Comprehensive,5,Automatic,5,bangalore,1199
 920000,SUV,20000,1,2021,20.5,KA19,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,999
 720000,Hatchback,30000,1,2019,22.54,KA04,Diesel,2019,2019,Third Party insurance,6,Manual,5,bangalore,1396
@@ -1217,7 +1217,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 593000,Hatchback,13444,2,2017,18.9,KA03,Petrol,2018,2017,Comprehensive,4,Automatic,5,bangalore,1197
 1057000,SUV,56226,1,2019,20.0,KA02,Diesel,2019,2019,Third Party insurance,6,Manual,5,bangalore,1497
 560000,Hatchback,8733,1,2020,22.0,KA01,Petrol,2020,2020,Third Party,5,Automatic,5,bangalore,999
-1264000,Sedan,57963,1,2020,18.3,KA03,Petrol,2020,2020,Comprehensive,,Automatic,5,bangalore,1498
+1264000,Sedan,57963,1,2020,18.3,KA03,Petrol,2020,2020,Comprehensive,0,Automatic,5,bangalore,1498
 1666000,Sedan,19508,1,2022,16.4,KA05,Petrol,2022,2022,Comprehensive,5,Automatic,5,bangalore,1497
 789000,Sedan,49423,1,2018,17.4,KA02,Petrol,2018,2018,Third Party insurance,5,Manual,5,bangalore,1497
 459000,Hatchback,78622,2,2012,22.38,KA05,Petrol,2012,2012,Comprehensive,5,Manual,5,bangalore,1197
@@ -1231,7 +1231,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 2198000,Sedan,39157,2,2016,22.69,KA05,Diesel,2017,2016,Third Party insurance,8,Automatic,5,bangalore,1995
 825000,MUV,162000,1,2008,12.8,KA01,Diesel,2008,2008,Comprehensive,5,Manual,7,bangalore,2494
 1175000,Hatchback,89900,2,2013,16.28,KA51,Petrol,2013,2013,Third Party,8,Automatic,5,bangalore,1598
-656000,Hatchback,58666,1,2017,21.4,KA25,Petrol,2017,2017,Comprehensive,,Automatic,5,bangalore,1197
+656000,Hatchback,58666,1,2017,21.4,KA25,Petrol,2017,2017,Comprehensive,0,Automatic,5,bangalore,1197
 612000,Sedan,54137,1,2018,21.21,KA05,Petrol,2018,2018,Third Party insurance,5,Automatic,5,bangalore,1197
 1195000,SUV,180000,2,2011,11.5,KA51,Diesel,2011,2011,Comprehensive,5,Manual,7,bangalore,2982
 436000,Hatchback,21997,1,2019,23.01,KA03,Petrol,2019,2019,Comprehensive,5,Manual,5,bangalore,999
@@ -1239,9 +1239,9 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1750000,SUV,49000,2,2015,17.05,KA51,Diesel,2015,2015,Comprehensive,8,Automatic,5,bangalore,1995
 620000,SUV,80390,1,2017,15.85,KA36,Petrol,2018,2017,Comprehensive,5,Manual,5,bangalore,1499
 3299000,Sedan,52721,1,2018,12.6,KA04,Diesel,2018,2018,Comprehensive,9,Automatic,5,bangalore,1950
-643000,Hatchback,55127,1,2017,21.4,KA03,Petrol,2017,2017,Comprehensive,,Automatic,5,bangalore,1197
+643000,Hatchback,55127,1,2017,21.4,KA03,Petrol,2017,2017,Comprehensive,0,Automatic,5,bangalore,1197
 822000,SUV,35922,2,2018,23.0,KA05,Diesel,2018,2018,Comprehensive,5,Manual,5,bangalore,1498
-838000,Sedan,16883,1,2019,19.0,KA03,Petrol,2019,2019,Third Party insurance,,Automatic,5,bangalore,1199
+838000,Sedan,16883,1,2019,19.0,KA03,Petrol,2019,2019,Third Party insurance,0,Automatic,5,bangalore,1199
 625000,SUV,86000,2,2013,19.6,KA01,Diesel,2013,2013,Comprehensive,6,Manual,5,bangalore,1461
 1125000,Sedan,88000,1,2016,15.1,KA01,Petrol,2016,2016,Comprehensive,7,Automatic,5,bangalore,1798
 2545000,SUV,34000,1,2020,17.1,KA01,Diesel,2020,2020,Comprehensive,6,Automatic,5,bangalore,1956
@@ -1266,7 +1266,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 939000,Sedan,39243,2,2019,14.84,KA05,Petrol,2019,2019,Comprehensive,6,Automatic,5,bangalore,1598
 888000,Sedan,36309,2,2017,14.84,KA63,Petrol,2018,2017,Third Party insurance,6,Automatic,5,bangalore,1598
 425000,Hatchback,69408,1,2014,23.1,KA22,Petrol,2014,2014,Third Party,5,Automatic,5,bangalore,998
-818000,Sedan,12064,2,2019,19.0,KA01,Petrol,2019,2019,Third Party insurance,,Automatic,5,bangalore,1199
+818000,Sedan,12064,2,2019,19.0,KA01,Petrol,2019,2019,Third Party insurance,0,Automatic,5,bangalore,1199
 1944000,Sedan,74000,1,2013,14.21,KA51,Diesel,2013,2013,Comprehensive,5,Automatic,5,bangalore,2143
 695000,Hatchback,18000,1,2018,22.0,KA51,Petrol,2018,2018,Comprehensive,5,Automatic,5,bangalore,1197
 475000,Sedan,59000,1,2010,14.4,KA51,Petrol,2010,2010,Comprehensive,6,Automatic,5,bangalore,1598
@@ -1311,12 +1311,12 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 4275000,Sedan,45000,2,2018,20.37,KA03,Diesel,2018,2018,Comprehensive,8,Automatic,5,bangalore,1995
 4450000,SUV,75000,2,2016,11.7,KA02,Diesel,2016,2016,Comprehensive,8,Automatic,5,bangalore,2993
 483000,Hatchback,39613,1,2015,25.24,KA04,Petrol,2015,2015,Third Party,5,Manual,5,bangalore,998
-1007000,Sedan,68906,2,2018,18.0,KA04,Petrol,2018,2018,Third Party insurance,,Automatic,5,bangalore,1497
+1007000,Sedan,68906,2,2018,18.0,KA04,Petrol,2018,2018,Third Party insurance,0,Automatic,5,bangalore,1497
 995000,SUV,33000,1,2019,13.9,KA22,Petrol,2019,2019,Comprehensive,6,Automatic,5,bangalore,1498
 573000,Sedan,71423,1,2016,22.41,KA53,Petrol,2016,2016,Comprehensive,5,Manual,5,bangalore,1197
 658000,Sedan,17811,1,2015,22.41,KA53,Petrol,2015,2015,Comprehensive,5,Manual,5,bangalore,1197
 1245000,SUV,79000,1,2017,17.6,KA04,Diesel,2017,2017,Comprehensive,6,Automatic,5,bangalore,1582
-906000,Hatchback,9724,1,2020,21.4,KA02,Petrol,2020,2020,Zero Dep,,Automatic,5,bangalore,1197
+906000,Hatchback,9724,1,2020,21.4,KA02,Petrol,2020,2020,Zero Dep,0,Automatic,5,bangalore,1197
 1195000,SUV,75000,1,2019,15.8,KA53,Petrol,2019,2019,Comprehensive,6,Manual,5,bangalore,1591
 1031000,Sedan,20754,1,2021,17.1,KA41,Petrol,2021,2021,Comprehensive,6,Manual,5,bangalore,1496
 413000,Hatchback,50510,3,2015,18.9,KA04,Petrol,2015,2015,Comprehensive,5,Manual,5,bangalore,1197
@@ -1340,7 +1340,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 920000,SUV,33000,2,2017,15.8,KA41,Petrol,2017,2017,Third Party insurance,6,Manual,5,bangalore,1591
 403000,Hatchback,40561,1,2021,22.05,KA50,Petrol,2022,2021,Zero Dep,5,Manual,5,bangalore,796
 415000,Hatchback,92529,1,2013,22.38,KA19,Petrol,2013,2013,Comprehensive,5,Manual,5,bangalore,1197
-850000,Sedan,42000,1,2019,18.1,KA01,Petrol,2019,2019,Comprehensive,,Automatic,5,bangalore,1199
+850000,Sedan,42000,1,2019,18.1,KA01,Petrol,2019,2019,Comprehensive,0,Automatic,5,bangalore,1199
 2700000,MUV,55342,1,2020,14.11,KA03,Diesel,2020,2020,Comprehensive,8,Automatic,7,bangalore,2199
 1145000,SUV,51000,1,2021,21.7,KA51,Diesel,2021,2021,Comprehensive,5,Manual,5,bangalore,1498
 1275000,SUV,37000,2,2018,15.1,KA04,Diesel,2018,2018,Comprehensive,6,Manual,7,bangalore,2179
@@ -1367,7 +1367,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 1085000,SUV,24305,1,2021,18.55,KA12,Petrol,2021,2021,Third Party insurance,5,Manual,5,bangalore,1462
 335000,Hatchback,2500,1,2015,25.4,KA04,Petrol,2015,2015,Comprehensive,4,Automatic,4,bangalore,624
 1109000,SUV,31489,1,2020,17.05,KA50,Petrol,2020,2020,Third Party insurance,6,Automatic,5,bangalore,1199
-350000,Sedan,82268,2,2014,14.6,KA03,Petrol,2014,2014,Not Available,,Manual,5,bangalore,1368
+350000,Sedan,82268,2,2014,14.6,KA03,Petrol,2014,2014,Not Available,5,Manual,5,bangalore,1368
 895000,SUV,73834,1,2019,23.0,KA04,Diesel,2019,2019,Third Party insurance,5,Manual,5,bangalore,1498
 1775000,SUV,73000,2,2014,13.0,KA05,Diesel,2014,2014,Comprehensive,5,Manual,7,bangalore,2982
 466000,Hatchback,41436,1,2017,23.1,KA02,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,998
@@ -1408,7 +1408,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 2190000,SUV,20183,1,2020,17.1,KA03,Diesel,2020,2020,Zero Dep,9,Automatic,5,bangalore,1956
 795000,Sedan,77130,1,2018,17.8,KA05,Petrol,2018,2018,Comprehensive,7,Automatic,5,bangalore,1496
 775000,SUV,45000,1,2017,14.7,KA01,Petrol,2017,2017,Comprehensive,6,Automatic,5,bangalore,1496
-745000,Hatchback,27025,2,2017,19.56,KA02,Petrol,2017,2017,Third Party insurance,,Automatic,5,bangalore,1197
+745000,Hatchback,27025,2,2017,19.56,KA02,Petrol,2017,2017,Third Party insurance,0,Automatic,5,bangalore,1197
 1125000,SUV,105153,1,2019,16.1,KA04,Petrol,2019,2019,Third Party insurance,6,Manual,5,bangalore,1353
 1030000,SUV,70509,1,2016,16.0,KA01,Diesel,2016,2016,Comprehensive,6,Manual,7,bangalore,2179
 582000,Hatchback,11662,2,2020,22.0,KA01,Petrol,2020,2020,Zero Dep,5,Automatic,5,bangalore,999
@@ -1435,12 +1435,12 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 601000,Sedan,74104,1,2015,20.85,KA05,Petrol,2015,2015,Third Party insurance,5,Manual,5,bangalore,1197
 594000,Hatchback,6777,1,2022,20.3,KA03,Petrol,2022,2022,Zero Dep,5,Manual,5,bangalore,1086
 960000,SUV,14560,1,2020,15.9,KA02,Petrol,2020,2020,Comprehensive,5,Manual,5,bangalore,1496
-575000,Hatchback,27000,1,2021,21.7,KA13,Petrol,2021,2021,Comprehensive,,Automatic,5,bangalore,998
+575000,Hatchback,27000,1,2021,21.7,KA13,Petrol,2021,2021,Comprehensive,5,Automatic,5,bangalore,998
 729000,Sedan,90333,2,2015,18.0,KA03,Petrol,2016,2015,Comprehensive,5,Automatic,5,bangalore,1497
 3575000,SUV,50114,1,2019,16.6,KA13,Petrol,2019,2019,Comprehensive,8,Automatic,5,bangalore,1998
 962000,SUV,69301,1,2017,24.3,KA04,Diesel,2017,2017,Comprehensive,5,Manual,5,bangalore,1248
 450000,Hatchback,71306,1,2021,21.74,KA02,Petrol,2021,2021,Comprehensive,5,Manual,5,bangalore,999
-849000,Hatchback,35135,1,2019,19.56,KA04,Petrol,2019,2019,Third Party insurance,,Automatic,5,bangalore,1197
+849000,Hatchback,35135,1,2019,19.56,KA04,Petrol,2019,2019,Third Party insurance,0,Automatic,5,bangalore,1197
 535000,Hatchback,40561,1,2016,23.2,KA53,Diesel,2016,2016,Third Party insurance,5,Manual,5,bangalore,1248
 435000,Hatchback,90000,1,2012,17.0,KA05,Petrol,2012,2012,Comprehensive,5,Manual,5,bangalore,1197
 685000,Hatchback,60000,2,2017,19.0,KA51,Petrol,2017,2017,Comprehensive,5,Automatic,5,bangalore,1199
@@ -1461,7 +1461,7 @@ price,bt,Kms Driven,owner,Year of Manufacture,Mileage,RTO,Fuel Type,Registration
 417000,Hatchback,30285,2,2018,24.04,KA50,Petrol,2018,2018,Third Party insurance,5,Automatic,5,bangalore,999
 399000,Sedan,80153,2,2011,20.54,KA04,Diesel,2011,2011,Third Party insurance,5,Manual,5,bangalore,1598
 541000,Hatchback,49641,1,2016,18.9,KA53,Petrol,2017,2016,Comprehensive,4,Automatic,5,bangalore,1197
-568000,Hatchback,83075,2,2016,21.4,KA06,Petrol,2016,2016,Comprehensive,,Automatic,5,bangalore,1197
+568000,Hatchback,83075,2,2016,21.4,KA06,Petrol,2016,2016,Comprehensive,0,Automatic,5,bangalore,1197
 730000,Hatchback,45677,1,2018,21.4,KA04,Petrol,2018,2018,Comprehensive,5,Manual,5,bangalore,1197
 446000,Hatchback,81849,1,2017,23.1,KA05,Petrol,2017,2017,Comprehensive,5,Manual,5,bangalore,998
 638000,Hatchback,67791,2,2015,25.2,KA05,Diesel,2015,2015,Comprehensive,5,Manual,5,bangalore,1248
