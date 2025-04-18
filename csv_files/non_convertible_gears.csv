@@ -1,0 +1,38 @@
+PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,FUEL_TYPE,MODEL_YEAR,INSURANCE_VALIDITY,NUMBER_OF_GEARS,TRANSMISSION,SEATS,CITY_NAME,ORIGINAL_GEAR_VALUE
+375000.0,Sedan,50000,1st Owner,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5 Seats,BANGALORE,Five Speed Manual
+375000.0,Sedan,50000,1st Owner,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5 Seats,BANGALORE,Five Speed Manual
+400000.0,Sedan,50000,2nd Owner,2012,14.6,Petrol,2012,Third Party insurance,,Manual,5 Seats,BANGALORE,Five Speed Manual
+300000.0,Sedan,50000,1st Owner,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5 Seats,BANGALORE,Five Speed Manual
+360000.0,Sedan,40000,1st Owner,2010,16.2,Petrol,2010,Third Party insurance,,Manual,5 Seats,BANGALORE,Five Speed Manual Transmission
+190000.0,Sedan,120000,4th Owner,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5 Seats,BANGALORE,Five Speed Manual
+350000.0,Sedan,82268,2nd Owner,2014,14.6,Petrol,2014,Not Available,,Manual,5 Seats,BANGALORE,Five Speed Manual
+265000.0,Sedan,60000,2nd Owner,2011,16.0,Petrol,2011,Third Party insurance,,Manual,5 Seats,CHENNAI,Five Speed
+600000.0,Sedan,60000,2nd Owner,2009,13.14,Petrol,2009,Third Party insurance,,Manual,5 Seats,CHENNAI,Six Speed Manual
+232000.0,Sedan,90000,3rd Owner,2012,15.8,Petrol,2012,Third Party insurance,,Manual,5 Seats,CHENNAI,Five Speed Manual Transmission
+360000.0,Hatchback,70000,1st Owner,2010,16.0,Petrol,2010,Comprehensive,,Manual,5 Seats,CHENNAI,Five Speed Manual Transmission Gearbox
+6450000.0,SUV,2000,1st Owner,2022,18.9,Petrol,2022,Third Party insurance,,Automatic,5 Seats,CHENNAI,AMG SPEEDSHIFT DCT 8G
+115000.0,Sedan,29582,2nd Owner,2009,16.0,Petrol,2009,Not Available,,Manual,5 Seats,DELHI,Five Speed
+1550000.0,SUV,102788,3rd Owner,2012,11.3,Petrol,2012,Third Party insurance,,Manual,5 Seats,DELHI,Six Speed Manual with Paddle Shifter
+39500000.0,SUV,4000,1st Owner,2022,18.9,Petrol,2022,Comprehensive,,Automatic,5 Seats,DELHI,SPEEDSHIFT TCT 9G
+95000.0,Hatchback,90000,3rd Owner,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5 Seats,DELHI,Five Speed Manual Transmission Gearbox
+41500000.0,SUV,3500,1st Owner,2023,18.9,Petrol,2023,Comprehensive,,Automatic,5 Seats,DELHI,SPEEDSHIFT TCT 9G
+330000.0,Sedan,69000,1st Owner,2013,14.8,Petrol,2013,Comprehensive,,Automatic,5 Seats,DELHI,Six Speed Automatic Transmission
+400000.0,SUV,90000,2nd Owner,2010,11.3,Petrol,2010,Third Party insurance,,Automatic,5 Seats,DELHI,Six Speed Manual with Paddle Shifter
+570000.0,SUV,76000,1st Owner,2011,11.3,Petrol,2011,Comprehensive,,Automatic,5 Seats,DELHI,Six Speed Manual with Paddle Shifter
+80000.0,Hatchback,30000,2nd Owner,2010,26.83,CNG,2010,Third Party insurance,,Manual,5 Seats,DELHI,Five Speed Manual Transmission
+1015000.0,SUV,109000,1st Owner,2012,14.7,Diesel,2012,Third Party insurance,,Automatic,5 Seats,HYDERABAD,"Six Speed Geartronic, Six Speed Automati"
+1050000.0,Sedan,80000,1st Owner,2012,13.2,Diesel,2012,Third Party insurance,,Automatic,5 Seats,HYDERABAD,Six Speed Automatic Gearbox
+410000.0,Sedan,67200,1st Owner,2018,18.9,Electric,2018,Third Party insurance,,Automatic,5 Seats,HYDERABAD,Fully Automatic
+295000.0,Sedan,50000,1st Owner,2018,18.9,Electric,2018,Third Party insurance,,Automatic,5 Seats,HYDERABAD,Fully Automatic
+7500000.0,SUV,20000,1st Owner,2021,18.9,Electric,2021,Third Party insurance,,Automatic,5 Seats,HYDERABAD,Single-speed transmission
+799000.0,Sedan,85000,1st Owner,2012,18.5,Diesel,2012,Third Party insurance,,Automatic,5 Seats,HYDERABAD,Six Speed  Gearbox
+325000.0,Hatchback,49580,1st Owner,2010,16.0,Petrol,2010,Comprehensive,,Manual,5 Seats,JAIPUR,Five Speed Manual Transmission Gearbox
+1600000.0,SUV,75000,1st Owner,2021,18.9,Electric,2021,Third Party insurance,,Automatic,5 Seats,JAIPUR,Single speed reduction gear
+150000.0,Sedan,120000,1st Owner,2010,16.2,Petrol,2010,Third Party insurance,,Manual,5 Seats,JAIPUR,Five Speed Manual Transmission
+1490000.0,Sedan,44351,1st Owner,2022,18.9,Electric,2022,Third Party,,Automatic,5 Seats,JAIPUR,Single Speed
+130000.0,Hatchback,60000,1st Owner,2012,26.83,CNG,2012,Third Party insurance,,Manual,5 Seats,JAIPUR,Five Speed Manual Transmission
+1350000.0,Sedan,10000,1st Owner,2023,18.9,Electric,2023,Third Party insurance,,Automatic,5 Seats,KOLKATA,Single Speed
+900000.0,Sedan,48277,1st Owner,2022,18.9,Electric,2022,Third Party insurance,,Automatic,5 Seats,KOLKATA,Single Speed
+175000.0,Hatchback,58000,2nd Owner,2010,16.0,Petrol,2010,Comprehensive,,Manual,5 Seats,KOLKATA,Five Speed Manual Transmission Gearbox
+120000.0,Hatchback,30000,1st Owner,2010,16.2,Petrol,2010,Third Party insurance,,Manual,5 Seats,KOLKATA,Five Speed Manual Transmission Gearbox
+140000.0,Hatchback,24000,1st Owner,2011,16.2,Petrol,2011,Third Party insurance,,Manual,5 Seats,KOLKATA,Five Speed Manual Transmission Gearbox

@@ -94,7 +94,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1895000.0,Sedan,81716,1,2017,27.03,Diesel,2017,Comprehensive,8,Automatic,5,BANGALORE
 5990000.0,Sedan,24000,2,2018,17.0,Diesel,2018,Comprehensive,9,Automatic,5,BANGALORE
 1050000.0,SUV,10000,1,2022,17.0,Petrol,2022,Third Party insurance,6,Automatic,5,BANGALORE
-2075000.0,SUV,18000,1,2021,16.56,Petrol,2021,Comprehensive,6,Automatic,6,BANGALORE
+2075000.0,SUV,18000,1,2021,16.56,Petrol,2021,Comprehensive,0,Automatic,6,BANGALORE
 394000.0,Hatchback,38197,1,2013,19.4,Petrol,2013,Third Party,5,Manual,5,BANGALORE
 725000.0,Hatchback,23000,2,2017,19.56,Petrol,2017,Comprehensive,0,Automatic,5,BANGALORE
 240000.0,Hatchback,50000,1,2013,20.92,Petrol,2013,Third Party insurance,5,Manual,5,BANGALORE
@@ -189,14 +189,14 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 942000.0,Sedan,57284,2,2017,18.0,Petrol,2017,Comprehensive,0,Automatic,5,BANGALORE
 675000.0,SUV,70000,2,2016,15.63,Petrol,2016,Third Party insurance,6,Automatic,5,BANGALORE
 330000.0,Hatchback,70000,2,2013,19.4,Petrol,2013,Third Party insurance,5,Manual,5,BANGALORE
-875000.0,Sedan,46429,2,2018,17.8,Petrol,2018,Third Party insurance,7,Automatic,5,BANGALORE
+875000.0,Sedan,46429,2,2018,17.8,Petrol,2018,Third Party insurance,0,Automatic,5,BANGALORE
 869000.0,Hatchback,17624,1,2017,21.4,Petrol,2017,Comprehensive,5,Manual,5,BANGALORE
 425000.0,Sedan,100000,2,2012,20.54,Diesel,2012,Third Party insurance,5,Manual,5,BANGALORE
 1070000.0,Sedan,30000,1,2019,17.4,Petrol,2019,Third Party insurance,5,Manual,5,BANGALORE
 1025000.0,SUV,49690,2,2018,15.9,Petrol,2018,Third Party insurance,5,Manual,5,BANGALORE
 1000000.0,SUV,110000,1,2016,16.0,Diesel,2016,Third Party insurance,6,Manual,7,BANGALORE
-375000.0,Sedan,50000,1,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5,BANGALORE
-375000.0,Sedan,50000,1,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5,BANGALORE
+375000.0,Sedan,50000,1,2009,16.0,Petrol,2009,Third Party insurance,1,Manual,5,BANGALORE
+375000.0,Sedan,50000,1,2009,16.0,Petrol,2009,Third Party insurance,1,Manual,5,BANGALORE
 844000.0,SUV,55702,1,2018,14.8,Petrol,2018,Comprehensive,6,Automatic,5,BANGALORE
 764000.0,Hatchback,45046,1,2016,21.19,Diesel,2016,Third Party insurance,6,Manual,5,BANGALORE
 420000.0,Hatchback,53000,2,2014,18.5,Petrol,2014,Third Party insurance,5,Manual,5,BANGALORE
@@ -281,14 +281,14 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 250000.0,Sedan,120000,2,2005,15.4,Petrol,2005,Third Party insurance,5,Manual,5,BANGALORE
 705000.0,Hatchback,36184,2,2016,21.4,Petrol,2016,Third Party,5,Manual,5,BANGALORE
 653000.0,Hatchback,69310,1,2016,21.4,Petrol,2016,Comprehensive,5,Manual,5,BANGALORE
-872000.0,Sedan,55643,1,2015,18.0,Petrol,2015,Third Party insurance,5,Automatic,5,BANGALORE
+872000.0,Sedan,55643,1,2015,18.0,Petrol,2015,Third Party insurance,0,Automatic,5,BANGALORE
 564000.0,Hatchback,62803,2,2017,18.9,Petrol,2017,Third Party insurance,4,Automatic,5,BANGALORE
 370000.0,Hatchback,90000,2,2011,22.07,Diesel,2011,Third Party insurance,5,Manual,5,BANGALORE
 550000.0,Hatchback,68656,1,2015,22.38,Petrol,2015,Third Party insurance,5,Manual,5,BANGALORE
 517000.0,Hatchback,77501,3,2016,18.7,Petrol,2016,Comprehensive,5,Manual,5,BANGALORE
 620000.0,Sedan,40000,1,2016,20.85,Petrol,2016,Third Party insurance,5,Manual,5,BANGALORE
 620000.0,Sedan,40000,1,2016,20.85,Petrol,2016,Third Party insurance,5,Manual,5,BANGALORE
-750000.0,Sedan,48325,1,2014,18.0,Petrol,2014,Third Party insurance,5,Automatic,5,BANGALORE
+750000.0,Sedan,48325,1,2014,18.0,Petrol,2014,Third Party insurance,0,Automatic,5,BANGALORE
 1220000.0,SUV,30000,1,2022,17.57,Petrol,2022,Third Party insurance,6,Manual,5,BANGALORE
 1350000.0,Hatchback,100000,2,2013,14.8,Diesel,2013,Comprehensive,7,Automatic,5,BANGALORE
 575000.0,Hatchback,69000,1,2015,22.0,Petrol,2015,Comprehensive,5,Manual,5,BANGALORE
@@ -311,7 +311,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 999000.0,SUV,47962,1,2019,18.27,Petrol,2019,Comprehensive,6,Manual,5,BANGALORE
 595000.0,SUV,135000,1,2014,20.45,Diesel,2014,Comprehensive,5,Manual,5,BANGALORE
 2365000.0,Sedan,47398,2,2018,14.67,Petrol,2018,Comprehensive,7,Automatic,5,BANGALORE
-400000.0,Sedan,50000,2,2012,14.6,Petrol,2012,Third Party insurance,,Manual,5,BANGALORE
+400000.0,Sedan,50000,2,2012,14.6,Petrol,2012,Third Party insurance,1,Manual,5,BANGALORE
 550000.0,Sedan,100000,1,2012,19.3,Diesel,2012,Third Party insurance,5,Manual,5,BANGALORE
 6050000.0,SUV,55000,1,2020,14.71,Diesel,2020,Comprehensive,8,Automatic,5,BANGALORE
 1600000.0,SUV,110000,2,2011,16.55,Diesel,2011,Comprehensive,5,Automatic,5,BANGALORE
@@ -371,7 +371,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1275000.0,SUV,27000,1,2018,13.0,Petrol,2018,Third Party insurance,6,Automatic,5,BANGALORE
 275000.0,Hatchback,90000,3,2010,19.2,Petrol,2010,Third Party insurance,4,Automatic,5,BANGALORE
 1125000.0,Sedan,20000,1,2022,17.4,Petrol,2022,Third Party insurance,5,Manual,5,BANGALORE
-650000.0,Sedan,82998,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,BANGALORE
+650000.0,Sedan,82998,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,BANGALORE
 700000.0,Sedan,110000,3,2010,12.3,Petrol,2010,Third Party insurance,7,Automatic,5,BANGALORE
 1100000.0,Sedan,14500,1,2019,17.14,Petrol,2019,Third Party insurance,5,Manual,5,BANGALORE
 260000.0,Sedan,120000,3,2016,21.03,Diesel,2016,Third Party insurance,5,Manual,5,BANGALORE
@@ -543,7 +543,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 740000.0,SUV,78536,1,2016,24.3,Diesel,2016,Third Party,5,Manual,5,BANGALORE
 1700000.0,SUV,20000,1,2022,20.8,Diesel,2022,Third Party insurance,6,Manual,5,BANGALORE
 455000.0,Sedan,54134,2,2013,22.41,Petrol,2013,Comprehensive,5,Manual,5,BANGALORE
-1699000.0,SUV,10000,1,2021,16.8,Petrol,2021,Third Party insurance,6,Automatic,5,BANGALORE
+1699000.0,SUV,10000,1,2021,16.8,Petrol,2021,Third Party insurance,0,Automatic,5,BANGALORE
 524000.0,Hatchback,27227,2,2019,18.9,Petrol,2019,Comprehensive,5,Manual,5,BANGALORE
 1765000.0,SUV,25508,1,2019,16.0,Petrol,2019,Comprehensive,7,Automatic,5,BANGALORE
 525000.0,Hatchback,30000,1,2017,18.6,Petrol,2017,Third Party insurance,5,Manual,5,BANGALORE
@@ -589,7 +589,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 650000.0,Hatchback,20000,1,2021,19.01,Petrol,2021,Third Party insurance,5,Manual,5,BANGALORE
 512000.0,Hatchback,34801,1,2017,23.1,Petrol,2017,Zero Dep,5,Automatic,5,BANGALORE
 463000.0,Hatchback,51877,3,2018,25.24,Petrol,2018,Comprehensive,5,Manual,5,BANGALORE
-1500000.0,Sedan,10000,1,2023,18.45,Petrol,2023,Third Party insurance,6,Automatic,5,BANGALORE
+1500000.0,Sedan,10000,1,2023,18.45,Petrol,2023,Third Party insurance,0,Automatic,5,BANGALORE
 525000.0,Hatchback,17125,2,2018,21.63,Petrol,2018,Third Party,5,Manual,5,BANGALORE
 460000.0,SUV,30000,1,2014,20.45,Diesel,2014,Third Party insurance,5,Manual,5,BANGALORE
 627000.0,Hatchback,50318,1,2016,21.4,Petrol,2016,Third Party insurance,5,Manual,5,BANGALORE
@@ -606,7 +606,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 200000.0,Hatchback,70000,1,2012,25.0,Diesel,2012,Third Party insurance,5,Manual,5,BANGALORE
 710000.0,Hatchback,26031,1,2017,21.4,Petrol,2017,Comprehensive,5,Manual,5,BANGALORE
 586000.0,Hatchback,30740,1,2016,22.38,Petrol,2016,Comprehensive,5,Manual,5,BANGALORE
-1500000.0,SUV,20000,1,2022,14.82,Petrol,2022,Third Party insurance,8,Automatic,5,BANGALORE
+1500000.0,SUV,20000,1,2022,14.82,Petrol,2022,Third Party insurance,0,Automatic,5,BANGALORE
 584000.0,Hatchback,65909,1,2017,20.89,Petrol,2017,Zero Dep,5,Automatic,5,BANGALORE
 409000.0,Hatchback,140590,1,2013,18.5,Petrol,2013,Comprehensive,5,Manual,5,BANGALORE
 2175000.0,MUV,32953,2,2019,10.75,Petrol,2019,Third Party insurance,6,Automatic,7,BANGALORE
@@ -702,14 +702,14 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 965000.0,MUV,120000,2,2012,12.99,Diesel,2012,Third Party insurance,5,Manual,7,BANGALORE
 3600000.0,SUV,20000,1,2022,12.65,Petrol,2022,Third Party insurance,7,Automatic,5,BANGALORE
 400000.0,Sedan,120000,4,2013,22.32,Diesel,2013,Third Party insurance,6,Manual,5,BANGALORE
-300000.0,Sedan,50000,1,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5,BANGALORE
+300000.0,Sedan,50000,1,2009,16.0,Petrol,2009,Third Party insurance,1,Manual,5,BANGALORE
 3400000.0,Sedan,30000,1,2018,21.76,Diesel,2018,Third Party insurance,8,Automatic,5,BANGALORE
 982000.0,Hatchback,14949,1,2020,20.0,Petrol,2020,Zero Dep,6,Manual,5,BANGALORE
 674000.0,Hatchback,77995,1,2017,21.4,Petrol,2017,Comprehensive,0,Automatic,5,BANGALORE
 810000.0,SUV,20000,1,2021,17.33,Petrol,2021,Third Party insurance,6,Manual,5,BANGALORE
 792000.0,Sedan,40908,1,2020,20.65,Petrol,2020,Comprehensive,5,Manual,5,BANGALORE
 513000.0,Hatchback,39693,2,2016,18.9,Petrol,2016,Comprehensive,4,Automatic,5,BANGALORE
-360000.0,Sedan,40000,1,2010,16.2,Petrol,2010,Third Party insurance,,Manual,5,BANGALORE
+360000.0,Sedan,40000,1,2010,16.2,Petrol,2010,Third Party insurance,1,Manual,5,BANGALORE
 579000.0,Hatchback,63411,1,2016,22.38,Petrol,2016,Comprehensive,5,Manual,5,BANGALORE
 550000.0,Hatchback,30000,1,2018,22.0,Petrol,2018,Third Party insurance,5,Manual,5,BANGALORE
 383000.0,Hatchback,94221,2,2014,18.9,Petrol,2014,Comprehensive,5,Manual,5,BANGALORE
@@ -773,7 +773,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 350000.0,Hatchback,120000,1,2015,23.1,Petrol,2015,Third Party insurance,5,Manual,5,BANGALORE
 480000.0,Sedan,90000,3,2018,20.65,Diesel,2018,Third Party insurance,5,Manual,5,BANGALORE
 822000.0,SUV,60000,2,2017,18.06,Diesel,2017,Third Party insurance,5,Manual,7,BANGALORE
-190000.0,Sedan,120000,4,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5,BANGALORE
+190000.0,Sedan,120000,4,2009,16.0,Petrol,2009,Third Party insurance,1,Manual,5,BANGALORE
 600000.0,Sedan,70000,3,2008,11.7,Petrol,2008,Third Party insurance,5,Automatic,5,BANGALORE
 995000.0,SUV,30000,1,2022,20.1,Diesel,2022,Third Party insurance,6,Manual,5,BANGALORE
 120000.0,Hatchback,30000,3,2017,14.0,Petrol,2001,Third Party insurance,4,Manual,5,BANGALORE
@@ -812,7 +812,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 661000.0,Hatchback,31530,1,2021,20.89,Petrol,2021,Third Party,5,Manual,5,BANGALORE
 800000.0,MUV,120000,2,2017,24.52,Diesel,2017,Third Party insurance,5,Manual,7,BANGALORE
 520000.0,Hatchback,80000,2,2015,25.2,Diesel,2015,Third Party insurance,5,Manual,5,BANGALORE
-600000.0,Sedan,71086,1,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,BANGALORE
+600000.0,Sedan,71086,1,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,BANGALORE
 300000.0,Hatchback,110000,2,2011,21.1,Diesel,2011,Third Party insurance,5,Manual,5,BANGALORE
 3750000.0,SUV,50000,1,2020,10.91,Diesel,2020,Comprehensive,6,Automatic,7,BANGALORE
 1295000.0,Hatchback,18000,1,2021,20.25,Petrol,2021,Comprehensive,7,Automatic,5,BANGALORE
@@ -1019,13 +1019,13 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1200000.0,SUV,60000,1,2020,16.8,Petrol,2020,Third Party insurance,6,Manual,5,BANGALORE
 543000.0,Hatchback,56577,1,2016,18.9,Petrol,2016,Comprehensive,4,Automatic,5,BANGALORE
 1035000.0,SUV,56974,2,2018,13.0,Petrol,2018,Comprehensive,6,Automatic,5,BANGALORE
-1150000.0,SUV,10000,1,2021,18.0,Petrol,2021,Third Party insurance,5,Manual,5,BANGALORE
+1150000.0,SUV,10000,1,2021,18.0,Petrol,2021,Third Party insurance,6,Manual,5,BANGALORE
 479000.0,Hatchback,40344,1,2013,18.5,Petrol,2013,Comprehensive,5,Manual,5,BANGALORE
 736000.0,SUV,36216,3,2018,23.0,Diesel,2018,Comprehensive,5,Manual,5,BANGALORE
 530000.0,Hatchback,10000,1,2022,22.0,Petrol,2022,Third Party insurance,5,Automatic,5,BANGALORE
 880000.0,SUV,45965,2,2017,15.29,Petrol,2017,Comprehensive,6,Manual,5,BANGALORE
 2600000.0,MUV,10000,1,2021,8.0,Petrol,2021,Third Party insurance,6,Automatic,7,BANGALORE
-789000.0,Sedan,74982,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,BANGALORE
+789000.0,Sedan,74982,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,BANGALORE
 1030000.0,SUV,21925,1,2020,17.0,Petrol,2020,Comprehensive,6,Automatic,5,BANGALORE
 600000.0,Sedan,120000,1,2015,21.66,Diesel,2015,Third Party insurance,7,Automatic,5,BANGALORE
 250000.0,Sedan,70000,2,2010,17.0,Petrol,2010,Third Party insurance,5,Manual,5,BANGALORE
@@ -1137,7 +1137,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1500000.0,SUV,10000,4,2013,16.55,Diesel,2013,Third Party insurance,5,Automatic,5,BANGALORE
 250000.0,Hatchback,60000,4,2017,21.1,Petrol,2017,Third Party insurance,5,Manual,5,BANGALORE
 1774000.0,SUV,24000,1,2021,18.9,Petrol,2021,Comprehensive,6,Automatic,4,BANGALORE
-1073000.0,SUV,30535,2,2020,18.0,Petrol,2020,Third Party,5,Manual,5,BANGALORE
+1073000.0,SUV,30535,2,2020,18.0,Petrol,2020,Third Party,6,Manual,5,BANGALORE
 349000.0,Hatchback,20229,2,2017,23.95,Petrol,2017,Third Party,5,Manual,5,BANGALORE
 485000.0,Hatchback,35800,1,2018,21.63,Petrol,2018,Third Party insurance,5,Manual,5,BANGALORE
 591000.0,Hatchback,11453,1,2021,20.52,Petrol,2021,Comprehensive,5,Manual,5,BANGALORE
@@ -1208,7 +1208,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 280000.0,SUV,120000,2,2009,13.93,Diesel,2009,Third Party insurance,5,Manual,7,BANGALORE
 1350000.0,SUV,30000,1,2018,19.67,Diesel,2018,Third Party insurance,6,Manual,5,BANGALORE
 975000.0,Sedan,87000,3,2011,13.2,Diesel,2011,Third Party insurance,6,Automatic,5,BANGALORE
-520000.0,Sedan,102662,1,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,BANGALORE
+520000.0,Sedan,102662,1,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,BANGALORE
 1765000.0,SUV,13802,1,2022,17.2,Petrol,2022,Comprehensive,6,Automatic,5,BANGALORE
 175000.0,Hatchback,90000,4,2011,20.0,Diesel,2011,Third Party insurance,5,Manual,5,BANGALORE
 400000.0,Hatchback,40000,2,2011,17.0,Petrol,2011,Third Party insurance,5,Manual,5,BANGALORE
@@ -1322,7 +1322,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 413000.0,Hatchback,50510,3,2015,18.9,Petrol,2015,Comprehensive,5,Manual,5,BANGALORE
 624000.0,Hatchback,35000,1,2019,18.9,Petrol,2019,Comprehensive,5,Manual,5,BANGALORE
 465000.0,Sedan,85000,3,2011,22.32,Diesel,2011,Comprehensive,6,Manual,5,BANGALORE
-1050000.0,Sedan,48979,1,2018,18.0,Petrol,2018,Third Party insurance,5,Automatic,5,BANGALORE
+1050000.0,Sedan,48979,1,2018,18.0,Petrol,2018,Third Party insurance,0,Automatic,5,BANGALORE
 725000.0,SUV,46000,2,2017,17.0,Petrol,2017,Comprehensive,6,Manual,5,BANGALORE
 1800000.0,SUV,9000,1,2020,18.9,Diesel,2020,Comprehensive,6,Automatic,4,BANGALORE
 650000.0,Sedan,70000,2,2018,26.1,Diesel,2018,Third Party insurance,5,Manual,5,BANGALORE
@@ -1331,7 +1331,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1423000.0,Sedan,70000,2,2011,18.48,Diesel,2011,Comprehensive,6,Automatic,5,BANGALORE
 4399000.0,SUV,8187,1,2023,13.92,Diesel,2023,Comprehensive,8,Automatic,6,BANGALORE
 475000.0,Sedan,81777,3,2014,22.41,Petrol,2014,Comprehensive,5,Manual,5,BANGALORE
-747000.0,Sedan,48698,2,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,BANGALORE
+747000.0,Sedan,48698,2,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,BANGALORE
 1590000.0,SUV,21000,1,2020,16.5,Petrol,2020,Comprehensive,7,Automatic,5,BANGALORE
 520000.0,Hatchback,67771,2,2016,18.9,Petrol,2016,Comprehensive,4,Automatic,5,BANGALORE
 530000.0,Sedan,60386,1,2015,22.41,Petrol,2015,Third Party,5,Manual,5,BANGALORE
@@ -1367,7 +1367,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1085000.0,SUV,24305,1,2021,18.55,Petrol,2021,Third Party insurance,5,Manual,5,BANGALORE
 335000.0,Hatchback,2500,1,2015,25.4,Petrol,2015,Comprehensive,4,Automatic,4,BANGALORE
 1109000.0,SUV,31489,1,2020,17.05,Petrol,2020,Third Party insurance,6,Automatic,5,BANGALORE
-350000.0,Sedan,82268,2,2014,14.6,Petrol,2014,Not Available,,Manual,5,BANGALORE
+350000.0,Sedan,82268,2,2014,14.6,Petrol,2014,Not Available,1,Manual,5,BANGALORE
 895000.0,SUV,73834,1,2019,23.0,Diesel,2019,Third Party insurance,5,Manual,5,BANGALORE
 1775000.0,SUV,73000,2,2014,13.0,Diesel,2014,Comprehensive,5,Manual,7,BANGALORE
 466000.0,Hatchback,41436,1,2017,23.1,Petrol,2017,Comprehensive,5,Manual,5,BANGALORE
@@ -1375,7 +1375,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 775000.0,MUV,73000,1,2016,14.02,Diesel,2016,Comprehensive,5,Manual,8,BANGALORE
 378000.0,Hatchback,73140,2,2020,22.05,Petrol,2020,Comprehensive,5,Manual,5,BANGALORE
 555000.0,Hatchback,29289,1,2015,22.38,Petrol,2015,Comprehensive,5,Manual,5,BANGALORE
-899000.0,Sedan,39116,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,BANGALORE
+899000.0,Sedan,39116,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,BANGALORE
 370000.0,Hatchback,41958,1,2019,24.7,Petrol,2019,Third Party,5,Manual,5,BANGALORE
 810000.0,SUV,26626,1,2018,17.5,Petrol,2018,Third Party insurance,5,Manual,5,BANGALORE
 774000.0,Hatchback,63460,1,2019,18.2,Petrol,2019,Third Party insurance,5,Automatic,5,BANGALORE
@@ -1406,7 +1406,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 500000.0,Sedan,92673,2,2012,16.8,Petrol,2012,Third Party,5,Manual,5,BANGALORE
 4100000.0,SUV,79000,2,2014,11.3,Diesel,2014,Comprehensive,7,Automatic,7,BANGALORE
 2190000.0,SUV,20183,1,2020,17.1,Diesel,2020,Zero Dep,9,Automatic,5,BANGALORE
-795000.0,Sedan,77130,1,2018,17.8,Petrol,2018,Comprehensive,7,Automatic,5,BANGALORE
+795000.0,Sedan,77130,1,2018,17.8,Petrol,2018,Comprehensive,0,Automatic,5,BANGALORE
 775000.0,SUV,45000,1,2017,14.7,Petrol,2017,Comprehensive,6,Automatic,5,BANGALORE
 745000.0,Hatchback,27025,2,2017,19.56,Petrol,2017,Third Party insurance,0,Automatic,5,BANGALORE
 1125000.0,SUV,105153,1,2019,16.1,Petrol,2019,Third Party insurance,6,Manual,5,BANGALORE
@@ -1418,7 +1418,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 535000.0,Hatchback,11912,2,2015,21.21,Petrol,2015,Third Party,5,Manual,5,BANGALORE
 446000.0,Hatchback,55544,2,2012,22.9,Diesel,2012,Third Party,5,Manual,5,BANGALORE
 1018000.0,SUV,27027,1,2019,14.8,Petrol,2019,Comprehensive,6,Automatic,5,BANGALORE
-840000.0,Sedan,56363,1,2017,18.0,Petrol,2017,Zero Dep,5,Automatic,5,BANGALORE
+840000.0,Sedan,56363,1,2017,18.0,Petrol,2017,Zero Dep,0,Automatic,5,BANGALORE
 654000.0,Sedan,42094,2,2016,17.01,Petrol,2016,Comprehensive,5,Manual,5,BANGALORE
 1125000.0,SUV,114912,1,2019,16.1,Petrol,2019,Comprehensive,6,Manual,5,BANGALORE
 585000.0,Hatchback,33649,1,2016,22.0,Petrol,2016,Third Party insurance,5,Manual,5,BANGALORE
@@ -1436,7 +1436,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 594000.0,Hatchback,6777,1,2022,20.3,Petrol,2022,Zero Dep,5,Manual,5,BANGALORE
 960000.0,SUV,14560,1,2020,15.9,Petrol,2020,Comprehensive,5,Manual,5,BANGALORE
 575000.0,Hatchback,27000,1,2021,21.7,Petrol,2021,Comprehensive,5,Automatic,5,BANGALORE
-729000.0,Sedan,90333,2,2015,18.0,Petrol,2015,Comprehensive,5,Automatic,5,BANGALORE
+729000.0,Sedan,90333,2,2015,18.0,Petrol,2015,Comprehensive,0,Automatic,5,BANGALORE
 3575000.0,SUV,50114,1,2019,16.6,Petrol,2019,Comprehensive,8,Automatic,5,BANGALORE
 962000.0,SUV,69301,1,2017,24.3,Diesel,2017,Comprehensive,5,Manual,5,BANGALORE
 450000.0,Hatchback,71306,1,2021,21.74,Petrol,2021,Comprehensive,5,Manual,5,BANGALORE
@@ -1524,7 +1524,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 448000.0,SUV,36018,2,2016,18.15,Petrol,2016,Third Party insurance,5,Manual,6,CHENNAI
 650000.0,SUV,150000,1,2016,19.6,Diesel,2016,Third Party insurance,6,Automatic,5,CHENNAI
 801000.0,Hatchback,17197,1,2022,20.7,Petrol,2022,Third Party,5,Manual,5,CHENNAI
-772000.0,Sedan,62931,2,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,CHENNAI
+772000.0,Sedan,62931,2,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,CHENNAI
 500000.0,Sedan,90000,2,2013,14.53,Petrol,2013,Third Party insurance,6,Manual,5,CHENNAI
 1103000.0,SUV,21023,1,2021,16.82,Petrol,2021,Third Party,6,Manual,5,CHENNAI
 1490000.0,Sedan,43000,1,2018,21.43,Diesel,2018,Comprehensive,6,Manual,5,CHENNAI
@@ -1559,7 +1559,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 750000.0,SUV,60000,1,2018,17.0,Petrol,2018,Third Party insurance,6,Automatic,5,CHENNAI
 550000.0,Hatchback,53967,1,2016,21.4,Petrol,2016,Comprehensive,5,Manual,5,CHENNAI
 375000.0,Sedan,99225,2,2014,18.6,Petrol,2014,Comprehensive,5,Manual,5,CHENNAI
-265000.0,Sedan,60000,2,2011,16.0,Petrol,2011,Third Party insurance,,Manual,5,CHENNAI
+265000.0,Sedan,60000,2,2011,16.0,Petrol,2011,Third Party insurance,1,Manual,5,CHENNAI
 808000.0,Hatchback,48220,1,2020,17.1,Petrol,2020,Third Party,7,Automatic,5,CHENNAI
 542000.0,Hatchback,72024,1,2016,18.7,Petrol,2016,Third Party insurance,5,Manual,5,CHENNAI
 529000.0,Sedan,80000,1,2016,15.5,Petrol,2016,Third Party insurance,5,Automatic,5,CHENNAI
@@ -1635,7 +1635,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 625000.0,SUV,34392,1,2017,17.5,Petrol,2017,Comprehensive,5,Manual,5,CHENNAI
 690000.0,Hatchback,20000,1,2022,20.7,Petrol,2022,Third Party insurance,5,Manual,5,CHENNAI
 1350000.0,SUV,10000,1,2022,18.2,Petrol,2022,Third Party insurance,6,Manual,5,CHENNAI
-1550000.0,SUV,20000,1,2022,14.82,Petrol,2022,Third Party insurance,8,Automatic,5,CHENNAI
+1550000.0,SUV,20000,1,2022,14.82,Petrol,2022,Third Party insurance,0,Automatic,5,CHENNAI
 790000.0,Hatchback,47000,1,2019,19.56,Petrol,2019,Comprehensive,5,Automatic,5,CHENNAI
 270000.0,Hatchback,60333,2,2014,23.95,Petrol,2014,Comprehensive,5,Manual,5,CHENNAI
 365000.0,Hatchback,81058,1,2014,24.0,Diesel,2014,Comprehensive,5,Manual,5,CHENNAI
@@ -1685,7 +1685,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2700000.0,SUV,40000,1,2017,15.73,Diesel,2017,Third Party insurance,7,Automatic,5,CHENNAI
 503000.0,Hatchback,20875,1,2021,25.24,Petrol,2021,Third Party,5,Manual,5,CHENNAI
 309000.0,Hatchback,46436,2,2018,25.17,Petrol,2018,Third Party,5,Manual,5,CHENNAI
-640000.0,Sedan,127672,1,2016,18.0,Petrol,2016,Third Party insurance,5,Automatic,5,CHENNAI
+640000.0,Sedan,127672,1,2016,18.0,Petrol,2016,Third Party insurance,0,Automatic,5,CHENNAI
 841000.0,SUV,12814,1,2021,17.52,Petrol,2021,Third Party,5,Manual,5,CHENNAI
 1890000.0,SUV,26000,1,2022,16.14,Diesel,2022,Third Party,6,Manual,7,CHENNAI
 288000.0,Hatchback,45851,1,2011,20.36,Petrol,2011,Comprehensive,5,Manual,5,CHENNAI
@@ -1905,7 +1905,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 210000.0,Hatchback,76454,3,2012,15.6,Petrol,2012,Comprehensive,5,Manual,5,CHENNAI
 704000.0,Hatchback,57464,1,2021,22.38,Petrol,2021,Third Party,5,Manual,5,CHENNAI
 729000.0,Sedan,95072,1,2019,19.5,Petrol,2019,Comprehensive,5,Manual,5,CHENNAI
-700000.0,Sedan,51789,1,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,CHENNAI
+700000.0,Sedan,51789,1,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,CHENNAI
 619000.0,Hatchback,56028,2,2018,18.6,Petrol,2018,Third Party,5,Manual,5,CHENNAI
 725000.0,Sedan,60000,1,2017,17.8,Petrol,2017,Third Party insurance,5,Manual,5,CHENNAI
 621000.0,Hatchback,36460,1,2020,20.7,Petrol,2020,Zero Dep,5,Manual,5,CHENNAI
@@ -2130,7 +2130,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 450000.0,Sedan,120000,3,2009,9.8,Petrol,2009,Third Party insurance,5,Manual,5,CHENNAI
 732000.0,Hatchback,4939,1,2022,20.09,Petrol,2022,Zero Dep,5,Automatic,5,CHENNAI
 577000.0,SUV,82620,1,2014,16.5,Petrol,2014,Comprehensive,6,Automatic,5,CHENNAI
-600000.0,Sedan,60000,2,2009,13.14,Petrol,2009,Third Party insurance,,Manual,5,CHENNAI
+600000.0,Sedan,60000,2,2009,13.14,Petrol,2009,Third Party insurance,1,Manual,5,CHENNAI
 510000.0,Hatchback,86857,1,2015,20.14,Diesel,2015,Third Party insurance,5,Manual,5,CHENNAI
 900000.0,Sedan,70000,3,2010,14.84,Diesel,2010,Third Party insurance,7,Automatic,5,CHENNAI
 1500000.0,SUV,120000,2,2012,11.33,Diesel,2012,Third Party insurance,8,Automatic,7,CHENNAI
@@ -2139,7 +2139,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 395000.0,Hatchback,36202,1,2016,18.16,Petrol,2016,Comprehensive,5,Manual,5,CHENNAI
 320000.0,MUV,30000,1,2017,19.44,Petrol,2017,Third Party insurance,5,Manual,7,CHENNAI
 450000.0,Hatchback,70000,1,2017,24.29,Diesel,2017,Third Party insurance,5,Manual,5,CHENNAI
-1085000.0,SUV,20000,1,2022,18.9,Petrol,2022,Third Party insurance,5,Manual,5,CHENNAI
+1085000.0,SUV,20000,1,2022,18.9,Petrol,2022,Third Party insurance,6,Manual,5,CHENNAI
 400000.0,Hatchback,24077,1,2021,20.71,Petrol,2021,Comprehensive,5,Manual,5,CHENNAI
 485000.0,Sedan,81985,1,2012,19.3,Diesel,2012,Comprehensive,5,Manual,5,CHENNAI
 985000.0,MUV,30000,2,2020,17.99,Petrol,2020,Third Party insurance,4,Automatic,7,CHENNAI
@@ -2192,7 +2192,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1023000.0,Sedan,38464,2,2020,16.35,Petrol,2020,Third Party,6,Automatic,5,CHENNAI
 500000.0,Hatchback,59841,1,2017,20.89,Petrol,2017,Third Party insurance,5,Manual,5,CHENNAI
 4550000.0,SUV,3000,1,2023,18.9,Diesel,2023,Comprehensive,6,Automatic,7,CHENNAI
-1590000.0,SUV,19649,1,2020,18.9,Petrol,2020,Third Party insurance,6,Automatic,5,CHENNAI
+1590000.0,SUV,19649,1,2020,18.9,Petrol,2020,Third Party insurance,0,Automatic,5,CHENNAI
 5600000.0,Sedan,3300,1,2021,19.62,Diesel,2021,Comprehensive,8,Automatic,5,CHENNAI
 140000.0,Sedan,60000,3,2003,9.0,Petrol,2003,Third Party insurance,5,Manual,5,CHENNAI
 1900000.0,SUV,40000,1,2021,14.2,Petrol,2021,Third Party insurance,6,Automatic,6,CHENNAI
@@ -2412,7 +2412,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 692000.0,SUV,46566,2,2019,17.5,Petrol,2019,Third Party,5,Manual,5,CHENNAI
 455000.0,Hatchback,74367,1,2015,21.21,Petrol,2015,Third Party insurance,5,Manual,5,CHENNAI
 295000.0,Hatchback,48098,1,2016,22.74,Petrol,2016,Comprehensive,5,Manual,5,CHENNAI
-680000.0,Sedan,36408,2,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,CHENNAI
+680000.0,Sedan,36408,2,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,CHENNAI
 985000.0,MUV,60000,1,2017,24.52,Diesel,2017,Third Party insurance,5,Manual,7,CHENNAI
 340000.0,Hatchback,61696,2,2014,20.36,Petrol,2014,Third Party insurance,5,Manual,5,CHENNAI
 100000.0,Hatchback,110000,1,2007,17.2,Diesel,2007,Third Party insurance,5,Manual,5,CHENNAI
@@ -2462,7 +2462,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1300000.0,SUV,20000,2,2021,17.2,Petrol,2021,Third Party insurance,6,Automatic,5,CHENNAI
 678000.0,SUV,61426,2,2018,14.19,Petrol,2018,Third Party,5,Manual,5,CHENNAI
 310000.0,Hatchback,121735,2,2012,18.3,Petrol,2012,Third Party insurance,5,Manual,5,CHENNAI
-1825000.0,SUV,15000,1,2022,18.9,Petrol,2022,Comprehensive,6,Automatic,5,CHENNAI
+1825000.0,SUV,15000,1,2022,18.9,Petrol,2022,Comprehensive,0,Automatic,5,CHENNAI
 431000.0,Hatchback,71195,1,2013,22.9,Diesel,2013,Comprehensive,5,Manual,5,CHENNAI
 728000.0,Sedan,91700,1,2016,18.19,Petrol,2016,Third Party,7,Automatic,5,CHENNAI
 225000.0,Hatchback,132724,0,2015,23.95,Petrol,2015,Third Party insurance,5,Manual,5,CHENNAI
@@ -2519,7 +2519,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1025000.0,MUV,30000,2,2020,17.99,Petrol,2020,Third Party insurance,4,Automatic,7,CHENNAI
 50000.0,Hatchback,60000,3,2007,17.2,Diesel,2007,Third Party insurance,5,Manual,5,CHENNAI
 1300000.0,SUV,20000,1,2022,17.2,Petrol,2022,Third Party insurance,6,Automatic,5,CHENNAI
-232000.0,Sedan,90000,3,2012,15.8,Petrol,2012,Third Party insurance,,Manual,5,CHENNAI
+232000.0,Sedan,90000,3,2012,15.8,Petrol,2012,Third Party insurance,1,Manual,5,CHENNAI
 1639000.0,SUV,18655,1,2021,17.88,Petrol,2021,Third Party,7,Manual,5,CHENNAI
 536000.0,Hatchback,51578,1,2020,19.01,Petrol,2020,Third Party insurance,5,Manual,5,CHENNAI
 230000.0,Hatchback,113000,1,2012,25.83,Diesel,2012,Comprehensive,5,Manual,5,CHENNAI
@@ -2754,7 +2754,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 460000.0,Hatchback,29973,1,2017,21.63,Petrol,2017,Third Party insurance,5,Manual,5,CHENNAI
 360000.0,Hatchback,49791,1,2018,25.17,Petrol,2018,Third Party insurance,5,Manual,5,CHENNAI
 1650000.0,SUV,52609,1,2020,13.96,Petrol,2020,Third Party insurance,6,Automatic,5,CHENNAI
-360000.0,Hatchback,70000,1,2010,16.0,Petrol,2010,Comprehensive,,Manual,5,CHENNAI
+360000.0,Hatchback,70000,1,2010,16.0,Petrol,2010,Comprehensive,1,Manual,5,CHENNAI
 700000.0,SUV,23000,1,2018,17.5,Petrol,2018,Third Party insurance,5,Manual,5,CHENNAI
 210000.0,Hatchback,52172,1,2010,19.7,Petrol,2010,Third Party insurance,5,Manual,5,CHENNAI
 1825000.0,SUV,29041,1,2022,18.9,Diesel,2022,Third Party insurance,6,Manual,5,CHENNAI
@@ -2775,7 +2775,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2290000.0,Sedan,56000,1,2015,15.26,Petrol,2015,Third Party insurance,7,Automatic,5,CHENNAI
 2090000.0,Sedan,78000,1,2015,15.26,Petrol,2015,Third Party insurance,7,Automatic,5,CHENNAI
 7500000.0,SUV,30000,1,2020,18.9,Diesel,2020,Comprehensive,9,Automatic,5,CHENNAI
-6450000.0,SUV,2000,1,2022,18.9,Petrol,2022,Third Party insurance,,Automatic,5,CHENNAI
+6450000.0,SUV,2000,1,2022,18.9,Petrol,2022,Third Party insurance,8,Automatic,5,CHENNAI
 5900000.0,Sedan,300,1,2022,18.9,Petrol,2022,Comprehensive,7,Automatic,5,CHENNAI
 950000.0,SUV,11600,1,2022,18.9,Petrol,2022,Third Party insurance,5,Manual,5,CHENNAI
 1750000.0,SUV,18377,1,2021,15.81,Petrol,2021,Third Party insurance,6,Manual,5,CHENNAI
@@ -2841,7 +2841,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1950000.0,MUV,11000,1,2022,16.5,Petrol,2022,Comprehensive,7,Automatic,7,CHENNAI
 1621000.0,Sedan,12901,1,2022,18.12,Petrol,2022,Comprehensive,6,Automatic,5,CHENNAI
 471000.0,Hatchback,29708,1,2019,19.59,Petrol,2019,Third Party insurance,5,Automatic,5,CHENNAI
-1690000.0,SUV,22186,1,2021,14.85,Petrol,2021,Third Party insurance,8,Automatic,5,CHENNAI
+1690000.0,SUV,22186,1,2021,14.85,Petrol,2021,Third Party insurance,0,Automatic,5,CHENNAI
 396000.0,MUV,71413,1,2019,19.02,Petrol,2019,Comprehensive,5,Manual,7,CHENNAI
 301000.0,Hatchback,50046,3,2011,17.0,Petrol,2011,Third Party insurance,5,Manual,5,CHENNAI
 1490000.0,SUV,57600,1,2019,16.2,Petrol,2019,Third Party insurance,7,Automatic,5,CHENNAI
@@ -3000,7 +3000,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 356000.0,Sedan,52515,1,2014,22.41,Petrol,2014,Comprehensive,5,Manual,5,DELHI
 1950000.0,MUV,45000,1,2020,8.0,Petrol,2020,Comprehensive,5,Manual,7,DELHI
 2090000.0,Sedan,59000,1,2015,18.53,Diesel,2015,Third Party insurance,7,Automatic,5,DELHI
-115000.0,Sedan,29582,2,2009,16.0,Petrol,2009,Not Available,,Manual,5,DELHI
+115000.0,Sedan,29582,2,2009,16.0,Petrol,2009,Not Available,1,Manual,5,DELHI
 1500000.0,SUV,10000,1,2023,18.9,Petrol,2023,Third Party insurance,6,Manual,7,DELHI
 1190000.0,Sedan,41000,1,2017,14.28,Petrol,2017,Third Party insurance,7,Automatic,5,DELHI
 295000.0,Hatchback,57806,2,2017,25.17,Petrol,2017,Comprehensive,5,Manual,5,DELHI
@@ -3055,7 +3055,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 440000.0,Sedan,67000,1,2016,19.5,Petrol,2016,Comprehensive,5,Manual,5,DELHI
 631000.0,Sedan,88952,2,2016,18.19,Petrol,2016,Third Party insurance,7,Automatic,5,DELHI
 545000.0,Hatchback,65000,1,2019,20.52,Petrol,2019,Comprehensive,5,Manual,5,DELHI
-549000.0,Sedan,69000,2,2015,18.0,Petrol,2015,Comprehensive,5,Automatic,5,DELHI
+549000.0,Sedan,69000,2,2015,18.0,Petrol,2015,Comprehensive,0,Automatic,5,DELHI
 243000.0,Hatchback,50979,1,2012,18.9,Petrol,2012,Comprehensive,5,Manual,5,DELHI
 890000.0,Sedan,95000,2,2014,17.11,Diesel,2014,Comprehensive,8,Automatic,5,DELHI
 546000.0,Hatchback,58696,1,2016,18.6,Petrol,2016,Third Party insurance,5,Manual,5,DELHI
@@ -3084,7 +3084,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2290000.0,Sedan,24000,1,2019,20.38,Diesel,2019,Third Party insurance,6,Automatic,5,DELHI
 1150000.0,SUV,59801,1,2018,14.8,Petrol,2018,Comprehensive,6,Automatic,5,DELHI
 985000.0,SUV,32228,1,2020,18.76,Petrol,2020,Comprehensive,4,Automatic,5,DELHI
-1550000.0,SUV,102788,3,2012,11.3,Petrol,2012,Third Party insurance,,Manual,5,DELHI
+1550000.0,SUV,102788,3,2012,11.3,Petrol,2012,Third Party insurance,1,Manual,5,DELHI
 567000.0,Sedan,88594,1,2018,25.8,Diesel,2018,Comprehensive,5,Manual,5,DELHI
 2775000.0,Sedan,21000,2,2018,15.04,Petrol,2018,Third Party insurance,7,Automatic,5,DELHI
 880000.0,SUV,33756,2,2017,19.67,Diesel,2017,Comprehensive,6,Manual,5,DELHI
@@ -3126,7 +3126,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 704000.0,Sedan,65083,1,2017,20.73,Petrol,2017,Third Party insurance,5,Manual,5,DELHI
 1751000.0,SUV,150000,2,2014,11.74,Diesel,2014,Comprehensive,7,Automatic,5,DELHI
 1443000.0,Sedan,5378,1,2021,18.3,Petrol,2021,Zero Dep,0,Automatic,5,DELHI
-765000.0,Sedan,63001,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,DELHI
+765000.0,Sedan,63001,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,DELHI
 950000.0,Sedan,68000,2,2014,17.11,Diesel,2014,Comprehensive,6,Automatic,5,DELHI
 675000.0,MUV,15000,1,2022,20.0,Petrol,2022,Third Party insurance,5,Manual,7,DELHI
 2095000.0,SUV,106180,1,2017,13.22,Diesel,2017,Comprehensive,7,Automatic,5,DELHI
@@ -3180,8 +3180,8 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 507000.0,Hatchback,71566,1,2019,20.4,Petrol,2019,Comprehensive,5,Manual,5,DELHI
 3995000.0,SUV,75000,2,2016,14.75,Diesel,2016,Third Party insurance,8,Automatic,7,DELHI
 2600000.0,Sedan,58000,2,2017,19.4,Diesel,2017,Comprehensive,7,Automatic,4,DELHI
-665000.0,Sedan,75455,2,2015,18.0,Petrol,2015,Third Party,5,Automatic,5,DELHI
-1500000.0,SUV,10000,1,2022,14.82,Petrol,2022,Comprehensive,8,Automatic,5,DELHI
+665000.0,Sedan,75455,2,2015,18.0,Petrol,2015,Third Party,0,Automatic,5,DELHI
+1500000.0,SUV,10000,1,2022,14.82,Petrol,2022,Comprehensive,0,Automatic,5,DELHI
 2349000.0,SUV,80000,1,2017,10.91,Diesel,2017,Third Party insurance,6,Automatic,7,DELHI
 1052000.0,SUV,85031,1,2018,14.8,Petrol,2018,Comprehensive,6,Automatic,5,DELHI
 6700000.0,SUV,22000,1,2021,18.9,Diesel,2021,Comprehensive,9,Automatic,5,DELHI
@@ -3198,7 +3198,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 726000.0,SUV,36206,2,2018,17.0,Petrol,2018,Zero Dep,5,Manual,5,DELHI
 1650000.0,MUV,48011,1,2017,13.68,Diesel,2017,Comprehensive,5,Manual,8,DELHI
 688000.0,Hatchback,86919,2,2019,21.4,Petrol,2019,Comprehensive,5,Manual,5,DELHI
-39500000.0,SUV,4000,1,2022,18.9,Petrol,2022,Comprehensive,,Automatic,5,DELHI
+39500000.0,SUV,4000,1,2022,18.9,Petrol,2022,Comprehensive,9,Automatic,5,DELHI
 365000.0,Sedan,69650,2,2014,18.0,CNG,2014,Comprehensive,5,Manual,5,DELHI
 627000.0,Sedan,41051,1,2018,19.44,Petrol,2018,Third Party,5,Manual,5,DELHI
 1799000.0,MUV,52011,1,2019,11.36,Diesel,2019,Comprehensive,6,Automatic,7,DELHI
@@ -3324,7 +3324,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1900000.0,SUV,7500,1,2022,18.9,Petrol,2022,Comprehensive,8,Automatic,5,DELHI
 4200000.0,Sedan,6300,1,2022,18.9,Petrol,2022,Comprehensive,7,Automatic,5,DELHI
 183000.0,Hatchback,73052,1,2011,20.36,Petrol,2011,Third Party,5,Manual,5,DELHI
-571000.0,Sedan,61000,1,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,DELHI
+571000.0,Sedan,61000,1,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,DELHI
 806000.0,SUV,15036,1,2021,20.09,Petrol,2021,Third Party,5,Manual,5,DELHI
 1700000.0,Sedan,94000,1,2015,20.37,Diesel,2015,Comprehensive,8,Automatic,5,DELHI
 525000.0,Sedan,39000,1,2018,20.14,Petrol,2018,Third Party insurance,5,Manual,5,DELHI
@@ -3352,7 +3352,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1000000.0,SUV,60000,1,2016,16.0,Diesel,2016,Third Party insurance,6,Manual,7,DELHI
 3090000.0,SUV,75000,1,2016,17.9,Diesel,2016,Comprehensive,9,Automatic,5,DELHI
 1300000.0,SUV,92000,3,2014,14.16,Diesel,2014,Comprehensive,7,Automatic,5,DELHI
-95000.0,Hatchback,90000,3,2009,16.0,Petrol,2009,Third Party insurance,,Manual,5,DELHI
+95000.0,Hatchback,90000,3,2009,16.0,Petrol,2009,Third Party insurance,1,Manual,5,DELHI
 1300000.0,SUV,92000,2,2013,14.16,Diesel,2013,Comprehensive,7,Automatic,5,DELHI
 595000.0,Hatchback,49010,1,2019,18.6,Petrol,2019,Third Party insurance,5,Manual,5,DELHI
 592000.0,Hatchback,26089,1,2019,21.4,Petrol,2019,Third Party,5,Manual,5,DELHI
@@ -3364,7 +3364,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 775000.0,Sedan,62000,1,2015,14.62,Petrol,2015,Comprehensive,6,Automatic,5,DELHI
 1095000.0,SUV,38010,1,2019,15.8,Petrol,2019,Third Party insurance,6,Manual,5,DELHI
 475000.0,Hatchback,35123,2,2018,23.1,Petrol,2018,Comprehensive,5,Automatic,5,DELHI
-800000.0,Sedan,43000,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,DELHI
+800000.0,Sedan,43000,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,DELHI
 738000.0,SUV,25154,2,2019,23.0,Diesel,2019,Third Party insurance,5,Manual,5,DELHI
 5600000.0,Sedan,10000,1,2020,20.37,Diesel,2020,Comprehensive,8,Automatic,5,DELHI
 1850000.0,SUV,30600,2,2021,14.6,Diesel,2021,Comprehensive,6,Automatic,5,DELHI
@@ -3381,7 +3381,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 5150000.0,Sedan,55000,1,2015,7.81,Petrol,2015,Comprehensive,7,Automatic,5,DELHI
 1150000.0,SUV,28000,1,2020,18.9,Diesel,2020,Comprehensive,6,Manual,5,DELHI
 503000.0,Hatchback,20755,2,2016,21.4,Petrol,2016,Comprehensive,5,Manual,5,DELHI
-41500000.0,SUV,3500,1,2023,18.9,Petrol,2023,Comprehensive,,Automatic,5,DELHI
+41500000.0,SUV,3500,1,2023,18.9,Petrol,2023,Comprehensive,9,Automatic,5,DELHI
 379000.0,Hatchback,56722,1,2014,22.0,Petrol,2014,Comprehensive,5,Manual,5,DELHI
 925000.0,SUV,81000,2,2013,11.1,Petrol,2013,Third Party insurance,5,Automatic,5,DELHI
 197000.0,Hatchback,55566,1,2011,19.0,Petrol,2011,Comprehensive,5,Manual,5,DELHI
@@ -3459,7 +3459,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 804000.0,Sedan,4764,1,2020,20.5,Petrol,2020,Third Party,5,Manual,5,DELHI
 4300000.0,SUV,20000,1,2023,12.04,Diesel,2023,Comprehensive,8,Automatic,7,DELHI
 2275000.0,MUV,7600,1,2022,8.0,Petrol,2022,Comprehensive,5,Manual,7,DELHI
-742000.0,Sedan,69815,1,2016,18.0,Petrol,2016,Third Party,5,Automatic,5,DELHI
+742000.0,Sedan,69815,1,2016,18.0,Petrol,2016,Third Party,0,Automatic,5,DELHI
 910000.0,SUV,82000,1,2018,22.1,Diesel,2018,Third Party insurance,6,Manual,5,DELHI
 4000000.0,SUV,8400,1,2021,14.82,Petrol,2021,Comprehensive,7,Automatic,5,DELHI
 315000.0,Hatchback,75463,1,2013,22.38,Petrol,2013,Comprehensive,5,Manual,5,DELHI
@@ -3486,7 +3486,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 737000.0,Hatchback,23159,1,2021,21.01,Petrol,2021,Third Party insurance,5,Manual,5,DELHI
 540000.0,SUV,53488,1,2016,15.85,Petrol,2016,Third Party,5,Manual,5,DELHI
 1749000.0,MUV,29000,1,2019,13.68,Diesel,2019,Comprehensive,5,Manual,7,DELHI
-2200000.0,SUV,6000,1,2023,12.34,Petrol,2023,Zero Dep,6,Automatic,6,DELHI
+2200000.0,SUV,6000,1,2023,12.34,Petrol,2023,Zero Dep,0,Automatic,6,DELHI
 627000.0,Sedan,68192,1,2019,21.21,Petrol,2019,Third Party insurance,5,Manual,5,DELHI
 1565000.0,SUV,600,1,2023,16.8,Petrol,2023,Comprehensive,6,Manual,5,DELHI
 4625000.0,Sedan,13000,1,2020,10.8,Petrol,2020,Third Party insurance,8,Automatic,5,DELHI
@@ -3571,7 +3571,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 425000.0,Hatchback,75000,1,2015,22.54,Diesel,2015,Comprehensive,6,Manual,5,DELHI
 350000.0,SUV,76000,1,2014,22.7,Diesel,2014,Comprehensive,5,Manual,5,DELHI
 325000.0,Hatchback,60000,1,2017,24.04,Petrol,2017,Comprehensive,5,Automatic,5,DELHI
-675000.0,Sedan,58000,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,DELHI
+675000.0,Sedan,58000,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,DELHI
 415000.0,Sedan,80000,2,2013,14.69,Petrol,2013,Comprehensive,6,Manual,5,DELHI
 3875000.0,Sedan,20000,1,2018,18.0,Diesel,2018,Third Party insurance,8,Automatic,5,DELHI
 589000.0,Hatchback,42841,1,2017,21.4,Petrol,2017,Comprehensive,5,Manual,5,DELHI
@@ -3616,7 +3616,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 649000.0,Sedan,21912,1,2018,21.21,Petrol,2018,Zero Dep,5,Automatic,5,DELHI
 274000.0,Hatchback,74564,1,2013,20.36,Petrol,2013,Third Party,5,Manual,5,DELHI
 375000.0,Hatchback,48000,1,2019,24.7,Petrol,2019,Comprehensive,5,Manual,5,DELHI
-801000.0,Sedan,96758,1,2017,18.0,Petrol,2017,Comprehensive,5,Automatic,5,DELHI
+801000.0,Sedan,96758,1,2017,18.0,Petrol,2017,Comprehensive,0,Automatic,5,DELHI
 591000.0,Sedan,60341,1,2018,25.8,Diesel,2018,Zero Dep,5,Manual,5,DELHI
 434000.0,Hatchback,36973,1,2017,20.4,Petrol,2017,Third Party,5,Manual,5,DELHI
 699000.0,Sedan,39000,1,2017,28.09,Diesel,2017,Comprehensive,5,Manual,5,DELHI
@@ -3643,7 +3643,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1385000.0,SUV,87576,1,2019,14.1,Petrol,2019,Comprehensive,7,Automatic,5,DELHI
 290000.0,Hatchback,58000,1,2014,19.4,Petrol,2014,Comprehensive,5,Manual,5,DELHI
 285000.0,MUV,75000,1,2015,19.44,Petrol,2015,Comprehensive,5,Manual,7,DELHI
-330000.0,Sedan,69000,1,2013,14.8,Petrol,2013,Comprehensive,,Automatic,5,DELHI
+330000.0,Sedan,69000,1,2013,14.8,Petrol,2013,Comprehensive,1,Automatic,5,DELHI
 549000.0,SUV,20000,1,2015,16.55,Diesel,2015,Comprehensive,5,Manual,6,DELHI
 365000.0,Hatchback,45000,1,2020,22.05,Petrol,2020,Comprehensive,5,Manual,5,DELHI
 650000.0,Sedan,20000,1,2021,26.55,CNG,2021,Third Party insurance,5,Manual,5,DELHI
@@ -3661,7 +3661,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 593000.0,Hatchback,62411,2,2018,27.39,Diesel,2018,Zero Dep,5,Manual,5,DELHI
 1050000.0,Sedan,56000,2,2012,12.3,Petrol,2012,Third Party insurance,5,Automatic,5,DELHI
 567000.0,SUV,63661,2,2018,25.32,Diesel,2018,Third Party,5,Manual,5,DELHI
-1750000.0,SUV,24000,1,2021,18.9,Petrol,2021,Comprehensive,6,Automatic,6,DELHI
+1750000.0,SUV,24000,1,2021,18.9,Petrol,2021,Comprehensive,0,Automatic,6,DELHI
 1650000.0,SUV,14000,1,2022,17.88,Petrol,2022,Comprehensive,7,Manual,5,DELHI
 930000.0,SUV,70000,1,2017,16.0,Diesel,2017,Third Party insurance,6,Manual,7,DELHI
 749000.0,SUV,50000,1,2018,17.5,Petrol,2018,Comprehensive,5,Manual,5,DELHI
@@ -3699,7 +3699,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 252000.0,Hatchback,64071,3,2011,16.7,Petrol,2011,Third Party,5,Manual,5,DELHI
 950000.0,SUV,10000,1,2022,16.5,Petrol,2022,Comprehensive,5,Manual,5,DELHI
 633000.0,Hatchback,60443,1,2018,21.4,Petrol,2018,Zero Dep,0,Automatic,5,DELHI
-875000.0,Sedan,56000,1,2017,18.0,Petrol,2017,Comprehensive,5,Automatic,5,DELHI
+875000.0,Sedan,56000,1,2017,18.0,Petrol,2017,Comprehensive,0,Automatic,5,DELHI
 413000.0,Hatchback,10056,2,2015,22.38,Petrol,2015,Comprehensive,5,Manual,5,DELHI
 1100000.0,Sedan,13000,1,2020,17.4,Petrol,2020,Comprehensive,5,Manual,5,DELHI
 1250000.0,SUV,80000,1,2020,18.9,Diesel,2020,Comprehensive,6,Manual,5,DELHI
@@ -3718,7 +3718,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 439000.0,Hatchback,76181,1,2017,18.9,Petrol,2017,Comprehensive,5,Manual,5,DELHI
 720000.0,Hatchback,23842,1,2020,21.01,Petrol,2020,Comprehensive,5,Manual,5,DELHI
 942000.0,SUV,20000,2,2022,17.03,Petrol,2022,Third Party insurance,5,Manual,5,DELHI
-538000.0,Sedan,94407,1,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,DELHI
+538000.0,Sedan,94407,1,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,DELHI
 100000.0,Sedan,80000,1,2009,16.36,Petrol,2009,Third Party insurance,5,Manual,5,DELHI
 491000.0,Hatchback,124245,1,2016,21.4,Petrol,2016,Third Party insurance,5,Manual,5,DELHI
 925000.0,Sedan,5100,1,2022,18.3,Petrol,2022,Comprehensive,0,Automatic,5,DELHI
@@ -3762,7 +3762,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2550000.0,SUV,48000,1,2017,10.91,Diesel,2017,Third Party insurance,6,Automatic,7,DELHI
 577000.0,Hatchback,19418,1,2020,20.89,Petrol,2020,Third Party,5,Manual,5,DELHI
 2550000.0,Sedan,72000,1,2016,14.74,Petrol,2016,Comprehensive,7,Automatic,5,DELHI
-895000.0,Sedan,23000,1,2018,17.8,Petrol,2018,Comprehensive,7,Automatic,5,DELHI
+895000.0,Sedan,23000,1,2018,17.8,Petrol,2018,Comprehensive,0,Automatic,5,DELHI
 250000.0,Sedan,50000,1,2012,16.95,Petrol,2012,Third Party insurance,5,Manual,5,DELHI
 1025000.0,SUV,20000,1,2022,18.9,Diesel,2022,Third Party insurance,6,Manual,5,DELHI
 900000.0,Sedan,30000,1,2021,17.4,Petrol,2021,Third Party insurance,5,Manual,5,DELHI
@@ -3822,7 +3822,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 655000.0,SUV,72490,1,2019,18.49,Diesel,2019,Third Party insurance,5,Manual,7,DELHI
 459000.0,Hatchback,35828,1,2018,18.9,Petrol,2018,Third Party,5,Manual,5,DELHI
 1450000.0,SUV,57088,1,2015,15.73,Diesel,2015,Third Party insurance,7,Automatic,5,DELHI
-865000.0,Sedan,70382,1,2020,17.8,Petrol,2020,Third Party insurance,7,Automatic,5,DELHI
+865000.0,Sedan,70382,1,2020,17.8,Petrol,2020,Third Party insurance,0,Automatic,5,DELHI
 550000.0,Hatchback,20000,1,2022,20.89,Petrol,2022,Third Party insurance,5,Manual,5,DELHI
 1125000.0,Sedan,17000,1,2018,22.0,Diesel,2018,Third Party insurance,6,Automatic,5,DELHI
 1500000.0,SUV,30000,1,2020,13.96,Petrol,2020,Third Party insurance,6,Automatic,5,DELHI
@@ -3846,8 +3846,8 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 495000.0,Hatchback,67000,1,2018,18.9,CNG,2018,Comprehensive,5,Manual,5,DELHI
 550000.0,Sedan,80000,2,2015,20.73,Petrol,2015,Third Party insurance,5,Manual,5,DELHI
 137000.0,Hatchback,60000,1,2011,19.81,Petrol,2011,Third Party insurance,5,Manual,5,DELHI
-565000.0,Sedan,34253,1,2015,18.0,Petrol,2015,Comprehensive,5,Automatic,5,DELHI
-1290000.0,SUV,27000,1,2019,16.8,Petrol,2019,Comprehensive,6,Automatic,5,DELHI
+565000.0,Sedan,34253,1,2015,18.0,Petrol,2015,Comprehensive,0,Automatic,5,DELHI
+1290000.0,SUV,27000,1,2019,16.8,Petrol,2019,Comprehensive,0,Automatic,5,DELHI
 355000.0,Hatchback,64000,2,2017,23.1,Petrol,2017,Comprehensive,5,Automatic,5,DELHI
 386000.0,Sedan,67827,1,2015,19.1,Petrol,2015,Third Party,5,Manual,5,DELHI
 514000.0,Hatchback,79094,1,2018,21.4,Petrol,2018,Zero Dep,5,Manual,5,DELHI
@@ -3929,7 +3929,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 460000.0,SUV,99000,1,2016,21.7,Diesel,2016,Comprehensive,5,Manual,5,DELHI
 2375000.0,SUV,17000,1,2021,14.1,Petrol,2021,Third Party,7,Automatic,5,DELHI
 720000.0,Sedan,79982,1,2018,21.56,Petrol,2018,Third Party,5,Manual,5,DELHI
-846000.0,Sedan,67047,1,2017,18.0,Petrol,2017,Zero Dep,5,Automatic,5,DELHI
+846000.0,Sedan,67047,1,2017,18.0,Petrol,2017,Zero Dep,0,Automatic,5,DELHI
 500000.0,Sedan,50000,1,2012,19.33,Diesel,2012,Third Party insurance,6,Manual,5,DELHI
 471000.0,Hatchback,85782,1,2017,21.4,Petrol,2017,Zero Dep,5,Manual,5,DELHI
 446000.0,Hatchback,99547,1,2016,21.4,Petrol,2016,Zero Dep,5,Manual,5,DELHI
@@ -3959,7 +3959,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 475000.0,Hatchback,65039,1,2019,20.3,Petrol,2019,Zero Dep,5,Manual,5,DELHI
 2300000.0,SUV,60000,1,2017,10.91,Diesel,2017,Comprehensive,6,Automatic,7,DELHI
 150000.0,Hatchback,50000,4,2010,19.81,Petrol,2010,Third Party insurance,5,Manual,5,DELHI
-665000.0,Sedan,65000,1,2015,18.0,Petrol,2015,Comprehensive,5,Automatic,5,DELHI
+665000.0,Sedan,65000,1,2015,18.0,Petrol,2015,Comprehensive,0,Automatic,5,DELHI
 225000.0,Hatchback,84000,3,2011,17.0,Petrol,2011,Comprehensive,5,Manual,5,DELHI
 3500000.0,SUV,35000,1,2021,10.26,Petrol,2021,Zero Dep,6,Automatic,7,DELHI
 850000.0,SUV,80000,1,2018,24.3,Diesel,2018,Third Party insurance,5,Manual,5,DELHI
@@ -4004,7 +4004,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 5240000.0,SUV,36000,1,2020,12.74,Petrol,2020,Comprehensive,9,Automatic,5,DELHI
 1600000.0,Sedan,67000,2,2012,8.45,Petrol,2012,Comprehensive,6,Automatic,5,DELHI
 1250000.0,Sedan,37000,1,2017,14.28,Petrol,2017,Comprehensive,6,Manual,5,DELHI
-1925000.0,SUV,9150,1,2021,16.56,Petrol,2021,Comprehensive,6,Automatic,6,DELHI
+1925000.0,SUV,9150,1,2021,16.56,Petrol,2021,Comprehensive,0,Automatic,6,DELHI
 250000.0,Hatchback,100000,3,2012,23.0,Diesel,2012,Third Party insurance,6,Manual,5,DELHI
 935000.0,Sedan,10000,1,2022,18.3,Petrol,2022,Third Party insurance,0,Automatic,5,DELHI
 551000.0,MUV,116059,1,2013,26.11,CNG,2013,Third Party insurance,5,Manual,7,DELHI
@@ -4017,7 +4017,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 785000.0,Hatchback,20000,1,2022,22.56,Petrol,2022,Third Party insurance,5,Automatic,5,DELHI
 325000.0,Hatchback,90360,2,2014,21.9,Diesel,2014,Comprehensive,6,Manual,5,DELHI
 3600000.0,SUV,44000,1,2017,12.63,Petrol,2017,Comprehensive,9,Automatic,5,DELHI
-925000.0,Sedan,26000,1,2020,17.8,Petrol,2020,Comprehensive,7,Automatic,5,DELHI
+925000.0,Sedan,26000,1,2020,17.8,Petrol,2020,Comprehensive,0,Automatic,5,DELHI
 645000.0,Sedan,68000,1,2016,20.73,Petrol,2016,Third Party insurance,5,Manual,5,DELHI
 760000.0,Sedan,60000,1,2018,21.56,Petrol,2018,Third Party insurance,5,Manual,5,DELHI
 4200000.0,Sedan,20000,1,2020,16.13,Petrol,2020,Comprehensive,8,Automatic,5,DELHI
@@ -4094,7 +4094,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 264000.0,Hatchback,76751,2,2016,24.39,Petrol,2016,Third Party insurance,5,Manual,5,DELHI
 2395000.0,SUV,6000,1,2022,18.9,Petrol,2022,Comprehensive,6,Automatic,6,DELHI
 1541000.0,SUV,24788,1,2021,14.34,Petrol,2021,Comprehensive,6,Automatic,5,DELHI
-400000.0,SUV,90000,2,2010,11.3,Petrol,2010,Third Party insurance,,Automatic,5,DELHI
+400000.0,SUV,90000,2,2010,11.3,Petrol,2010,Third Party insurance,1,Automatic,5,DELHI
 308000.0,Hatchback,70036,1,2017,24.39,Petrol,2017,Comprehensive,5,Manual,5,DELHI
 1000000.0,SUV,45500,2,2019,16.0,Diesel,2019,Comprehensive,6,Manual,7,DELHI
 5700000.0,SUV,16000,1,2022,13.47,Petrol,2022,Comprehensive,5,Automatic,5,DELHI
@@ -4141,7 +4141,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2650000.0,Sedan,40000,1,2018,17.9,Diesel,2018,Third Party insurance,7,Automatic,5,DELHI
 310000.0,Hatchback,120000,2,2013,18.6,Petrol,2013,Third Party insurance,5,Manual,5,DELHI
 2650000.0,Sedan,40000,1,2018,17.9,Diesel,2018,Third Party insurance,7,Automatic,5,DELHI
-570000.0,SUV,76000,1,2011,11.3,Petrol,2011,Comprehensive,,Automatic,5,DELHI
+570000.0,SUV,76000,1,2011,11.3,Petrol,2011,Comprehensive,1,Automatic,5,DELHI
 1065000.0,MUV,35000,1,2021,26.08,CNG,2021,Comprehensive,5,Manual,7,DELHI
 570000.0,Sedan,19681,1,2015,17.4,Petrol,2015,Third Party insurance,5,Manual,5,DELHI
 150000.0,Sedan,68866,2,2012,14.09,Petrol,2012,Third Party insurance,5,Manual,5,DELHI
@@ -4187,7 +4187,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 95000.0,Hatchback,70000,2,2009,20.36,Petrol,2009,Third Party insurance,5,Manual,5,DELHI
 1250000.0,SUV,1500,1,2023,20.01,Petrol,2023,Comprehensive,6,Automatic,5,DELHI
 1600000.0,SUV,30000,1,2020,13.96,Petrol,2020,Third Party insurance,6,Automatic,5,DELHI
-661000.0,Sedan,53464,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,DELHI
+661000.0,Sedan,53464,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,DELHI
 398000.0,Hatchback,43216,2,2016,18.9,Petrol,2016,Third Party insurance,5,Manual,5,DELHI
 350000.0,SUV,70000,1,2014,14.0,Diesel,2014,Third Party insurance,5,Manual,7,DELHI
 700000.0,Hatchback,16372,1,2022,26.49,CNG,2022,Third Party,5,Manual,5,DELHI
@@ -4220,7 +4220,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 300000.0,Hatchback,80000,3,2012,18.6,Petrol,2012,Third Party insurance,5,Manual,5,DELHI
 530000.0,Hatchback,20000,1,2021,20.3,Petrol,2021,Third Party insurance,5,Manual,5,DELHI
 1575000.0,MUV,70123,1,2018,13.68,Diesel,2018,Comprehensive,5,Manual,8,DELHI
-735000.0,Sedan,71156,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,DELHI
+735000.0,Sedan,71156,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,DELHI
 701000.0,Hatchback,10000,1,2021,20.7,Petrol,2021,Third Party insurance,5,Automatic,5,DELHI
 550000.0,MUV,80000,1,2015,20.77,Diesel,2015,Third Party insurance,5,Manual,7,DELHI
 410000.0,Hatchback,70000,2,2019,18.9,CNG,2019,Third Party insurance,5,Manual,5,DELHI
@@ -4330,7 +4330,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 426000.0,Sedan,35272,1,2016,25.4,Diesel,2016,Comprehensive,5,Manual,5,DELHI
 465000.0,Hatchback,8526,1,2021,22.0,Petrol,2021,Comprehensive,5,Automatic,5,DELHI
 245000.0,Hatchback,62929,1,2011,18.5,Petrol,2011,Comprehensive,5,Manual,5,DELHI
-80000.0,Hatchback,30000,2,2010,26.83,CNG,2010,Third Party insurance,,Manual,5,DELHI
+80000.0,Hatchback,30000,2,2010,26.83,CNG,2010,Third Party insurance,1,Manual,5,DELHI
 432000.0,Hatchback,53127,2,2017,20.4,Petrol,2017,Third Party,5,Manual,5,DELHI
 845000.0,MUV,42000,1,2018,17.5,Petrol,2018,Comprehensive,5,Manual,7,DELHI
 580000.0,SUV,20000,1,2017,23.0,Diesel,2017,Third Party insurance,5,Manual,5,DELHI
@@ -4461,7 +4461,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 955000.0,SUV,20000,1,2023,18.9,Petrol,2023,Third Party insurance,5,Manual,5,HYDERABAD
 1850000.0,MUV,32000,1,2022,18.9,Diesel,2022,Third Party,6,Automatic,6,HYDERABAD
 1010000.0,SUV,20000,1,2023,18.9,Petrol,2023,Third Party insurance,5,Manual,5,HYDERABAD
-1750000.0,SUV,22500,1,2021,16.8,Petrol,2021,Third Party insurance,6,Automatic,5,HYDERABAD
+1750000.0,SUV,22500,1,2021,16.8,Petrol,2021,Third Party insurance,0,Automatic,5,HYDERABAD
 621000.0,Hatchback,54708,1,2016,18.6,Petrol,2016,Comprehensive,5,Manual,5,HYDERABAD
 633000.0,Hatchback,78031,1,2017,21.4,Petrol,2017,Comprehensive,5,Manual,5,HYDERABAD
 6900000.0,Sedan,32000,1,2022,20.37,Diesel,2022,Comprehensive,8,Automatic,5,HYDERABAD
@@ -4512,7 +4512,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 265000.0,Hatchback,82000,1,2010,20.36,Petrol,2010,Third Party insurance,5,Manual,5,HYDERABAD
 443000.0,Hatchback,70607,2,2013,22.9,Diesel,2013,Comprehensive,5,Manual,5,HYDERABAD
 721000.0,Sedan,71144,1,2016,17.01,Petrol,2016,Third Party insurance,4,Automatic,5,HYDERABAD
-1550000.0,Sedan,2373,1,2022,18.45,Petrol,2022,Comprehensive,6,Automatic,5,HYDERABAD
+1550000.0,Sedan,2373,1,2022,18.45,Petrol,2022,Comprehensive,0,Automatic,5,HYDERABAD
 1092000.0,Hatchback,56753,1,2021,20.28,Petrol,2021,Zero Dep,7,Automatic,5,HYDERABAD
 890000.0,SUV,72000,1,2018,24.3,Diesel,2018,Third Party insurance,5,Manual,5,HYDERABAD
 550000.0,Hatchback,64487,2,2018,21.4,Petrol,2018,Not Available,5,Manual,5,HYDERABAD
@@ -4664,7 +4664,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1000000.0,SUV,100000,1,2019,24.3,Diesel,2019,Third Party insurance,5,Manual,5,HYDERABAD
 496000.0,Hatchback,39817,2,2018,20.89,Petrol,2018,Zero Dep,5,Manual,5,HYDERABAD
 788000.0,Sedan,54063,1,2017,28.09,Diesel,2017,Third Party,5,Manual,5,HYDERABAD
-995000.0,Hatchback,37000,1,2021,20.0,Petrol,2021,Comprehensive,5,Manual,5,HYDERABAD
+995000.0,Hatchback,37000,1,2021,20.0,Petrol,2021,Comprehensive,6,Manual,5,HYDERABAD
 416000.0,Hatchback,67372,1,2013,18.9,Petrol,2013,Third Party insurance,5,Manual,5,HYDERABAD
 344000.0,Hatchback,76685,1,2019,24.7,Petrol,2019,Third Party,5,Manual,5,HYDERABAD
 450000.0,Hatchback,115595,1,2014,22.9,Diesel,2014,Comprehensive,5,Manual,5,HYDERABAD
@@ -4752,7 +4752,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 907000.0,SUV,30241,1,2020,16.42,Petrol,2020,Third Party insurance,5,Manual,5,HYDERABAD
 509000.0,Hatchback,24197,1,2019,20.3,Petrol,2019,Comprehensive,5,Manual,5,HYDERABAD
 4800000.0,SUV,20000,1,2022,18.9,Petrol,2022,Third Party insurance,7,Automatic,5,HYDERABAD
-940000.0,Hatchback,44981,1,2021,20.0,Petrol,2021,Third Party,5,Manual,5,HYDERABAD
+940000.0,Hatchback,44981,1,2021,20.0,Petrol,2021,Third Party,6,Manual,5,HYDERABAD
 227000.0,Hatchback,85497,2,2011,23.08,Diesel,2011,Comprehensive,5,Manual,5,HYDERABAD
 6200000.0,SUV,20000,1,2022,13.47,Petrol,2022,Third Party insurance,5,Automatic,5,HYDERABAD
 650000.0,Hatchback,30000,1,2019,21.4,Petrol,2019,Third Party insurance,5,Manual,5,HYDERABAD
@@ -4836,7 +4836,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 599000.0,Hatchback,60350,1,2016,18.6,Petrol,2016,Comprehensive,5,Manual,5,HYDERABAD
 570000.0,Hatchback,52266,1,2015,18.6,Petrol,2015,Comprehensive,5,Manual,5,HYDERABAD
 895000.0,Sedan,58431,1,2018,28.09,Diesel,2018,Third Party insurance,5,Manual,5,HYDERABAD
-1011000.0,Sedan,41372,1,2017,18.0,Petrol,2017,Third Party insurance,5,Automatic,5,HYDERABAD
+1011000.0,Sedan,41372,1,2017,18.0,Petrol,2017,Third Party insurance,0,Automatic,5,HYDERABAD
 267000.0,Hatchback,46863,2,2014,22.05,Petrol,2014,Third Party insurance,5,Manual,5,HYDERABAD
 570000.0,Sedan,66500,1,2014,17.97,Petrol,2014,Third Party insurance,5,Automatic,5,HYDERABAD
 369000.0,Hatchback,49374,2,2014,19.81,Petrol,2014,Third Party insurance,5,Manual,5,HYDERABAD
@@ -4855,7 +4855,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1750000.0,Sedan,70000,1,2013,16.36,Diesel,2013,Third Party insurance,8,Automatic,5,HYDERABAD
 429000.0,Hatchback,22264,1,2021,22.05,Petrol,2021,Third Party,5,Manual,5,HYDERABAD
 376000.0,Hatchback,103763,1,2018,20.89,Petrol,2018,Third Party insurance,5,Manual,5,HYDERABAD
-1015000.0,SUV,109000,1,2012,14.7,Diesel,2012,Third Party insurance,,Automatic,5,HYDERABAD
+1015000.0,SUV,109000,1,2012,14.7,Diesel,2012,Third Party insurance,1,Automatic,5,HYDERABAD
 312000.0,Hatchback,49043,2,2012,20.36,Petrol,2012,Third Party insurance,5,Manual,5,HYDERABAD
 492000.0,Hatchback,70666,2,2017,23.1,Petrol,2017,Comprehensive,5,Automatic,5,HYDERABAD
 3700000.0,SUV,128000,1,2011,14.7,Diesel,2011,Third Party insurance,6,Automatic,5,HYDERABAD
@@ -4894,7 +4894,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1009000.0,SUV,63334,3,2019,15.8,Petrol,2019,Third Party insurance,6,Manual,5,HYDERABAD
 1050000.0,SUV,14000,1,2021,20.0,Petrol,2021,Comprehensive,5,Manual,5,HYDERABAD
 441000.0,Hatchback,96540,1,2018,20.89,Petrol,2018,Third Party insurance,5,Manual,5,HYDERABAD
-759000.0,Sedan,92585,1,2018,17.8,Petrol,2018,Third Party insurance,7,Automatic,5,HYDERABAD
+759000.0,Sedan,92585,1,2018,17.8,Petrol,2018,Third Party insurance,0,Automatic,5,HYDERABAD
 425000.0,SUV,53861,1,2014,15.8,Petrol,2014,Third Party insurance,5,Manual,5,HYDERABAD
 306000.0,Hatchback,65761,2,2012,18.9,Petrol,2012,Third Party insurance,5,Manual,5,HYDERABAD
 600000.0,Sedan,67000,2,2015,22.27,Diesel,2015,Third Party insurance,5,Manual,5,HYDERABAD
@@ -4948,7 +4948,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 650000.0,Sedan,120000,1,2016,17.8,Petrol,2016,Third Party insurance,5,Manual,5,HYDERABAD
 450000.0,Hatchback,95000,1,2016,23.84,Petrol,2016,Third Party insurance,5,Manual,5,HYDERABAD
 2445000.0,Sedan,35000,1,2018,20.38,Diesel,2018,Comprehensive,6,Automatic,5,HYDERABAD
-675000.0,Sedan,66000,1,2014,18.0,Petrol,2014,Third Party insurance,5,Automatic,5,HYDERABAD
+675000.0,Sedan,66000,1,2014,18.0,Petrol,2014,Third Party insurance,0,Automatic,5,HYDERABAD
 652000.0,Sedan,67905,1,2016,28.09,Diesel,2016,Zero Dep,5,Manual,5,HYDERABAD
 496000.0,Hatchback,19348,1,2019,20.3,Petrol,2019,Third Party insurance,5,Manual,5,HYDERABAD
 650000.0,Sedan,35000,1,2017,17.8,Petrol,2017,Third Party insurance,5,Manual,5,HYDERABAD
@@ -4980,7 +4980,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 870000.0,SUV,108632,1,2019,23.0,Diesel,2019,Comprehensive,5,Manual,5,HYDERABAD
 4500000.0,Sedan,10700,1,2017,18.12,Diesel,2017,Third Party insurance,8,Automatic,5,HYDERABAD
 677000.0,SUV,116988,1,2017,22.77,Diesel,2017,Third Party,5,Manual,5,HYDERABAD
-725000.0,Sedan,60000,1,2014,18.0,Petrol,2014,Third Party insurance,5,Automatic,5,HYDERABAD
+725000.0,Sedan,60000,1,2014,18.0,Petrol,2014,Third Party insurance,0,Automatic,5,HYDERABAD
 650000.0,Sedan,120000,1,2018,25.8,Diesel,2018,Third Party insurance,5,Manual,5,HYDERABAD
 980000.0,SUV,92000,1,2016,19.67,Diesel,2016,Third Party insurance,6,Manual,5,HYDERABAD
 1100000.0,MUV,80000,1,2019,17.3,Diesel,2019,Third Party insurance,6,Manual,7,HYDERABAD
@@ -5013,7 +5013,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 254000.0,Hatchback,31933,2,2014,22.05,Petrol,2014,Third Party insurance,5,Manual,5,HYDERABAD
 311000.0,Hatchback,54959,1,2013,18.9,Petrol,2013,Third Party insurance,5,Manual,5,HYDERABAD
 2150000.0,Sedan,49000,1,2014,14.74,Diesel,2014,Third Party insurance,8,Automatic,5,HYDERABAD
-1015000.0,Sedan,59261,1,2017,18.0,Petrol,2017,Zero Dep,5,Automatic,5,HYDERABAD
+1015000.0,Sedan,59261,1,2017,18.0,Petrol,2017,Zero Dep,0,Automatic,5,HYDERABAD
 2850000.0,Sedan,42000,1,2019,20.38,Diesel,2019,Third Party insurance,6,Automatic,5,HYDERABAD
 461000.0,Hatchback,73889,1,2014,22.38,Petrol,2014,Comprehensive,5,Manual,5,HYDERABAD
 372000.0,Hatchback,44363,2,2019,22.3,Petrol,2019,Third Party,5,Manual,5,HYDERABAD
@@ -5155,7 +5155,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 465000.0,Hatchback,72632,1,2016,20.3,Diesel,2016,Third Party insurance,5,Manual,5,HYDERABAD
 472000.0,Sedan,57349,1,2015,16.78,Petrol,2015,Comprehensive,5,Manual,5,HYDERABAD
 604000.0,Sedan,31915,1,2018,25.8,Diesel,2018,Comprehensive,5,Manual,5,HYDERABAD
-1050000.0,Sedan,80000,1,2012,13.2,Diesel,2012,Third Party insurance,,Automatic,5,HYDERABAD
+1050000.0,Sedan,80000,1,2012,13.2,Diesel,2012,Third Party insurance,1,Automatic,5,HYDERABAD
 273000.0,Hatchback,44094,1,2010,18.9,Petrol,2010,Comprehensive,5,Manual,5,HYDERABAD
 499000.0,MUV,236000,1,2008,12.8,Diesel,2008,Third Party insurance,5,Manual,8,HYDERABAD
 299000.0,Sedan,75000,1,2008,16.8,Diesel,2008,Third Party insurance,5,Manual,5,HYDERABAD
@@ -5164,7 +5164,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 499000.0,Hatchback,48000,1,2020,21.7,Petrol,2020,Third Party insurance,5,Automatic,5,HYDERABAD
 1650000.0,SUV,10000,1,2022,18.41,Petrol,2022,Third Party insurance,6,Automatic,5,HYDERABAD
 750000.0,Sedan,33600,1,2018,27.4,Diesel,2018,Comprehensive,5,Manual,5,HYDERABAD
-724000.0,Sedan,68950,2,2018,17.8,Petrol,2018,Comprehensive,7,Automatic,5,HYDERABAD
+724000.0,Sedan,68950,2,2018,17.8,Petrol,2018,Comprehensive,0,Automatic,5,HYDERABAD
 300000.0,Hatchback,47763,1,2012,18.9,Petrol,2012,Third Party insurance,5,Manual,5,HYDERABAD
 800000.0,MUV,8368,1,2022,20.0,Petrol,2022,Third Party insurance,5,Manual,7,HYDERABAD
 810000.0,SUV,51897,1,2018,23.22,Diesel,2018,Third Party insurance,6,Manual,5,HYDERABAD
@@ -5391,7 +5391,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 475000.0,Sedan,75000,2,2017,21.66,Diesel,2017,Third Party insurance,5,Manual,5,HYDERABAD
 445000.0,Sedan,75000,1,2012,22.32,Diesel,2012,Comprehensive,6,Manual,5,HYDERABAD
 165000.0,Sedan,96402,1,2010,17.0,Petrol,2010,Not Available,5,Manual,5,HYDERABAD
-1491000.0,SUV,20225,1,2021,18.9,Petrol,2021,Not Available,6,Automatic,6,HYDERABAD
+1491000.0,SUV,20225,1,2021,18.9,Petrol,2021,Not Available,0,Automatic,6,HYDERABAD
 290000.0,Hatchback,55000,1,2016,19.81,Petrol,2016,Third Party insurance,5,Manual,5,HYDERABAD
 860000.0,SUV,44641,1,2021,17.33,Petrol,2021,Comprehensive,6,Manual,5,HYDERABAD
 241000.0,Hatchback,83958,1,2010,20.36,Petrol,2010,Third Party,5,Manual,5,HYDERABAD
@@ -5426,8 +5426,8 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1500000.0,SUV,30000,1,2022,18.9,Electric,2022,Third Party insurance,5,Automatic,5,HYDERABAD
 400000.0,Hatchback,79079,2,2018,24.0,Diesel,2018,Not Available,5,Manual,5,HYDERABAD
 535000.0,Hatchback,28522,1,2022,19.33,Petrol,2022,Comprehensive,5,Manual,5,HYDERABAD
-410000.0,Sedan,67200,1,2018,18.9,Electric,2018,Third Party insurance,,Automatic,5,HYDERABAD
-295000.0,Sedan,50000,1,2018,18.9,Electric,2018,Third Party insurance,,Automatic,5,HYDERABAD
+410000.0,Sedan,67200,1,2018,18.9,Electric,2018,Third Party insurance,1,Automatic,5,HYDERABAD
+295000.0,Sedan,50000,1,2018,18.9,Electric,2018,Third Party insurance,1,Automatic,5,HYDERABAD
 2200000.0,Sedan,46000,1,2018,27.03,Diesel,2018,Third Party insurance,8,Automatic,5,HYDERABAD
 2120000.0,SUV,20000,1,2022,18.9,Diesel,2022,Third Party insurance,6,Manual,7,HYDERABAD
 310000.0,SUV,80000,1,2016,25.32,Diesel,2016,Third Party insurance,5,Manual,5,HYDERABAD
@@ -5437,7 +5437,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1291000.0,Sedan,22310,1,2022,24.1,Diesel,2022,Comprehensive,6,Manual,5,HYDERABAD
 498000.0,Hatchback,18732,1,2016,26.0,Petrol,2016,Comprehensive,5,Automatic,5,HYDERABAD
 470000.0,Sedan,95417,1,2016,23.59,Diesel,2016,Not Available,5,Manual,5,HYDERABAD
-545000.0,Sedan,62015,2,2014,18.0,Petrol,2014,Comprehensive,5,Automatic,5,HYDERABAD
+545000.0,Sedan,62015,2,2014,18.0,Petrol,2014,Comprehensive,0,Automatic,5,HYDERABAD
 895000.0,SUV,54000,1,2018,14.7,Petrol,2018,Third Party insurance,6,Automatic,5,HYDERABAD
 427000.0,Hatchback,51237,2,2019,23.01,Petrol,2019,Third Party insurance,5,Automatic,5,HYDERABAD
 559000.0,Sedan,36140,1,2017,20.14,Petrol,2017,Comprehensive,5,Manual,5,HYDERABAD
@@ -5497,14 +5497,14 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 744000.0,SUV,89681,1,2017,24.3,Diesel,2017,Comprehensive,5,Manual,5,HYDERABAD
 825000.0,MUV,42000,1,2018,19.01,Petrol,2018,Third Party insurance,5,Manual,7,HYDERABAD
 770000.0,MUV,29302,1,2022,18.2,Petrol,2022,Zero Dep,5,Automatic,7,HYDERABAD
-745000.0,Sedan,41200,1,2015,18.0,Petrol,2015,Comprehensive,5,Automatic,5,HYDERABAD
+745000.0,Sedan,41200,1,2015,18.0,Petrol,2015,Comprehensive,0,Automatic,5,HYDERABAD
 1775000.0,SUV,70076,1,2021,16.35,Diesel,2021,Third Party,6,Manual,5,HYDERABAD
 765000.0,SUV,90114,1,2018,23.0,Diesel,2018,Comprehensive,5,Manual,5,HYDERABAD
 250000.0,SUV,80000,4,2014,15.96,Diesel,2014,Third Party insurance,5,Manual,9,HYDERABAD
 835000.0,SUV,5933,1,2019,14.99,Petrol,2019,Third Party,5,Automatic,5,HYDERABAD
 470000.0,Hatchback,30000,1,2017,23.84,Petrol,2017,Third Party insurance,5,Manual,5,HYDERABAD
 200000.0,Hatchback,60000,1,2011,20.92,Petrol,2011,Third Party insurance,5,Manual,5,HYDERABAD
-7500000.0,SUV,20000,1,2021,18.9,Electric,2021,Third Party insurance,,Automatic,5,HYDERABAD
+7500000.0,SUV,20000,1,2021,18.9,Electric,2021,Third Party insurance,1,Automatic,5,HYDERABAD
 1299000.0,Sedan,66000,1,2013,16.55,Diesel,2013,Third Party insurance,7,Automatic,5,HYDERABAD
 225000.0,Sedan,135000,1,2002,18.9,Petrol,2002,Third Party insurance,5,Manual,5,HYDERABAD
 249000.0,Sedan,110000,1,2007,18.7,Diesel,2007,Third Party insurance,5,Manual,5,HYDERABAD
@@ -5512,7 +5512,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 310000.0,Hatchback,61000,1,2011,20.0,Diesel,2011,Third Party insurance,5,Manual,5,HYDERABAD
 418000.0,Hatchback,29828,1,2021,21.46,Petrol,2021,Third Party,5,Manual,5,HYDERABAD
 257000.0,Hatchback,58321,3,2015,21.1,Petrol,2015,Third Party insurance,5,Manual,5,HYDERABAD
-799000.0,Sedan,85000,1,2012,18.5,Diesel,2012,Third Party insurance,,Automatic,5,HYDERABAD
+799000.0,Sedan,85000,1,2012,18.5,Diesel,2012,Third Party insurance,1,Automatic,5,HYDERABAD
 622000.0,Sedan,37566,2,2019,19.5,Petrol,2019,Third Party insurance,5,Manual,5,HYDERABAD
 238000.0,Hatchback,60610,2,2016,22.05,Petrol,2016,Third Party insurance,5,Manual,5,HYDERABAD
 365000.0,Hatchback,30000,1,2011,16.47,Petrol,2011,Third Party insurance,5,Manual,5,HYDERABAD
@@ -5880,7 +5880,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 10500000.0,Sedan,44210,1,2020,16.77,Diesel,2020,Comprehensive,8,Automatic,5,JAIPUR
 1990000.0,Sedan,63255,1,2017,18.19,Diesel,2017,Comprehensive,6,Automatic,5,JAIPUR
 475000.0,Sedan,79215,1,2015,26.59,Diesel,2015,Third Party insurance,5,Manual,5,JAIPUR
-2000000.0,SUV,200,1,2023,18.9,Petrol,2023,Third Party insurance,6,Automatic,5,JAIPUR
+2000000.0,SUV,200,1,2023,18.9,Petrol,2023,Third Party insurance,0,Automatic,5,JAIPUR
 900000.0,SUV,40000,1,2019,17.0,Petrol,2019,Third Party insurance,6,Manual,5,JAIPUR
 950000.0,SUV,40000,1,2021,17.05,Petrol,2021,Third Party insurance,6,Automatic,5,JAIPUR
 1900000.0,SUV,60000,1,2020,16.35,Diesel,2020,Third Party insurance,6,Manual,5,JAIPUR
@@ -6046,7 +6046,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1020000.0,SUV,60000,1,2019,17.0,Petrol,2019,Third Party insurance,6,Manual,5,JAIPUR
 200000.0,Hatchback,120000,1,2013,18.0,Diesel,2013,Third Party insurance,5,Manual,5,JAIPUR
 650000.0,Hatchback,70000,2,2018,21.21,Petrol,2018,Comprehensive,5,Manual,5,JAIPUR
-1425000.0,SUV,8401,1,2022,14.82,Petrol,2022,Third Party insurance,8,Automatic,5,JAIPUR
+1425000.0,SUV,8401,1,2022,14.82,Petrol,2022,Third Party insurance,0,Automatic,5,JAIPUR
 1790000.0,MUV,16275,1,2022,16.5,Petrol,2022,Comprehensive,7,Automatic,6,JAIPUR
 630000.0,SUV,30000,1,2019,17.0,Petrol,2019,Third Party insurance,5,Manual,5,JAIPUR
 1450000.0,SUV,22289,1,2021,16.8,Petrol,2021,Comprehensive,6,Manual,5,JAIPUR
@@ -6061,7 +6061,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 377000.0,Hatchback,43202,1,2017,23.95,Petrol,2017,Comprehensive,5,Automatic,5,JAIPUR
 544000.0,Sedan,57671,1,2017,17.0,Petrol,2017,Comprehensive,5,Manual,5,JAIPUR
 225000.0,Hatchback,70000,3,2014,20.3,Petrol,2014,Comprehensive,5,Manual,5,JAIPUR
-1700000.0,SUV,40000,1,2021,16.56,Petrol,2021,Third Party insurance,6,Automatic,6,JAIPUR
+1700000.0,SUV,40000,1,2021,16.56,Petrol,2021,Third Party insurance,0,Automatic,6,JAIPUR
 600000.0,Sedan,60000,2,2017,20.73,Petrol,2017,Third Party insurance,5,Manual,5,JAIPUR
 870000.0,SUV,60000,1,2021,17.03,Petrol,2021,Third Party insurance,5,Manual,5,JAIPUR
 2490000.0,Sedan,74700,1,2019,17.9,Diesel,2019,Comprehensive,7,Automatic,5,JAIPUR
@@ -6125,7 +6125,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 600000.0,SUV,50000,2,2015,15.85,Petrol,2015,Third Party insurance,5,Manual,5,JAIPUR
 600000.0,Sedan,120000,2,2014,22.7,Diesel,2014,Third Party insurance,6,Manual,5,JAIPUR
 5890000.0,SUV,116544,1,2019,11.0,Diesel,2019,Comprehensive,9,Automatic,7,JAIPUR
-325000.0,Hatchback,49580,1,2010,16.0,Petrol,2010,Comprehensive,,Manual,5,JAIPUR
+325000.0,Hatchback,49580,1,2010,16.0,Petrol,2010,Comprehensive,1,Manual,5,JAIPUR
 1195000.0,SUV,56031,2,2017,16.0,Diesel,2017,Third Party insurance,6,Manual,7,JAIPUR
 1790000.0,MUV,15285,1,2022,18.9,Diesel,2022,Comprehensive,6,Automatic,7,JAIPUR
 590000.0,Hatchback,4437,1,2022,19.01,Petrol,2022,Third Party insurance,5,Manual,5,JAIPUR
@@ -6158,7 +6158,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 455000.0,Hatchback,27153,2,2019,20.3,Petrol,2019,Comprehensive,5,Manual,5,JAIPUR
 500000.0,SUV,90000,2,2011,16.55,Diesel,2011,Third Party insurance,5,Manual,6,JAIPUR
 380000.0,Sedan,104243,1,2012,19.3,Diesel,2012,Comprehensive,5,Manual,5,JAIPUR
-851000.0,Sedan,25791,1,2017,18.0,Petrol,2017,Comprehensive,5,Automatic,5,JAIPUR
+851000.0,Sedan,25791,1,2017,18.0,Petrol,2017,Comprehensive,0,Automatic,5,JAIPUR
 815000.0,SUV,120000,2,2010,11.5,Diesel,2010,Third Party insurance,5,Manual,7,JAIPUR
 1400000.0,Sedan,70000,2,2013,16.36,Diesel,2013,Third Party insurance,8,Automatic,5,JAIPUR
 690000.0,SUV,60000,1,2021,17.52,Petrol,2021,Third Party insurance,5,Manual,5,JAIPUR
@@ -6170,7 +6170,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 590000.0,Hatchback,20000,1,2022,25.24,Petrol,2022,Third Party insurance,5,Manual,5,JAIPUR
 300000.0,MUV,120000,2,2007,12.8,Diesel,2007,Third Party insurance,5,Manual,8,JAIPUR
 445000.0,Hatchback,70000,2,2015,22.0,Petrol,2015,Third Party insurance,5,Manual,5,JAIPUR
-650000.0,Sedan,70000,2,2016,18.0,Petrol,2016,Third Party insurance,5,Automatic,5,JAIPUR
+650000.0,Sedan,70000,2,2016,18.0,Petrol,2016,Third Party insurance,0,Automatic,5,JAIPUR
 150000.0,Hatchback,110000,3,2010,19.7,Petrol,2010,Third Party insurance,5,Manual,5,JAIPUR
 300000.0,Hatchback,70000,1,2011,16.47,Petrol,2011,Third Party insurance,5,Manual,5,JAIPUR
 1890000.0,SUV,9106,1,2019,17.1,Diesel,2019,Comprehensive,6,Manual,5,JAIPUR
@@ -6303,8 +6303,8 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 695000.0,Hatchback,12168,1,2021,22.0,Petrol,2021,Comprehensive,5,Manual,5,JAIPUR
 685000.0,Hatchback,10000,1,2022,26.2,Diesel,2022,Third Party insurance,5,Manual,5,JAIPUR
 60000.0,Hatchback,30000,3,2011,26.0,Petrol,2011,Third Party insurance,4,Manual,4,JAIPUR
-1600000.0,SUV,75000,1,2021,18.9,Electric,2021,Third Party insurance,,Automatic,5,JAIPUR
-1560000.0,SUV,73500,1,2020,18.9,Petrol,2020,Comprehensive,6,Automatic,5,JAIPUR
+1600000.0,SUV,75000,1,2021,18.9,Electric,2021,Third Party insurance,1,Automatic,5,JAIPUR
+1560000.0,SUV,73500,1,2020,18.9,Petrol,2020,Comprehensive,0,Automatic,5,JAIPUR
 1600000.0,SUV,4140,0,2023,18.9,Electric,2023,Comprehensive,5,Automatic,5,JAIPUR
 2450000.0,SUV,10371,1,2022,18.9,Electric,2022,Third Party insurance,5,Automatic,5,JAIPUR
 1490000.0,Pickup Trucks,75210,1,2016,12.4,Diesel,2016,Comprehensive,5,Manual,5,JAIPUR
@@ -6320,7 +6320,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 680000.0,SUV,50000,3,2016,16.0,Diesel,2016,Third Party insurance,6,Automatic,7,JAIPUR
 273000.0,Hatchback,51759,1,2017,22.05,Petrol,2017,Third Party,5,Manual,5,JAIPUR
 473000.0,Hatchback,105021,2,2019,23.84,Petrol,2019,Third Party insurance,5,Manual,5,JAIPUR
-150000.0,Sedan,120000,1,2010,16.2,Petrol,2010,Third Party insurance,,Manual,5,JAIPUR
+150000.0,Sedan,120000,1,2010,16.2,Petrol,2010,Third Party insurance,1,Manual,5,JAIPUR
 600000.0,SUV,90000,2,2016,14.1,Diesel,2016,Third Party insurance,5,Manual,7,JAIPUR
 1000000.0,SUV,80000,1,2021,18.9,Diesel,2021,Third Party insurance,6,Manual,7,JAIPUR
 1370000.0,SUV,30000,2,2021,15.2,Petrol,2021,Third Party insurance,6,Manual,4,JAIPUR
@@ -6530,7 +6530,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2450000.0,SUV,10371,1,2022,18.9,Electric,2022,Comprehensive,5,Automatic,5,JAIPUR
 541000.0,Sedan,63385,1,2018,19.5,Petrol,2018,Third Party insurance,5,Manual,5,JAIPUR
 578000.0,Hatchback,60048,1,2019,18.6,Petrol,2019,Third Party insurance,5,Manual,5,JAIPUR
-1490000.0,Sedan,44351,1,2022,18.9,Electric,2022,Third Party,,Automatic,5,JAIPUR
+1490000.0,Sedan,44351,1,2022,18.9,Electric,2022,Third Party,1,Automatic,5,JAIPUR
 200000.0,Hatchback,45926,1,2015,21.1,Petrol,2015,Not Available,5,Manual,5,JAIPUR
 750000.0,SUV,19876,1,2021,17.03,Petrol,2021,Not Available,5,Manual,5,JAIPUR
 675000.0,Hatchback,69000,1,2017,22.54,Diesel,2017,Comprehensive,6,Manual,5,JAIPUR
@@ -6664,7 +6664,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 300000.0,Hatchback,145716,2,2012,22.9,Diesel,2012,Not Available,5,Manual,5,JAIPUR
 607000.0,Sedan,38943,1,2017,20.73,Petrol,2017,Not Available,5,Manual,5,JAIPUR
 69000.0,Hatchback,96598,2,2005,17.3,Petrol,2005,Not Available,5,Manual,5,JAIPUR
-1600000.0,SUV,28807,1,2021,18.9,Petrol,2021,Not Available,6,Automatic,5,JAIPUR
+1600000.0,SUV,28807,1,2021,18.9,Petrol,2021,Not Available,0,Automatic,5,JAIPUR
 1275000.0,Sedan,107000,1,2012,16.73,Diesel,2012,Comprehensive,8,Automatic,5,JAIPUR
 3675000.0,SUV,79331,2,2016,12.7,Diesel,2016,Comprehensive,9,Automatic,5,JAIPUR
 995000.0,SUV,49503,1,2020,18.9,Diesel,2020,Third Party,6,Manual,5,JAIPUR
@@ -6686,7 +6686,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 250000.0,Hatchback,40000,1,2016,25.17,Petrol,2016,Third Party insurance,5,Manual,5,JAIPUR
 110000.0,Hatchback,100000,1,2010,19.0,Petrol,2010,Third Party insurance,5,Manual,5,JAIPUR
 730000.0,SUV,10000,1,2021,20.0,Petrol,2021,Third Party insurance,5,Manual,5,JAIPUR
-130000.0,Hatchback,60000,1,2012,26.83,CNG,2012,Third Party insurance,,Manual,5,JAIPUR
+130000.0,Hatchback,60000,1,2012,26.83,CNG,2012,Third Party insurance,1,Manual,5,JAIPUR
 330000.0,Hatchback,20000,1,2021,22.05,Petrol,2021,Third Party insurance,5,Manual,5,JAIPUR
 600000.0,Sedan,30000,1,2020,21.21,Petrol,2020,Third Party insurance,5,Manual,5,JAIPUR
 600000.0,MUV,70000,1,2020,20.0,Petrol,2020,Third Party insurance,5,Manual,7,JAIPUR
@@ -6765,7 +6765,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 150000.0,Hatchback,60000,2,2008,20.36,Petrol,2008,Third Party insurance,5,Manual,5,JAIPUR
 325000.0,Hatchback,30000,1,2020,22.05,Petrol,2020,Third Party insurance,5,Manual,5,JAIPUR
 50000.0,Hatchback,80000,4,2003,16.1,Petrol,2003,Third Party insurance,4,Manual,4,JAIPUR
-1100000.0,SUV,10000,2,2022,18.0,Petrol,2022,Third Party insurance,5,Manual,5,JAIPUR
+1100000.0,SUV,10000,2,2022,18.0,Petrol,2022,Third Party insurance,6,Manual,5,JAIPUR
 100000.0,Sedan,150000,2,2009,13.2,LPG,2009,Third Party insurance,5,Manual,5,JAIPUR
 700000.0,Coupe,40000,4,2006,7.94,Petrol,2006,Third Party insurance,8,Automatic,4,JAIPUR
 125000.0,Hatchback,150000,2,2009,18.9,Petrol,2009,Third Party insurance,5,Manual,5,JAIPUR
@@ -7007,7 +7007,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 799000.0,SUV,6500,1,2021,17.33,Petrol,2021,Third Party insurance,6,Manual,5,KOLKATA
 526000.0,Sedan,29159,1,2017,20.73,Petrol,2017,Zero Dep,5,Manual,5,KOLKATA
 5990000.0,SUV,30000,2,2020,18.9,Diesel,2020,Third Party insurance,9,Automatic,5,KOLKATA
-675000.0,Sedan,31968,1,2016,18.0,Petrol,2016,Comprehensive,5,Automatic,5,KOLKATA
+675000.0,Sedan,31968,1,2016,18.0,Petrol,2016,Comprehensive,0,Automatic,5,KOLKATA
 612000.0,Hatchback,44150,2,2019,20.7,Petrol,2019,Third Party,5,Manual,5,KOLKATA
 189000.0,Hatchback,60000,1,2010,17.0,Petrol,2010,Third Party insurance,5,Manual,5,KOLKATA
 990000.0,SUV,25009,1,2018,14.8,Petrol,2018,Comprehensive,6,Automatic,5,KOLKATA
@@ -7135,7 +7135,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 70000.0,Hatchback,60000,3,2009,18.0,Petrol,2009,Third Party insurance,5,Manual,5,KOLKATA
 745000.0,SUV,35000,1,2018,15.4,Petrol,2018,Comprehensive,6,Manual,7,KOLKATA
 335000.0,Sedan,57000,1,2013,16.8,Petrol,2013,Comprehensive,5,Manual,5,KOLKATA
-550000.0,Sedan,50469,1,2016,18.0,Petrol,2016,Third Party insurance,5,Automatic,5,KOLKATA
+550000.0,Sedan,50469,1,2016,18.0,Petrol,2016,Third Party insurance,0,Automatic,5,KOLKATA
 524000.0,Hatchback,32000,1,2018,22.0,Petrol,2018,Comprehensive,5,Manual,5,KOLKATA
 850000.0,Sedan,36000,1,2016,14.28,Petrol,2016,Comprehensive,7,Automatic,5,KOLKATA
 210000.0,Hatchback,30000,1,2018,22.7,Petrol,2018,Third Party insurance,5,Manual,5,KOLKATA
@@ -7166,7 +7166,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 427000.0,Hatchback,8347,1,2016,22.38,Petrol,2016,Third Party,5,Manual,5,KOLKATA
 875000.0,SUV,72057,2,2016,15.4,Diesel,2016,Comprehensive,5,Manual,7,KOLKATA
 349000.0,Hatchback,52549,1,2017,18.9,Petrol,2017,Third Party insurance,5,Manual,5,KOLKATA
-450000.0,Sedan,44540,2,2014,18.0,Petrol,2014,Third Party,5,Automatic,5,KOLKATA
+450000.0,Sedan,44540,2,2014,18.0,Petrol,2014,Third Party,0,Automatic,5,KOLKATA
 320000.0,Hatchback,44000,2,2014,18.6,Petrol,2014,Comprehensive,5,Manual,5,KOLKATA
 646000.0,Hatchback,53084,1,2019,26.2,Diesel,2019,Third Party insurance,5,Manual,5,KOLKATA
 950000.0,MUV,10000,2,2021,19.01,Petrol,2021,Third Party insurance,5,Manual,6,KOLKATA
@@ -7180,7 +7180,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 360000.0,Hatchback,50000,1,2017,23.1,Petrol,2017,Third Party insurance,5,Manual,5,KOLKATA
 1795000.0,Sedan,37000,1,2016,15.26,Petrol,2016,Comprehensive,7,Automatic,5,KOLKATA
 235000.0,Sedan,60000,2,2013,16.95,Petrol,2013,Third Party insurance,5,Manual,5,KOLKATA
-900000.0,Hatchback,8000,1,2022,20.0,Petrol,2022,Third Party insurance,5,Manual,5,KOLKATA
+900000.0,Hatchback,8000,1,2022,20.0,Petrol,2022,Third Party insurance,6,Manual,5,KOLKATA
 800000.0,MUV,31000,1,2017,24.52,Diesel,2017,Third Party insurance,5,Manual,7,KOLKATA
 357000.0,Sedan,44890,1,2016,18.0,Petrol,2016,Comprehensive,5,Manual,5,KOLKATA
 620000.0,SUV,48752,2,2017,22.1,Diesel,2017,Comprehensive,6,Manual,5,KOLKATA
@@ -7668,7 +7668,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 296000.0,Hatchback,3188,1,2017,22.05,Petrol,2017,Comprehensive,5,Manual,5,KOLKATA
 527000.0,Hatchback,34233,1,2019,18.6,Petrol,2019,Comprehensive,5,Manual,5,KOLKATA
 140000.0,Hatchback,50000,2,2010,18.9,Petrol,2010,Third Party insurance,5,Manual,5,KOLKATA
-591000.0,Sedan,51767,1,2016,18.0,Petrol,2016,Third Party,5,Automatic,5,KOLKATA
+591000.0,Sedan,51767,1,2016,18.0,Petrol,2016,Third Party,0,Automatic,5,KOLKATA
 480000.0,Hatchback,40965,1,2018,18.6,Petrol,2018,Comprehensive,5,Manual,5,KOLKATA
 250000.0,Sedan,70000,2,2011,17.01,Petrol,2011,Third Party insurance,5,Manual,5,KOLKATA
 822000.0,SUV,8176,2,2022,17.33,Petrol,2022,Third Party,6,Manual,5,KOLKATA
@@ -7766,7 +7766,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 255000.0,Hatchback,60000,2,2016,21.1,Petrol,2016,Third Party insurance,5,Manual,5,KOLKATA
 601000.0,Sedan,45699,2,2017,21.21,Petrol,2017,Third Party,5,Automatic,5,KOLKATA
 216000.0,Hatchback,81575,1,2011,20.36,Petrol,2011,Comprehensive,5,Manual,5,KOLKATA
-670000.0,Sedan,42000,1,2017,18.0,Petrol,2017,Comprehensive,5,Automatic,5,KOLKATA
+670000.0,Sedan,42000,1,2017,18.0,Petrol,2017,Comprehensive,0,Automatic,5,KOLKATA
 719000.0,Sedan,32092,1,2018,19.1,Petrol,2018,Comprehensive,6,Manual,5,KOLKATA
 142000.0,Hatchback,65916,3,2010,18.9,Petrol,2010,Third Party,5,Manual,5,KOLKATA
 3200000.0,Sedan,30000,1,2019,12.6,Diesel,2019,Third Party insurance,9,Automatic,5,KOLKATA
@@ -8048,7 +8048,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 1400000.0,SUV,50000,1,2018,17.1,Diesel,2018,Third Party insurance,6,Manual,5,KOLKATA
 239000.0,Hatchback,18987,1,2014,20.92,Petrol,2014,Comprehensive,5,Manual,5,KOLKATA
 335000.0,Hatchback,55973,1,2019,23.95,Petrol,2019,Comprehensive,5,Manual,5,KOLKATA
-1065000.0,Sedan,9000,2,2021,18.45,Petrol,2021,Comprehensive,6,Automatic,5,KOLKATA
+1065000.0,Sedan,9000,2,2021,18.45,Petrol,2021,Comprehensive,0,Automatic,5,KOLKATA
 315000.0,Hatchback,27094,1,2019,24.7,Petrol,2019,Comprehensive,5,Manual,5,KOLKATA
 80000.0,Hatchback,60000,2,2008,19.7,Petrol,2008,Third Party insurance,5,Manual,5,KOLKATA
 614000.0,Hatchback,4914,1,2020,20.7,Petrol,2020,Comprehensive,5,Manual,5,KOLKATA
@@ -8112,7 +8112,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 6400000.0,Convertibles,31828,3,2014,15.15,Petrol,2014,Comprehensive,8,Automatic,2,KOLKATA
 274000.0,Hatchback,43595,1,2016,20.63,Petrol,2016,Comprehensive,5,Manual,5,KOLKATA
 420000.0,Sedan,22276,1,2015,20.73,Petrol,2015,Comprehensive,5,Manual,5,KOLKATA
-1350000.0,Sedan,10000,1,2023,18.9,Electric,2023,Third Party insurance,,Automatic,5,KOLKATA
+1350000.0,Sedan,10000,1,2023,18.9,Electric,2023,Third Party insurance,1,Automatic,5,KOLKATA
 150000.0,Minivans,100000,3,2010,15.37,Petrol,2010,Third Party insurance,5,Manual,7,KOLKATA
 140000.0,Minivans,60000,3,2010,15.37,Petrol,2010,Third Party insurance,5,Manual,7,KOLKATA
 290000.0,Hatchback,10415,1,2016,20.36,Petrol,2016,Comprehensive,5,Manual,5,KOLKATA
@@ -8171,7 +8171,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 2100000.0,SUV,61901,1,2017,17.9,Diesel,2017,Comprehensive,7,Automatic,5,KOLKATA
 250000.0,Sedan,50000,1,2010,14.53,Petrol,2010,Third Party insurance,6,Manual,5,KOLKATA
 165000.0,Hatchback,41232,1,2010,15.6,Petrol,2010,Comprehensive,5,Manual,5,KOLKATA
-900000.0,Sedan,48277,1,2022,18.9,Electric,2022,Third Party insurance,,Automatic,5,KOLKATA
+900000.0,Sedan,48277,1,2022,18.9,Electric,2022,Third Party insurance,1,Automatic,5,KOLKATA
 350000.0,Hatchback,37000,1,2017,20.51,Petrol,2017,Third Party insurance,5,Automatic,5,KOLKATA
 1700000.0,SUV,34689,1,2017,15.17,Diesel,2017,Comprehensive,7,Automatic,5,KOLKATA
 800000.0,SUV,32475,1,2019,15.8,Petrol,2019,Comprehensive,6,Manual,5,KOLKATA
@@ -8229,7 +8229,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 455000.0,Sedan,44000,1,2015,17.01,Petrol,2015,Comprehensive,5,Manual,5,KOLKATA
 790000.0,SUV,46000,1,2016,13.0,Petrol,2016,Comprehensive,6,Automatic,5,KOLKATA
 599000.0,SUV,60000,1,2018,22.77,Diesel,2018,Comprehensive,5,Manual,5,KOLKATA
-799000.0,Sedan,37000,1,2018,17.8,Petrol,2018,Comprehensive,7,Automatic,5,KOLKATA
+799000.0,Sedan,37000,1,2018,17.8,Petrol,2018,Comprehensive,0,Automatic,5,KOLKATA
 2150000.0,SUV,40000,1,2017,14.16,Diesel,2017,Comprehensive,7,Automatic,5,KOLKATA
 575000.0,Hatchback,9000,1,2020,21.4,Petrol,2020,Comprehensive,5,Manual,5,KOLKATA
 599000.0,SUV,52000,1,2016,15.29,Petrol,2016,Comprehensive,6,Manual,5,KOLKATA
@@ -8285,7 +8285,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 399000.0,Sedan,45000,1,2015,17.43,Petrol,2015,Comprehensive,5,Manual,5,KOLKATA
 2370000.0,SUV,2000,1,2023,18.9,Diesel,2023,Comprehensive,6,Automatic,7,KOLKATA
 699000.0,Sedan,47000,1,2017,17.8,Petrol,2017,Third Party insurance,5,Manual,5,KOLKATA
-1415000.0,SUV,55000,1,2020,18.9,Petrol,2020,Third Party insurance,6,Automatic,5,KOLKATA
+1415000.0,SUV,55000,1,2020,18.9,Petrol,2020,Third Party insurance,0,Automatic,5,KOLKATA
 455000.0,Hatchback,5000,1,2022,21.74,Petrol,2022,Comprehensive,5,Manual,5,KOLKATA
 330000.0,Hatchback,5000,1,2021,22.74,Petrol,2021,Comprehensive,5,Manual,5,KOLKATA
 2100000.0,SUV,32000,1,2018,16.9,Petrol,2018,Comprehensive,6,Automatic,5,KOLKATA
@@ -8297,7 +8297,7 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 535000.0,Sedan,38247,1,2016,17.01,Petrol,2016,Comprehensive,5,Manual,5,KOLKATA
 395000.0,Sedan,41754,2,2015,18.0,Petrol,2015,Third Party insurance,5,Manual,5,KOLKATA
 250000.0,SUV,52000,1,2003,10.5,Diesel,2003,Comprehensive,5,Manual,8,KOLKATA
-175000.0,Hatchback,58000,2,2010,16.0,Petrol,2010,Comprehensive,,Manual,5,KOLKATA
+175000.0,Hatchback,58000,2,2010,16.0,Petrol,2010,Comprehensive,1,Manual,5,KOLKATA
 195000.0,Hatchback,75000,1,2015,25.83,Diesel,2015,Comprehensive,5,Manual,5,KOLKATA
 425000.0,SUV,72561,1,2014,22.7,Diesel,2014,Comprehensive,5,Manual,5,KOLKATA
 158000.0,Hatchback,53562,3,2009,20.36,Petrol,2009,Third Party insurance,5,Manual,5,KOLKATA
@@ -8311,8 +8311,8 @@ PRICE,BODY_TYPE,KILOMETERS_DRIVEN,NUMBER_OF_OWNERS,YEAR_OF_MANUFACTURE,MILEAGE,F
 190000.0,Hatchback,120000,1,2018,23.01,Petrol,2018,Third Party insurance,5,Manual,5,KOLKATA
 200000.0,Hatchback,60000,1,2013,16.47,Petrol,2013,Third Party insurance,5,Manual,5,KOLKATA
 160000.0,Hatchback,60000,2,2013,15.6,Petrol,2013,Third Party insurance,5,Manual,5,KOLKATA
-120000.0,Hatchback,30000,1,2010,16.2,Petrol,2010,Third Party insurance,,Manual,5,KOLKATA
-140000.0,Hatchback,24000,1,2011,16.2,Petrol,2011,Third Party insurance,,Manual,5,KOLKATA
+120000.0,Hatchback,30000,1,2010,16.2,Petrol,2010,Third Party insurance,1,Manual,5,KOLKATA
+140000.0,Hatchback,24000,1,2011,16.2,Petrol,2011,Third Party insurance,1,Manual,5,KOLKATA
 115000.0,Hatchback,40000,1,2009,19.7,Petrol,2009,Third Party insurance,5,Manual,5,KOLKATA
 250000.0,Hatchback,60000,1,2013,18.6,Petrol,2013,Third Party insurance,5,Manual,5,KOLKATA
 480000.0,Sedan,30000,1,2019,18.9,CNG,2019,Third Party insurance,5,Manual,5,KOLKATA
