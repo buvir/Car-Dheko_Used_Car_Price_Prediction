@@ -1,6 +1,0 @@
-Column,Data Type,Non-Null Count,NaN Count,NaN Percentage
-new_car_detail,object,1481,0,0.0
-new_car_overview,object,1481,0,0.0
-new_car_feature,object,1481,0,0.0
-new_car_specs,object,1481,0,0.0
-car_links,object,1481,0,0.0
