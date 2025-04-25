@@ -1,69 +1,143 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import os
 
-print("Files in current directory:", os.listdir('.'))
-print("Current working directory:", os.getcwd())
-
-# Load the trained model and features
+# Load the trained model and feature list
 try:
     model, final_features = joblib.load('tuned_gb_model_and_features.pkl')
-    print("✅ Model and features loaded successfully!")
 except FileNotFoundError:
-    st.error("Error: tuned_gb_model_and_features.pkl not found.")
+    st.error("❌ Model file not found: tuned_gb_model_and_features.pkl")
     st.stop()
 
-st.title("Car Price Predictor")
+st.title("🚗 Car Price Predictor")
 
-# Input fields
+# --- User Inputs ---
 year = st.number_input("Year of Manufacture", min_value=1990, max_value=2025, value=2015)
 km_driven = st.number_input("Kilometers Driven", min_value=0, max_value=500000, value=30000)
 mileage = st.number_input("Mileage (km/l)", min_value=5.0, max_value=40.0, value=18.0)
 fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG', 'Electric'])
 seats = st.number_input("Number of Seats", min_value=2, max_value=10, value=5)
 transmission = st.selectbox("Transmission", ['Manual', 'Automatic'])
+body_type = st.selectbox("Body Type", ['Hatchback', 'Sedan', 'SUV', 'MPV', 'Convertible'])
+city = st.selectbox("City", ['Delhi', 'Mumbai', 'Bangalore', 'Chennai', 'Hyderabad'])
+num_gears = st.selectbox("Number of Gears", [4, 5, 6, 7, 8])
 
-# Encoding
+# --- Encode Inputs (Label Encoding as per training) ---
 fuel_map = {'Petrol': 0, 'Diesel': 1, 'CNG': 2, 'Electric': 3}
-fuel_encoded = fuel_map[fuel_type]
-transmission_encoded = {'Manual': 1, 'Automatic': 0}[transmission]
+trans_map = {'Manual': 1, 'Automatic': 0}
+body_map = {'Hatchback': 0, 'Sedan': 1, 'SUV': 2, 'MPV': 3, 'Convertible': 4}
+city_map = {'Delhi': 0, 'Mumbai': 1, 'Bangalore': 2, 'Chennai': 3, 'Hyderabad': 4}
+
+# Apply encoding
+fuel_encoded = fuel_map.get(fuel_type, 0)
+trans_encoded = trans_map.get(transmission, 0)
+body_encoded = body_map.get(body_type, 0)
+city_encoded = city_map.get(city, 0)
 
 # Derived features
 car_age = 2023 - year
 annual_km = km_driven / (car_age + 1)
 
-# --- CRITICAL: Create input_data with ALL features ---
-features_for_prediction = [f for f in final_features if f != 'PRICE']  # Exclude 'PRICE'
-
+# --- Construct Feature DataFrame ---
 input_data = pd.DataFrame({
-    'KILOMETERS_DRIVEN': [km_driven],
     'YEAR_OF_MANUFACTURE': [year],
+    'KILOMETERS_DRIVEN': [km_driven],
     'MILEAGE': [mileage],
     'car_age': [car_age],
     'annual_km': [annual_km],
     'Seats': [seats],
-    'FUEL_TYPE_Diesel': [1 if fuel_type == 'Diesel' else 0],
-    'FUEL_TYPE_Petrol': [1 if fuel_type == 'Petrol' else 0],
-    'TRANSMISSION_Manual': [transmission_encoded],
-    # ... Add ALL other features from final_features (except 'PRICE')
+    'FUEL_TYPE_ENCODED': [fuel_encoded],
+    'TRANSMISSION_ENCODED': [trans_encoded],
+    'BODY_TYPE_ENCODED': [body_encoded],
+    'CITY_ENCODED': [city_encoded],
+    'NUMBER_OF_GEARS': [num_gears]
 })
 
-# Ensure all required columns are present (even if 0 or dummy values)
+# Ensure all required features are present
+features_for_prediction = [f for f in final_features if f != 'PRICE']
 for feature in features_for_prediction:
     if feature not in input_data.columns:
-        input_data[feature] = 0  # Or a more appropriate default value
+        input_data[feature] = 0  # Fill missing with default value
 
-input_data = input_data[features_for_prediction]  # Order columns to match training
+# Match training column order
+input_data = input_data[features_for_prediction]
 
+# --- Predict ---
 if st.button("Predict Price"):
     try:
         prediction = model.predict(input_data)
         st.success(f"💰 Estimated Car Price: ₹ {prediction[0]:,.2f}")
     except Exception as e:
-        st.error(f"Prediction error: {e}")
+        st.error(f"❌ Prediction error: {e}")
+
+#---------------------------------------------------->
+# import streamlit as st
+# import joblib
+# import pandas as pd
+# import os
+
+# print("Files in current directory:", os.listdir('.'))
+# print("Current working directory:", os.getcwd())
+
+# # Load the trained model and features
+# try:
+#     model, final_features = joblib.load('tuned_gb_model_and_features.pkl')
+#     print("✅ Model and features loaded successfully!")
+# except FileNotFoundError:
+#     st.error("Error: tuned_gb_model_and_features.pkl not found.")
+#     st.stop()
+
+# st.title("Car Price Predictor")
+
+# # Input fields
+# year = st.number_input("Year of Manufacture", min_value=1990, max_value=2025, value=2015)
+# km_driven = st.number_input("Kilometers Driven", min_value=0, max_value=500000, value=30000)
+# mileage = st.number_input("Mileage (km/l)", min_value=5.0, max_value=40.0, value=18.0)
+# fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG', 'Electric'])
+# seats = st.number_input("Number of Seats", min_value=2, max_value=10, value=5)
+# transmission = st.selectbox("Transmission", ['Manual', 'Automatic'])
+
+# # Encoding
+# fuel_map = {'Petrol': 0, 'Diesel': 1, 'CNG': 2, 'Electric': 3}
+# fuel_encoded = fuel_map[fuel_type]
+# transmission_encoded = {'Manual': 1, 'Automatic': 0}[transmission]
+
+# # Derived features
+# car_age = 2023 - year
+# annual_km = km_driven / (car_age + 1)
+
+# # --- CRITICAL: Create input_data with ALL features ---
+# features_for_prediction = [f for f in final_features if f != 'PRICE']  # Exclude 'PRICE'
+
+# input_data = pd.DataFrame({
+#     'KILOMETERS_DRIVEN': [km_driven],
+#     'YEAR_OF_MANUFACTURE': [year],
+#     'MILEAGE': [mileage],
+#     'car_age': [car_age],
+#     'annual_km': [annual_km],
+#     'Seats': [seats],
+#     'FUEL_TYPE_Diesel': [1 if fuel_type == 'Diesel' else 0],
+#     'FUEL_TYPE_Petrol': [1 if fuel_type == 'Petrol' else 0],
+#     'TRANSMISSION_Manual': [transmission_encoded],
+#     # ... Add ALL other features from final_features (except 'PRICE')
+# })
+
+# # Ensure all required columns are present (even if 0 or dummy values)
+# for feature in features_for_prediction:
+#     if feature not in input_data.columns:
+#         input_data[feature] = 0  # Or a more appropriate default value
+
+# input_data = input_data[features_for_prediction]  # Order columns to match training
+
+# if st.button("Predict Price"):
+#     try:
+#         prediction = model.predict(input_data)
+#         st.success(f"💰 Estimated Car Price: ₹ {prediction[0]:,.2f}")
+#     except Exception as e:
+#         st.error(f"Prediction error: {e}")
 
 
+#--------------------------------------------------------->2.0
 # import streamlit as st
 # import joblib
 # import pandas as pd
