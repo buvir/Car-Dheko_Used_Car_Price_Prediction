@@ -1,10 +1,10 @@
 import streamlit as st
-import joblib
 import pandas as pd
+import joblib
 
 # Load the trained model and feature list
 try:
-    model, final_features = joblib.load('tuned_gb_model_and_features.pkl')
+    model, final_features = joblib.load('models/tuned_gb_model_and_features.pkl')
 except FileNotFoundError:
     st.error("❌ Model file not found: tuned_gb_model_and_features.pkl")
     st.stop()
@@ -15,37 +15,44 @@ st.title("🚗 Car Price Predictor")
 year = st.number_input("Year of Manufacture", min_value=1990, max_value=2025, value=2015)
 km_driven = st.number_input("Kilometers Driven", min_value=0, max_value=500000, value=30000)
 mileage = st.number_input("Mileage (km/l)", min_value=5.0, max_value=40.0, value=18.0)
-fuel_type = st.selectbox("Fuel Type", ['Petrol', 'Diesel', 'CNG', 'Electric'])
+fuel_type = st.selectbox("Fuel Type", ['Electric', 'CNG', 'LPG', 'Diesel', 'Petrol'])
 seats = st.number_input("Number of Seats", min_value=2, max_value=10, value=5)
 transmission = st.selectbox("Transmission", ['Manual', 'Automatic'])
-body_type = st.selectbox("Body Type", ['Hatchback', 'Sedan', 'SUV', 'MPV', 'Convertible'])
-city = st.selectbox("City", ['Delhi', 'Mumbai', 'Bangalore', 'Chennai', 'Hyderabad'])
+body_type = st.selectbox("Body Type", ['SUV', 'Sedan', 'Hatchback', 'MUV', 'Pickup Trucks', 'Hybrids', 'Wagon', 'Minivans', 'Coupe', 'Convertibles'])
+city = st.selectbox("City", ['BANGALORE', 'DELHI', 'CHENNAI', 'HYDERABAD', 'JAIPUR', 'KOLKATA'])
 num_gears = st.selectbox("Number of Gears", [4, 5, 6, 7, 8])
 
-# --- Encode Inputs (Label Encoding as per training) ---
-fuel_map = {'Petrol': 0, 'Diesel': 1, 'CNG': 2, 'Electric': 3}
-trans_map = {'Manual': 1, 'Automatic': 0}
-body_map = {'Hatchback': 0, 'Sedan': 1, 'SUV': 2, 'MPV': 3, 'Convertible': 4}
-city_map = {'Delhi': 0, 'Mumbai': 1, 'Bangalore': 2, 'Chennai': 3, 'Hyderabad': 4}
+# --- Encoding (Exactly how you trained) ---
+fuel_order = {'Electric': 0, 'CNG': 1, 'LPG': 2, 'Diesel': 3, 'Petrol': 4}
+city_order = {'BANGALORE': 0, 'DELHI': 1, 'CHENNAI': 2, 'HYDERABAD': 3, 'JAIPUR': 4, 'KOLKATA': 5}
+transmission_map = {'Manual': 0, 'Automatic': 1}
+
+# label encoding for body type (this was done using LabelEncoder in training)
+body_type_map = {
+    'SUV': 8,
+    'Sedan': 7,
+    'Hatchback': 3,
+    'MUV': 4,
+    'Pickup Trucks': 5,
+    'Hybrids': 1,
+    'Wagon': 9,
+    'Minivans': 6,
+    'Coupe': 0,
+    'Convertibles': 2
+}
 
 # Apply encoding
-fuel_encoded = fuel_map.get(fuel_type, 0)
-trans_encoded = trans_map.get(transmission, 0)
-body_encoded = body_map.get(body_type, 0)
-city_encoded = city_map.get(city, 0)
+fuel_encoded = fuel_order.get(fuel_type, 0)
+city_encoded = city_order.get(city, 0)
+trans_encoded = transmission_map.get(transmission, 0)
+body_encoded = body_type_map.get(body_type, 0)
 
-# Derived features
-car_age = 2023 - year
-annual_km = km_driven / (car_age + 1)
-
-# --- Construct Feature DataFrame ---
+# --- Construct Input Data ---
 input_data = pd.DataFrame({
     'YEAR_OF_MANUFACTURE': [year],
     'KILOMETERS_DRIVEN': [km_driven],
     'MILEAGE': [mileage],
-    'car_age': [car_age],
-    'annual_km': [annual_km],
-    'Seats': [seats],
+    'SEATS': [seats],
     'FUEL_TYPE_ENCODED': [fuel_encoded],
     'TRANSMISSION_ENCODED': [trans_encoded],
     'BODY_TYPE_ENCODED': [body_encoded],
@@ -53,13 +60,13 @@ input_data = pd.DataFrame({
     'NUMBER_OF_GEARS': [num_gears]
 })
 
-# Ensure all required features are present
+# If any columns are missing that model expects, add them with 0
 features_for_prediction = [f for f in final_features if f != 'PRICE']
 for feature in features_for_prediction:
     if feature not in input_data.columns:
-        input_data[feature] = 0  # Fill missing with default value
+        input_data[feature] = 0
 
-# Match training column order
+# Match exact order
 input_data = input_data[features_for_prediction]
 
 # --- Predict ---
