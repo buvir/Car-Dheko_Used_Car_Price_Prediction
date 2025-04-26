@@ -1,0 +1,48 @@
+{
+    "final_features": [
+        "PRICE",
+        "KILOMETERS_DRIVEN",
+        "YEAR_OF_MANUFACTURE",
+        "MILEAGE",
+        "Seats",
+        "FUEL_TYPE_Diesel",
+        "FUEL_TYPE_Petrol",
+        "TRANSMISSION_Manual"
+    ],
+    "insurance_mapping": {
+        "0.0": "Not Available",
+        "1.0": "1",
+        "2.0": "2",
+        "3.0": "Third Party",
+        "4.0": "Third Party insurance",
+        "5.0": "Comprehensive",
+        "6.0": "Zero Dep"
+    },
+    "city_order": [
+        "BANGALORE",
+        "DELHI",
+        "CHENNAI",
+        "HYDERABAD",
+        "JAIPUR",
+        "KOLKATA"
+    ],
+    "fuel_order": [
+        "Electric",
+        "CNG",
+        "LPG",
+        "Diesel",
+        "Petrol"
+    ],
+    "car_ranking": [
+        "SUV",
+        "Sedan",
+        "Hatchback",
+        "MUV",
+        "Pickup Trucks",
+        "Hybrids",
+        "Wagon",
+        "Minivans",
+        "Coupe",
+        "Convertibles"
+    ]
+}
