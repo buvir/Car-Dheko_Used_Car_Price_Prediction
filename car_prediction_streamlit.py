@@ -2,14 +2,11 @@ import streamlit as st
 import pandas as pd
 import joblib
 import json
+import numpy as np
 from sklearn.preprocessing import OrdinalEncoder, LabelEncoder
 
 # Page Configuration
-st.set_page_config(
-    page_title="Car Price Predictor",
-    page_icon="🚗",
-    layout="wide"
-)
+st.set_page_config(page_title="Car Price Predictor", page_icon="🚗", layout="wide")
 
 # Custom CSS
 st.markdown("""
@@ -30,19 +27,10 @@ st.markdown("""
 
 # Hardcoded category orders as fallback
 DEFAULT_ORDERS = {
-    'insurance_order': [
-        'Not Available',
-        '1',
-        '2',
-        'Third Party',
-        'Third Party insurance',
-        'Comprehensive',
-        'Zero Dep'
-    ],
+    'insurance_order': ['Not Available', '1', '2', 'Third Party', 'Third Party insurance', 'Comprehensive', 'Zero Dep'],
     'city_order': ['BANGALORE', 'DELHI', 'CHENNAI', 'HYDERABAD', 'JAIPUR', 'KOLKATA'],
     'fuel_order': ['Electric', 'CNG', 'LPG', 'Diesel', 'Petrol'],
-    'car_ranking': ['SUV', 'Sedan', 'Hatchback', 'MUV', 'Pickup Trucks', 'Hybrids',
-                    'Wagon', 'Minivans', 'Coupe', 'Convertibles']
+    'car_ranking': ['SUV', 'Sedan', 'Hatchback', 'MUV', 'Pickup Trucks', 'Hybrids', 'Wagon', 'Minivans', 'Coupe', 'Convertibles']
 }
 
 @st.cache_resource
@@ -55,93 +43,56 @@ def load_assets():
         try:
             with open('model_metadata.json') as f:
                 metadata = json.load(f)
-            # Merge with defaults for any missing keys
             metadata = {**DEFAULT_ORDERS, **metadata}
-        except FileNotFoundError:
+        except (FileNotFoundError, json.JSONDecodeError):
             metadata = DEFAULT_ORDERS
-            st.warning("Using default category orders - ensure they match your training data")
-        except json.JSONDecodeError:
-            metadata = DEFAULT_ORDERS
-            st.error("Error decoding 'model_metadata.json'. Using default category orders.")
+            st.warning("Using default category orders")
 
         encoders = {}
-        # Try to load pre-fitted encoders if available, otherwise create and fit
-        for enc_name, order_key, encoder_class in [
-            ('insurance', 'insurance_order', OrdinalEncoder),
-            ('city', 'city_order', OrdinalEncoder),
-            ('fuel', 'fuel_order', OrdinalEncoder),
-            ('body_type', 'car_ranking', LabelEncoder)
-        ]:
+
+        for enc_name in ['insurance', 'city', 'fuel', 'body_type']:
             try:
                 encoders[enc_name] = joblib.load(f'{enc_name}_encoder.pkl')
-            except FileNotFoundError:
-                st.warning(f"Couldn't load fitted {enc_name} encoder - using new instance and fitting it.")
-                if encoder_class == OrdinalEncoder:
-                    if order_key in metadata:
-                        encoders[enc_name] = encoder_class(categories=[metadata[order_key]])
-                        # Create a dummy DataFrame with the categories for fitting
-                        dummy_df = pd.DataFrame(metadata[order_key], columns=[enc_name.upper()])
-                        encoders[enc_name].fit(dummy_df)
-                    else:
-                        st.error(f"Category order '{order_key}' not found in metadata for {enc_name} encoder.")
-                        st.stop()
-                elif encoder_class == LabelEncoder:
-                    encoders[enc_name] = encoder_class() # LabelEncoder doesn't need explicit fitting with categories here
-            except Exception as e:
-                st.error(f"Error loading or creating {enc_name} encoder: {str(e)}")
-                st.stop()
+                st.success(f"Loaded pre-fitted {enc_name} encoder")
+            except:
+                st.warning(f"Couldn't load {enc_name} encoder — creating new one")
+                if enc_name in ['insurance', 'city', 'fuel']:
+                    encoders[enc_name] = OrdinalEncoder(categories=[metadata[f'{enc_name}_order']],
+                                                        handle_unknown='use_encoded_value', unknown_value=-1)
+                    encoders[enc_name].fit([[x] for x in metadata[f'{enc_name}_order']])
+                elif enc_name == 'body_type':
+                    encoders[enc_name] = LabelEncoder()
+                    encoders[enc_name].fit(metadata['car_ranking'])
 
         return model, metadata, encoders
 
-    except FileNotFoundError:
-        st.error("Model file 'tuned_gb_model.pkl' not found.")
-        st.stop()
     except Exception as e:
         st.error(f"Error loading assets: {str(e)}")
         st.stop()
 
+
 def preprocess_input(input_df, encoders, metadata):
-    """Handle all preprocessing steps with error checking"""
+    """Preprocess input data with guaranteed fitted encoders"""
     try:
-        # Apply encodings with error handling
-        if 'INSURANCE_VALIDITY' in input_df.columns and 'insurance' in encoders:
-            input_df['INSURANCE_ENCODED'] = encoders['insurance'].transform(
-                input_df[['INSURANCE_VALIDITY']])
+        # Create a copy to avoid modifying original
+        processed = input_df.copy()
 
-        if 'CITY_NAME' in input_df.columns and 'city' in encoders:
-            input_df['CITY_ENCODED'] = encoders['city'].transform(
-                input_df[['CITY_NAME']])
+        # Apply encodings
+        processed['INSURANCE_ENCODED'] = encoders['insurance'].transform(processed[['INSURANCE_VALIDITY']])
+        processed['CITY_ENCODED'] = encoders['city'].transform(processed[['CITY_NAME']])
+        processed['FUEL_TYPE_ENCODED'] = encoders['fuel'].transform(processed[['FUEL_TYPE']])
 
-        if 'FUEL_TYPE' in input_df.columns and 'fuel' in encoders:
-            input_df['FUEL_TYPE_ENCODED'] = encoders['fuel'].transform(
-                input_df[['FUEL_TYPE']])
+        # One-hot encoding for fuel types
+        processed['FUEL_TYPE_Diesel'] = (processed['FUEL_TYPE'] == 'Diesel').astype(int)
+        processed['FUEL_TYPE_Petrol'] = (processed['FUEL_TYPE'] == 'Petrol').astype(int)
 
-            # One-hot encoding for specific fuel types
-            for fuel in ['Diesel', 'Petrol']:
-                input_df[f'FUEL_TYPE_{fuel}'] = (input_df['FUEL_TYPE'] == fuel).astype(int)
+        # Body type encoding
+        processed['BODY_TYPE_ENCODED'] = encoders['body_type'].transform(processed[['BODY_TYPE']]) # Pass as DataFrame
 
-        if 'BODY_TYPE' in input_df.columns and 'body_type' in encoders:
-            try:
-                input_df['BODY_TYPE_ENCODED'] = encoders['body_type'].transform(
-                    input_df[['BODY_TYPE']])
-            except Exception as e:
-                st.warning(f"LabelEncoder transform error for BODY_TYPE: {str(e)}. Attempting manual mapping.")
-                # Fallback manual encoding
-                if 'car_ranking' in metadata:
-                    body_mapping = {k: i for i, k in enumerate(metadata['car_ranking'])}
-                    input_df['BODY_TYPE_ENCODED'] = input_df['BODY_TYPE'].map(body_mapping)
-                else:
-                    st.error("Fallback 'car_ranking' not found in metadata.")
-                    st.stop()
-        elif 'BODY_TYPE' in input_df.columns and 'body_type' not in encoders:
-            st.error("Body type encoder not loaded.")
-            st.stop()
+        # Transmission encoding
+        processed['TRANSMISSION_ENCODED'] = processed['TRANSMISSION'].map({'Manual':0, 'Automatic':1})
 
-        if 'TRANSMISSION' in input_df.columns:
-            input_df['TRANSMISSION_ENCODED'] = input_df['TRANSMISSION'].map(
-                {'Manual': 0, 'Automatic': 1})
-
-        return input_df
+        return processed.drop(columns=['FUEL_TYPE', 'CITY_NAME', 'INSURANCE_VALIDITY', 'BODY_TYPE'])
 
     except Exception as e:
         st.error(f"Preprocessing error: {str(e)}")
@@ -150,69 +101,55 @@ def preprocess_input(input_df, encoders, metadata):
 def main():
     st.title("🚗 Car Price Prediction")
 
-    # Load assets
+    # Load assets (guaranteed to have fitted encoders)
     model, metadata, encoders = load_assets()
 
     # Input Section
-    with st.container():
-        st.header("Enter Vehicle Details")
+    with st.form("car_details"):
         col1, col2 = st.columns(2)
-
         with col1:
-            year = st.number_input("Manufacture Year",
-                                 min_value=1990, max_value=2025, value=2015)
-            km_driven = st.number_input("Kilometers Driven",
-                                      min_value=0, max_value=500000, value=50000)
-            mileage = st.number_input("Mileage (kmpl)",
-                                    min_value=5.0, max_value=40.0, value=15.0)
-
+            year = st.number_input("Manufacture Year", min_value=1990, max_value=2025, value=2015)
+            km_driven = st.number_input("Kilometers Driven", min_value=0, max_value=500000, value=50000)
+            mileage = st.number_input("Mileage (kmpl)", min_value=5.0, max_value=40.0, value=15.0)
         with col2:
             seats = st.number_input("Seats", min_value=2, max_value=10, value=5)
             fuel_type = st.selectbox("Fuel Type", metadata['fuel_order'])
             transmission = st.selectbox("Transmission", ['Manual', 'Automatic'])
             body_type = st.selectbox("Body Type", metadata['car_ranking'])
             city = st.selectbox("City", metadata['city_order'])
-            insurance = st.selectbox("Insurance",
-                                   list(metadata.get('insurance_mapping', {}).values()) or
-                                   metadata['insurance_order'])
+            insurance = st.selectbox("Insurance", metadata['insurance_order'])
 
-    if st.button("Estimate Price", type="primary"):
-        with st.spinner("Calculating..."):
-            try:
-                # Prepare input data
-                input_data = pd.DataFrame({
-                    'YEAR_OF_MANUFACTURE': [year],
-                    'KILOMETERS_DRIVEN': [km_driven],
-                    'MILEAGE': [mileage],
-                    'Seats': [seats],
-                    'FUEL_TYPE': [fuel_type],
-                    'TRANSMISSION': [transmission],
-                    'BODY_TYPE': [body_type],
-                    'CITY_NAME': [city],
-                    'INSURANCE_VALIDITY': [insurance]
-                })
+        if st.form_submit_button("Estimate Price", type="primary"):
+            with st.spinner("Calculating..."):
+                try:
+                    # Prepare and preprocess input
+                    input_data = pd.DataFrame({
+                        'YEAR_OF_MANUFACTURE': [year],
+                        'KILOMETERS_DRIVEN': [km_driven],
+                        'MILEAGE': [mileage],
+                        'Seats': [seats],
+                        'FUEL_TYPE': [fuel_type],
+                        'TRANSMISSION': [transmission],
+                        'BODY_TYPE': [body_type],
+                        'CITY_NAME': [city],
+                        'INSURANCE_VALIDITY': [insurance]
+                    })
 
-                # Preprocess
-                processed_data = preprocess_input(input_data, encoders, metadata)
+                    processed = preprocess_input(input_data, encoders, metadata)
+                    price = model.predict(processed)[0]
 
-                # Predict
-                prediction_input = processed_data.drop(columns=['FUEL_TYPE', 'CITY_NAME', 'INSURANCE_VALIDITY', 'BODY_TYPE'])
-                price = model.predict(prediction_input)[0]
+                    # Display result
+                    st.markdown(f"""
+                    <div class="prediction-card">
+                        <h3>Estimated Market Value: ₹{price:,.2f}</h3>
+                    </div>
+                    """, unsafe_allow_html=True)
 
-                # Display result
-                st.markdown(f"""
-                <div class="prediction-card">
-                    <h3>Estimated Market Value: ₹{price:,.2f}</h3>
-                </div>
-                """, unsafe_allow_html=True)
-
-            except Exception as e:
-                st.error(f"Prediction failed: {str(e)}")
+                except Exception as e:
+                    st.error(f"Prediction failed: {str(e)}")
 
 if __name__ == "__main__":
     main()
-
-
 #------>
 # import streamlit as st
 # import pandas as pd
