@@ -1,0 +1,17 @@
+# Core
+pandas
+numpy
+scikit-learn
+joblib
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# App
+streamlit
+
+# Optional 
+# xgboost
+# lightgbm

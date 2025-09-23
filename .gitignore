@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+.venv/
+.env
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_save.*
+
+# ---- Data ----
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# ---- Logs ----
+*.log
+
+# ---- System ----
+.DS_Store
+Thumbs.db
+
+# ---- VSCode ----
+.vscode/
